@@ -1,0 +1,19 @@
+body {
+  background-color: #242424;
+}
+
+.logo-main-page {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-nsxc {
+  width: 400px;
+}
+
+.logo-mindset {
+  width: 750px;
+}
