@@ -422,3 +422,84 @@ th {
   vertical-align: top;
   font-weight: 700;
 }
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  /* margin: 0; */
+}
+
+/* a {
+  color: #fe7312;
+} */
+a:hover {
+  color: #ff8c3c;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.activeLang {
+  color: #ffd342;
+}
+/* --------------- */
+
+#event-section:before,
+#schedule-details::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+/* --------------- */

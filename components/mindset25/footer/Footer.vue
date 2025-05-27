@@ -39,7 +39,6 @@
 
 import { RouterLink, RouterView } from 'vue-router'
 import NSXCLogo from '~/public/img/NSXC_BLANC2.webp'
-import YuzuLogo from '~/public/img/logo-yuzu-gamingT2.webp'
 
 const { t } = useI18n()
 </script>

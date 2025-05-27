@@ -31,7 +31,7 @@
 
 #event-section {
     // background-image: url("~/public/img/mindset25_bg_section_2.jpg");
-    background-size: cover;
+    // background-size: cover;
     position: relative;
 
     h2 {
