@@ -1,0 +1,275 @@
+@use "~/assets/mindset25/css/variables";
+@use "sass:color";
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 11;
+    color: #fff;
+    // padding-left: 230px;
+    padding-left: 20px;
+
+    /* NEW CODE POUR LE LOGO DU HEADER */
+    .logo {
+        // width: 130px;
+        // height: 50px;
+        position: absolute;
+        display: inline-block;
+        padding-top: 5px;
+
+        img {
+            height: 50px;
+        }
+
+        .img-top {
+            opacity: 0;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            z-index: 99;
+            transition: all 0.15s ease-in;
+        }
+
+        &:hover .img-top {
+            display: inline;
+            opacity: 1;
+        }
+    }
+
+    /* A NE PAS SUPPRIMER JUSQU'A AVOIR CLEAN LE CODE !! PEUT-ÊTRE A REUTILISER S'IL Y A UN SOUCI AVEC LE LOGO DONT LE CSS EST AU DESSUS (APPELE 'NOUVEAU LOGO') */
+    // .logo-header {
+    //     position: absolute;
+    //     left: 20px;
+    //     top: 50%;
+    //     margin-top: -25px;
+
+    //     img {
+    //         display: block;
+    //         height: 50px;
+    //     }
+    // }
+
+    /* A NE PAS SUPPRIMER JUSQU4a AVOIR CLEAN LE CODE !! PEUT-ÊTRE A REUTILISER S'IL Y A UN SOUCI AVEC LE LOGO DONT LE CSS EST AU DESSUS*/
+
+    .header-menu {
+        text-transform: uppercase;
+        font-size: 18px;
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        @media only screen and (max-width: variables.$media-queries-desktop-xl) {
+            font-size: 16px;
+        }
+
+        @media only screen and (max-width: variables.$media-queries-desktop) {
+            position: absolute;
+            width: 350px;
+            background: #1b2838;
+            top: 60px;
+            right: -5px;
+            padding: 0;
+            // display: none;
+        }
+
+        @media only screen and (min-width: 993px) {
+            display: block;
+        }
+
+        li {
+            float: right;
+
+            @media only screen and (max-width: variables.$media-queries-desktop) {
+                float: none;
+            }
+
+            &.contact-switch,
+            &.classement {
+                display: block;
+                text-align: center;
+                cursor: pointer;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 15px;
+                color: #fff;
+                transition: all .25s ease 0s;
+
+                @media only screen and (max-width: variables.$media-queries-desktop) {
+                    text-align: right;
+                    padding: 15px 20px;
+                    font-size: 18px;
+                    line-height: 1;
+                    height: auto;
+                }
+            }
+
+            &.contact-switch:hover {
+                color: variables.$main-color;
+
+                @media only screen and (max-width: variables.$media-queries-desktop) {
+                    text-align: right;
+                    padding: 15px 20px;
+                    font-size: 18px;
+                    line-height: 1;
+                    height: auto;
+                    border-bottom: 1px solid #000;
+                }
+            }
+
+            &.classement {
+                background-image: url('~/public/img/bg-classement3_1.webp');
+                background-size: cover;
+                color: #602b20;
+                font-weight: 700;
+                // display: none;
+
+                &:hover {
+                    height: 70px;
+                    line-height: 70px;
+                }
+            }
+
+            a {
+                display: block;
+                text-align: center;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 15px;
+                color: #fff;
+                transition: all .25s ease 0s;
+
+                @media only screen and (max-width: variables.$media-queries-desktop) {
+                    text-align: right;
+                    padding: 15px 20px;
+                    font-size: 18px;
+                    line-height: 1;
+                    height: auto;
+                    border-bottom: 1px solid #000;
+                }
+
+                &:hover {
+                    color: variables.$main-color;
+
+                    @media only screen and (max-width: variables.$media-queries-desktop) {
+                        background: variables.$main-color-hover;
+                        color: #fff;
+                        height: auto;
+                        line-height: 1;
+                        border-bottom: 1px solid #000;
+                    }
+                }
+
+                &.video {
+                    color: #fff;
+                    background: linear-gradient(90deg,
+                            color.adjust(variables.$main-color, $lightness: -25%) 10%,
+                            color.adjust(variables.$main-color, $lightness: 0%) 48%,
+                            color.adjust(variables.$main-color, $lightness: 0%) 52%,
+                            color.adjust(variables.$main-color, $lightness: -25%) 90%);
+                    font-weight: 700;
+
+                    &:hover {
+                        background: linear-gradient(90deg, #7a3d01 0, #d89704 50%, #d89704 50%, #7a3d01 100%);
+                        height: 70px;
+                        line-height: 70px;
+                        cursor: pointer;
+                    }
+                }
+
+                &.special {
+                    color: #fff;
+                    background: variables.$main-color;
+                    font-weight: 700;
+
+                    &:hover {
+                        background: variables.$main-color;
+                        height: 70px;
+                        line-height: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    select {
+        color: white;
+        appearance: none;
+        // border: 1px solid #444;
+        border: none;
+        // background-color: #040408;
+        padding: 0.75rem 2.25rem 0.75rem 0.75rem;
+
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-image: url("data:image/svg+xml,%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.343146 0.999884L6 6.65674L11.6569 0.999884L10.9497 0.292777L6 5.24252L1.05025 0.292777L0.343146 0.999884Z' fill='%23666'/%3E%3C/svg%3E");
+
+        &:active {
+            border-color: #0068d1;
+        }
+
+        &:focus {
+            border-color: #0071e3;
+
+            &:hover {
+                border-color: #147ce5;
+            }
+        }
+    }
+
+}
+
+.lang {
+    color: #fff;
+    text-shadow: 2px 2px 2px #212121;
+    float: right;
+    padding: 15px 25px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    cursor: pointer;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.responsive-menu-opener {
+    float: right;
+    font-size: 36px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.show-responsive-1200,
+.show-responsive-320,
+.show-responsive-480,
+.show-responsive-768,
+.show-responsive-992 {
+    display: none;
+}
+
+@media only screen and (max-width: variables.$media-queries-desktop) {
+    .show-responsive-992 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: variables.$media-queries-desktop) {
+    .hide-responsive-992 {
+        display: none;
+    }
+}
+
+
+
+#header .header-menu li.contact-switch.active,
+.contact-switch.active:not(i) {
+    color: variables.$main-color;
+}
