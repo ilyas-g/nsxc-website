@@ -13,6 +13,28 @@ header {
     // padding-left: 230px;
     padding-left: 20px;
 
+    .langBtn {
+        text-shadow: 2px 2px 2px #212121;
+        // float: right;
+        padding: 15px 5px 15px 25px;
+        position: absolute;
+        right: 0;
+        top: 60px;
+
+        button,
+        a {
+            margin: 0 3px;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            font-weight: 700;
+
+            &:hover {
+                color: variables.$main-color;
+            }
+        }
+    }
+
     /* NEW CODE POUR LE LOGO DU HEADER */
     .logo {
         // width: 130px;

@@ -12,7 +12,7 @@
                                 <Game :imgSrc=xko support="Playstation 5" format="Solo" description="Logo de 2xko" />
                                 <Game :imgSrc=sf6 support="PC" format="Solo" description="Logo de Street Fighter 6" />
                                 <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Logo de 2xko" :protour="twt" />
-                                <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Logo de 2xko" :protour="arcc"/>
+                                <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Logo de 2xko" :protour="arcc" :linkBtn="localePath('/mindset25/rules#formatDuChampionnat')"/>
                                 <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Logo de 2xko" />
                                 <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Logo de 2xko" />
                                 <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Logo de 2xko" />
@@ -32,6 +32,8 @@
     </section>
 </template>
 <script setup lang="ts">
+import { useLocalePath } from '#imports'
+
 import AnimateImage from "../animateImage/AnimateImage.vue"
 
 import ethernet from "~/public/img/ethernet.webp"
@@ -43,10 +45,12 @@ import ggst from '~/public/img/games_logos/ggst.png'
 import gbvsr from '~/public/img/games_logos/gbvsr.png'
 import ffcotw from '~/public/img/games_logos/ffcotw.png'
 import xko from '~/public/img/games_logos/2xko.png'
-import arcc from '~/public/img/arcworldtour.png'
+import arcc from '~/public/img/arcworldtour2025-2026.webp'
 import twt from '~/public/img/twt2025.png'
 
 import Game from '~/components/mindset25/game/Game.vue'
+
+const localePath = useLocalePath()
 
 </script>
 <style lang="scss">

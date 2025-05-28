@@ -8,12 +8,11 @@
         <div class="cardGame-body">
             <p><span class="icon-gamepad"></span> {{ support }}</p>
             <p><span class="icon-user-solid"></span> {{  format }}</p>
-            <router-link to="/" target="_blank" class="btn-game mx-auto">{{ t("moreInformations") }}</router-link>
+            <NuxtLink :to="linkBtn" target="_blank" class="btn-game mx-auto">{{ t("moreInformations") }}</NuxtLink>
         </div>
     </div></div>
 </template>
 <script setup lang="ts">
-// import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 
@@ -22,7 +21,8 @@ defineProps<{
   format: string,
   imgSrc: string,
   description: string,
-  protour?: string
+  protour?: string,
+  linkBtn: string
 }>()
 </script>
 <style lang="scss">

@@ -21,6 +21,15 @@ const isModal = ref(false)
 const toggleModal = (toggleValue: boolean) => {
     isModal.value = toggleValue;
 };
+
+useSeoMeta({
+  title: 'NSXC - MINDSET 25',
+  ogTitle: 'NSXC - MINDSET 25',
+  description: 'This is my amazing site, let me tell you all about it.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+})
 </script>
 
 <template>
@@ -40,6 +49,4 @@ const toggleModal = (toggleValue: boolean) => {
 <style lang="scss">
 @use '~/assets/mindset25/css/_section.scss';
 @import url("~/assets/mindset25/css/index.css");
-
-
 </style>
