@@ -14,7 +14,8 @@
                     </div>
                     <div class="home-event-buttons">
                         <!-- <a href="/#event-section" class="btn-ope">{{ t("watchTrailer") }}</a> -->
-                        <button class="btn-ope video btf-btn" @click="$emit('toggleModal')">{{ t("inscription") }}</button>
+                        <!-- <button class="btn-ope video btf-btn">{{ t("inscription") }}</button> -->
+                        <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope video btf-btn" target="_blank">{{ t("inscription") }}</NuxtLink>
                         <!-- <a href="/#tournaments" class="btn-ope special">Inscription <span class="icon-chevron-down-solid-1" aria-hidden="true"></span></a> -->
                     </div>
                 </div>
@@ -145,15 +146,6 @@ const { t } = useI18n()
 
     @media only screen and (max-width: variables.$media-queries-desktop) {
         display: block;
-    }
-
-    a:first-child {
-        margin-bottom: 20px;
-        margin-right: auto;
-
-        @media only screen and (min-width: variables.$media-queries-tablet) {
-            margin-right: 50px;
-        }
     }
 }
 

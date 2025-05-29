@@ -196,9 +196,9 @@ header {
                     font-weight: 700;
 
                     &:hover {
-                        background: linear-gradient(90deg, #7a3d01 0, #d89704 50%, #d89704 50%, #7a3d01 100%);
-                        height: 70px;
-                        line-height: 70px;
+                        box-shadow: 0 0 60px color.adjust(variables.$main-color, $lightness: 15%);
+                        height: 65px;
+                        line-height: 65px;
                         cursor: pointer;
                     }
                 }

@@ -15,7 +15,7 @@
         </p>
         <p>Gagnant - tout joueur officiellement déclaré gagnant</p>
 
-        <h2 class="anchor" id="formatDuChampionnat">Format du championnat</h2>
+        <h2 class="anchor" id="tournamentRules">{{ t("rulesTournamentsTitle") }}</h2>
         <p>Les tournois sont ouverts aux personnes âgées de dix-huit (18) ans révolus ou plus à la date de leur inscription à un tournoi. Les tournois en ligne et hors ligne sont réservés exclusivement aux résidents français.
         </p>
 
@@ -315,7 +315,7 @@
             <p class='text-center text-uppercase title'>Sommaire</p>
             <ul>
               <li><a href="#definitions">Définitions</a></li>
-              <li><a href="#formatDuChampionnat">Format du championnat</a>
+              <li><a href="#tournamentRules">Format du championnat</a>
                 <ul>
                   <li><a href="#format-tournois">Tournois</a></li>
                   <li><a href="#format-format">Format</a></li>

@@ -58,10 +58,11 @@ defineProps<{
         }
 
         .worldtour {
-            width: 80px;
+            height: 50px;
+            width: initial;
             position: absolute;
             top: 10px;
-            right: 0;
+            right: 10px;
         }
     }
 

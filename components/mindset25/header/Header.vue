@@ -23,9 +23,10 @@
 			<!-- <li class="classement" @click="$emit('toggleClassement')">Classement</li> -->
 			<li class="contact-switch" @click="$emit('toggleContact')">Contact</li>
 			<!-- <li><a id="five" data-toggle="modal" data-target="#myModal" class="video" @click="$emit('toggleModal')">{{ t("hello") }}</a></li> -->
-			<!-- <li><a href="/#tournaments" class="video">{{ t("inscription") }}</a></li> -->
-			<!-- <li><a href="/#schedule">Etapes</a></li>
-			<li><a href="/#event-section">Présentation</a></li> -->
+			<li><NuxtLink :to="localePath('/mindset25#event-section')">{{ t("Join Us") }}</NuxtLink></li>
+			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="video" target="_blank">{{ t("inscription") }}</NuxtLink></li>
+			<li><NuxtLink :to="localePath('/mindset25#schedule')">Line Up</NuxtLink></li>
+			<li><NuxtLink :to="localePath('/mindset25#event-section')">Présentation</NuxtLink></li>
 		</ul>
 		<div class="langBtn">
 			<NuxtLink :to="$switchLocalePath('en')">EN</NuxtLink>
@@ -47,6 +48,7 @@ const isBurger = ref(false)
 const toggleBurger = (toggleValue: boolean) => {
     isBurger.value = toggleValue;
 };
+const { t } = useI18n()
 </script>
 <style>
 @import "./style.scss";
