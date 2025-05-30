@@ -1,21 +1,31 @@
 <template>
-    <section id="event-section" class="black-section">
-        <div class="orange bg-fixed bg-layer"></div>
+    <section id="event-section">
+        <div class="bg-fixed bg-layer"></div>
         <div class="container relative-content align-center">
-            <!-- <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/O-LQ8i3BcHE?si=M4OsYH9pzDRcZRZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <img :src="mkclogo" alt="Logo du Championnat de France de Mortal Kombat" class="inline-photo show-on-scroll is-visible" />
-            </div> -->
             <div class="vertical-align-container">
                 <div class="event-description vertical-align-content">
-                    <h2 class="text-center">C'EST DANS NOTRE SANG !</h2>
-                    <p class="text-center">Une nouvelle ère démarre : l'ère du rassemblement !<br />
-                        Le NSxC, soutenu par Warner Bros Games France, a le plaisir de vous annoncer:<br />
-                        Le Championnat de France Mortal Kombat !</p>
-                    <p class="text-center">Une aventure communautaire par la communauté et pour tous les amoureux de la licence.</p>
-                    <p class="text-center">A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA », ainsi que de nombreux acteurs de la FGC tels que YUZU GAMING & SPRNTD, le championnat de France a pour objectif de rassembler les meilleurs combattants de l’Earthrealm français autour d’un championnat et de désigner qui sera notre grand Champion.</p>
-                    <p class="text-center">Un championnat exclusif français avec près de 10000€ de Cash Prize à gagner sur l'ensemble du Championnat.</p>
-                    <p class="text-center">Qui sera notre Ultime Champion ?</p>
+                    <div class="portraits">
+                        <div class="photo">
+                        <img :src="dase" class="portrait" alt="Dase" />
+                        <span class="author">&copy; Guy Simon</span>
+                        </div>
+                        <img :src="norman" class="portrait genius" alt="Ydile" />
+                        <img :src="idile" class="portrait" alt="Ydile" />
+                    </div>
+                    <div>
+                        <h2 class="text-right">Définir le mindset ?</h2>
+                        <p class="text-right">Une nouvelle ère démarre : l'ère du rassemblement !<br />
+                            Le NSxC, soutenu par Warner Bros Games France, a le plaisir de vous annoncer:<br />
+                            Le Championnat de France Mortal Kombat !</p>
+                        <p class="text-right">Une aventure communautaire par la communauté et pour tous les amoureux de la licence.</p>
+                        <p class="text-right">A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA », ainsi que de nombreux acteurs de la FGC tels que YUZU GAMING & SPRNTD, le championnat de France a pour objectif de rassembler les meilleurs combattants de l’Earthrealm français autour d’un championnat et de désigner qui sera notre grand Champion.</p>
+                    </div>
+                    <div class="portraits">
+                        <img :src="ambiance" class="portrait" alt="Dase" />
+                        <img :src="whitemother" class="portrait" alt="Ydile" />
+                        <img :src="pap" class="portrait pap" alt="Ydile" />
+                        <img :src="aerisu" class="portrait" alt="Ydile" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -23,16 +33,171 @@
     </section>
 </template>
 <script setup lang="ts">
-// import mkclogo from '~/public/img/ChampionshipMK_LOGO2023_V2-2k.webp'
+import dase from '~/public/img/dase.jpg'
+import idile from '~/public/img/idile.jpg'
+import whitemother from '~/public/img/whitemother.jpg'
+import ambiance from '~/public/img/ambiance.jpg'
+import aerisu from '~/public/img/aerisu.jpg'
+import norman from '~/public/img/norman.jpg'
+import pap from '~/public/img/pap.jpg'
 
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";
 
 #event-section {
-    // background-image: url("~/public/img/mindset25_bg_section_2.jpg");
-    // background-size: cover;
     position: relative;
+    color: #fff;
+    padding: 300px 15px 320px;
+
+    .event-description {
+        display: flex;
+    }
+
+    .photo {
+        .author {
+            color: variables.$main-color;
+            font-size: 12px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 1;
+
+            &:first-of-type {
+                top: -230px;
+                left: 193px;
+                transform: rotate(15deg);
+            }
+        }
+    }
+    .portrait {
+        width: 160px;
+        height: 160px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-color: blanchedalmond;
+        padding: 8px;
+        margin: 10px 0;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+        filter: sepia(60%);
+        transition: 0.3s;
+
+        // position: absolute;
+        &:hover {
+            filter: sepia(0%);
+            z-index: 1;
+            -webkit-box-shadow: 5px 3px 15px 5px rgba(255, 235, 191, 0.5);
+            box-shadow: 5px 3px 15px 5px rgba(255, 235, 191, 0.5);
+        }
+    }
+
+
+
+    .portraits:first-child .portrait {
+        position: absolute;
+        // margin-bottom: 230px;
+
+        &:first-of-type {
+            transform: rotate(-20deg);
+            top: -235px;
+            left: 15px;
+            padding-top: 20px;
+        }
+        &.genius {
+            display: none;
+        }
+        &:last-of-type {
+            transform: rotate(15deg);
+            right: 20px;
+            top: -310px;
+        }
+    }
+
+    .portraits:last-child .portrait {
+        position: absolute;
+        &:first-of-type {
+            transform: rotate(-30deg);
+            bottom: -225px;
+            left: 15px;
+        }
+        &:nth-child(2) {
+            transform: rotate(18deg);
+            bottom: -195px;
+            right: 15px;
+        }
+        &.pap {
+            display: none;
+        }
+        &:last-of-type {
+            transform: rotate(5deg);
+            right: 65px;
+            bottom: -350px;
+        }
+    }
+
+    @media screen and (min-width: variables.$media-queries-tablet-small) {
+        .portrait {
+            width: 200px;
+            height: 200px;
+        }
+
+        .portraits:first-child .portrait {
+
+            &:first-of-type {
+                top: -260px;
+                left: 35px;
+            }
+            &:last-of-type {
+                right: 35px;
+            }
+        }
+
+        .portraits:last-child .portrait {
+            position: absolute;
+
+            &:first-of-type {
+                bottom: -280px;
+            }
+            &:nth-child(2) {
+                transform: rotate(11deg);
+                bottom: -245px;
+            }
+            &:last-of-type {
+                transform: rotate(5deg);
+                right: 85px;
+                bottom: -370px;
+            }
+        }
+    }
+
+    @media screen and (min-width: variables.$media-queries-tablet-small) {
+        .portraits:first-child .portrait {
+            &.genius {
+                display: block;
+                top: -235px;
+                left: 50%;
+                transform: rotate(5deg) translateX(-50%);
+            }
+        }
+        .portraits:last-child .portrait {
+            &:first-of-type {
+                bottom: -230px;
+            }
+
+
+        }
+    }
+
+    @media screen and (min-width: variables.$media-queries-tablet) {
+        .portraits:last-child .portrait {
+            &.pap {
+                display: block;
+                transform: rotate(-6deg);
+                left: 185px;
+                bottom: -330px;
+            }
+        }
+    }
 
     h2 {
         margin-bottom: 10px;
@@ -60,23 +225,6 @@
 
     .align-center {
         align-items: center
-    }
-
-    img:first-child {
-        width: 100%;
-
-        @media screen and (min-width: variables.$media-queries-mobile-small) {
-            margin: auto;
-        }
-
-        @media screen and (min-width: variables.$media-queries-tablet) {
-            padding: 0 85px;
-        }
-
-        @media screen and (min-width: variables.$media-queries-desktop) {
-            margin: initial;
-            padding: 0;
-        }
     }
 }
 

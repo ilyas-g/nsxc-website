@@ -97,27 +97,27 @@ const { t } = useI18n()
     position: relative;
     text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0, 0, 0, .8);
 
-    &::after,
-    &::before {
-        content: "";
-        display: block;
-        height: 1px;
-        background: #fff;
-        width: 150px;
-        position: absolute;
-        top: 50%;
-        margin-top: -1px;
-    }
+    // &::after,
+    // &::before {
+    //     content: "";
+    //     display: block;
+    //     height: 1px;
+    //     background: #fff;
+    //     width: 150px;
+    //     position: absolute;
+    //     top: 50%;
+    //     margin-top: -1px;
+    // }
 
-    &::before {
-        left: -50px;
-        background: linear-gradient(to left, #fff 0, rgba(255, 255, 255, 0) 100%);
-    }
+    // &::before {
+    //     left: -50px;
+    //     background: linear-gradient(to left, #fff 0, rgba(255, 255, 255, 0) 100%);
+    // }
 
-    &::after {
-        right: -50px;
-        background: linear-gradient(to right, #fff 0, rgba(255, 255, 255, 0) 100%);
-    }
+    // &::after {
+    //     right: -50px;
+    //     background: linear-gradient(to right, #fff 0, rgba(255, 255, 255, 0) 100%);
+    // }
 }
 
 .home-event-address {

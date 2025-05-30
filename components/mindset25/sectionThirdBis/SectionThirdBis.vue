@@ -140,9 +140,9 @@ const localePath = useLocalePath()
         }
     }
 
-    .btn-ope {
-        max-width: 350px;
-    }
+    // .btn-ope {
+    //     max-width: 350px;
+    // }
 
     .streamers {
         display: flex;
