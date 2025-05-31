@@ -1,11 +1,7 @@
 @charset "UTF-8";
+@import "~/assets/mindset25/css/gothamFonts.css";
 /** Font faces **/
-@font-face {
-  font-family: "Gotham Narrow Ultra";
-  src: url(~/assets/mindset25/fonts/gotham-narrow-ultra.otf);
-  font-weight: 200;
-  font-style: normal;
-}
+
 @font-face {
   font-family: "Raleway";
   src: url(~/assets/mindset25/fonts/raleway/raleway-light-webfont.eot);
@@ -66,22 +62,6 @@
   font-display: block;
 }
 
-
-
-
-@font-face {
-  font-family: "Gotham Black";
-  src: url(~/assets/mindset25/fonts/gotham-font-family//Gotham/Gotham-Black.otf);
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gotham BlackItalic";
-  src: url(~/assets/mindset25/fonts/gotham-font-family//Gotham/Gotham-BlackItalic.otf);
-  font-weight: 200;
-  font-style: normal;
-}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -155,9 +135,8 @@
 
 
 
-
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -185,7 +164,7 @@ a {
 body {
   margin: 0;
   line-height: 1.5;
-  font-family: 'Raleway';
+  font-family: "Gotham Light";
   background-size: cover;
   color: #000;
   /* font-size: 18px; */
@@ -264,6 +243,7 @@ h6 {
 }
 
 h2 {
+    font-family: "Gotham Black Italic";
     font-size: 37px;
     font-weight: 700;
     text-transform: uppercase;
@@ -491,7 +471,7 @@ img {
 }
 /* --------------- */
 
-#event-section:before,
+/* #event-section:before,
 #schedule-details::before {
     content: "";
     display: block;
@@ -502,7 +482,7 @@ img {
     height: 100%;
     z-index: 1;
     background: rgba(0, 0, 0, .5);
-}
+} */
 
 
 /* --------------- */

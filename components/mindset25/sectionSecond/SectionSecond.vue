@@ -2,7 +2,7 @@
     <section id="event-section">
         <div class="bg-fixed bg-layer"></div>
         <div class="container relative-content align-center">
-            <div class="vertical-align-container">
+            <div>
                 <div class="event-description vertical-align-content">
                     <div class="portraits">
                         <div class="photo">
@@ -18,8 +18,26 @@
                             Le NSxC, soutenu par Warner Bros Games France, a le plaisir de vous annoncer:<br />
                             Le Championnat de France Mortal Kombat !</p>
                         <p class="text-right">Une aventure communautaire par la communauté et pour tous les amoureux de la licence.</p>
-                        <p class="text-right">A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA », ainsi que de nombreux acteurs de la FGC tels que YUZU GAMING & SPRNTD, le championnat de France a pour objectif de rassembler les meilleurs combattants de l’Earthrealm français autour d’un championnat et de désigner qui sera notre grand Champion.</p>
+                        <p class="text-right text-uppercase keyword mr-4 mt-4">Focused</p>
+                        <!-- <p class="text-right">A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA »,
+                            ainsi que de nombreux acteurs de la FGC tels que YUZU GAMING & SPRNTD, le championnat de France a pour objectif de rassembler les 
+                            meilleurs combattants de l’Earthrealm français autour d’un championnat et de désigner qui sera notre grand Champion.</p> -->
                     </div>
+                    <!-- <div class="portraits">
+                        <img :src="ambiance" class="portrait" alt="Dase" />
+                        <img :src="whitemother" class="portrait" alt="Ydile" />
+                        <img :src="pap" class="portrait pap" alt="Ydile" />
+                        <img :src="aerisu" class="portrait" alt="Ydile" />
+                    </div> -->
+                </div>
+                <div class="event-description vertical-align-content">
+                    <div>
+                        <p>A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA »,
+                            ainsi que de nombreux acteurs de la FGC tels que YUZU GAMING & SPRNTD, le championnat de France a pour objectif de rassembler les 
+                            meilleurs combattants de l’Earthrealm français autour d’un championnat et de désigner qui sera notre grand Champion.</p>
+                    </div>
+
+
                     <div class="portraits">
                         <img :src="ambiance" class="portrait" alt="Dase" />
                         <img :src="whitemother" class="portrait" alt="Ydile" />
@@ -44,12 +62,22 @@ import pap from '~/public/img/pap.jpg'
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";
+@use "sass:color";
 
 #event-section {
     position: relative;
     color: #fff;
     padding: 300px 15px 320px;
+    background-color: variables.$dark-color;
 
+    .keyword {
+        font-family: "Gotham Ultra";
+        font-size: 7vw;
+        margin-top: 0.85em;
+        margin-right: 1em;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+    }
     .event-description {
         display: flex;
     }
@@ -74,20 +102,26 @@ import pap from '~/public/img/pap.jpg'
         height: 160px;
         -o-object-fit: cover;
         object-fit: cover;
-        background-color: blanchedalmond;
-        padding: 8px;
+        // background-color: white;
+        background: linear-gradient(to bottom, rgb(255, 139, 61), rgb(201, 201, 201), rgb(167, 52, 255));
+        padding: 3px;
+        border-radius: 10px;
         margin: 10px 0;
         -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
         box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
         filter: sepia(60%);
+        // filter: brightness(0) saturate(100%) invert(58%) sepia(82%) saturate(3628%) hue-rotate(352deg) brightness(103%) contrast(99%);
+        // filter: sepia(82%) saturate(3628%) hue-rotate(352deg);
         transition: 0.3s;
 
         // position: absolute;
         &:hover {
             filter: sepia(0%);
             z-index: 1;
-            -webkit-box-shadow: 5px 3px 15px 5px rgba(255, 235, 191, 0.5);
-            box-shadow: 5px 3px 15px 5px rgba(255, 235, 191, 0.5);
+            // -webkit-box-shadow: 5px 3px 15px 5px rgba(255, 235, 191, 0.5);
+            // box-shadow: 5px 3px 15px 5px rgba(255, 235, 191, 0.5);
+                        box-shadow: 0 0 60px color.adjust(variables.$main-color, $lightness: 15%);
+
         }
     }
 
@@ -101,7 +135,7 @@ import pap from '~/public/img/pap.jpg'
             transform: rotate(-20deg);
             top: -235px;
             left: 15px;
-            padding-top: 20px;
+            // padding-top: 20px;
         }
         &.genius {
             display: none;
@@ -195,6 +229,18 @@ import pap from '~/public/img/pap.jpg'
                 transform: rotate(-6deg);
                 left: 185px;
                 bottom: -330px;
+            }
+        }
+    }
+
+    @media screen and (min-width: variables.$media-queries-desktop) {
+        padding: 70px 25px 320px;
+        .portraits:first-child .portrait {
+            position: relative;
+            top: inherit;
+
+            &:first-of-type {
+                top: inherit;
             }
         }
     }

@@ -73,7 +73,7 @@ defineProps<{
 
         p {
             margin: initial;
-            font-family: 'Gotham BlackItalic';
+            font-family: 'Gotham Black Italic';
         }
 
         .btn-game {
