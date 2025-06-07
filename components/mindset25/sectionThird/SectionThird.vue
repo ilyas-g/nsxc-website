@@ -98,7 +98,7 @@
 
             <StaffCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/en"
             description="KOPSTER Hotel Residence Paris Ouest Colombes" />
-            <StaffCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad"
+            <StaffCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://letude.group/"
             description="Hôtel Kyriad Colombes" />
             <StaffCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" description="All Suites Appart Hôtel Paris Ouest Colombes" />
 

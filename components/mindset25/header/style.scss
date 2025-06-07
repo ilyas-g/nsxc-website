@@ -2,6 +2,7 @@
 @use "sass:color";
 
 header {
+    font-family: "Gotham Light";
     position: fixed;
     width: 100%;
     height: 60px;
@@ -193,7 +194,6 @@ header {
                             color.adjust(variables.$main-color, $lightness: 0%) 48%,
                             color.adjust(variables.$main-color, $lightness: 0%) 52%,
                             color.adjust(variables.$main-color, $lightness: -25%) 90%);
-                    font-weight: 700;
 
                     &:hover {
                         box-shadow: 0 0 60px color.adjust(variables.$main-color, $lightness: 15%);

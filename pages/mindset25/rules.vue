@@ -377,7 +377,7 @@ useSeoMeta({
 
 .rulesPage {
     color: white;
-    background-color: rgb(36, 36, 36);
+    background-color: variables.$dark-color;
     display: flex;
 
     section {

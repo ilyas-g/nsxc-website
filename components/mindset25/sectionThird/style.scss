@@ -142,6 +142,8 @@
     .btn-ope {
         max-width: 24vw;
         display: block;
+        font-family: "Gotham Narrow Medium";
+        text-shadow: 1px 1px 2px black;
 
         &.masterEventPlus {
             background: linear-gradient(90deg, rgba(205, 57, 66, 1) 0%, rgba(239, 212, 98, 1) 50%, rgba(205, 57, 66, 1) 100%);

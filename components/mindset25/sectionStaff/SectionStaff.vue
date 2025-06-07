@@ -7,7 +7,7 @@
             description="
             Commentators have the power to accompany our memories and make us feel strong emotions. We need you to make us vibrate, shout and share these moments that will be historic
             " />
-            <StaffCard title="Volunteers" :imgSrc="volunteers"
+            <StaffCard title="Volunteers" :imgSrc="volunteers" link="https://letude.group/"
             description="
             We need your help to provide one of the best experience on fighting games event! If you're looking to be a part of MINDSET team ?
             " />

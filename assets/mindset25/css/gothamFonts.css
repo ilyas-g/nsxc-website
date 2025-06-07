@@ -133,8 +133,18 @@
 
 @font-face {
   font-family: "Gotham Narrow Ultra";
-  src: url(~/assets/mindset25/fonts/gotham-narrow-ultra.otf);
-  font-weight: 200;
+  src: url(~/assets/mindset25/fonts/gotham-font-family/gotham-narrow/GothamNarrow-Ultra.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Narrow Medium";
+  src: url(~/assets/mindset25/fonts/gotham-font-family/gotham-narrow/GothamNarrow-Medium.otf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Narrow Book";
+  src: url(~/assets/mindset25/fonts/gotham-font-family/gotham-narrow/GothamNarrow-Book.otf);
   font-style: normal;
 }
 
@@ -144,6 +154,5 @@
 @font-face {
   font-family: "GothamNarrSSM Black";
   src: url(~/assets/mindset25/fonts/gotham-font-family/gotham-screenSmart-narrow/GothamNarrSSM-Black.otf);
-  font-weight: 200;
   font-style: normal;
 }

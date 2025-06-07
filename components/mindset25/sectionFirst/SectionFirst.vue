@@ -205,7 +205,8 @@ const { t } = useI18n()
         border: 3px solid #fff5e1;
         border-radius: 0%;
         padding: 0.6em 1em;
-
+        font-family: "Gotham Narrow Medium";
+        text-shadow: 1px 1px 2px black;
         &:active,
         &:focus,
         &:hover {

@@ -6,7 +6,7 @@
         <div class="cardStaff-body">
             <h3 class="text-center">{{ title }}</h3>
             <p class="text-center">{{ description }}</p>
-            <a :href="link" target="_blank" class="btn-ope cardStaff-btn">Fill out the form</a>
+            <a :href="link" target="_blank" class="btn-ope video cardStaff-btn">Fill out the form</a>
         </div>
     </div>
 </template>

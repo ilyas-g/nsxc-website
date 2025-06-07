@@ -4,11 +4,13 @@
             <div class="container">
 
                 <ul class="footer-nav mb-4">
-                    <!-- <li><a href="/#event-section">{{ t("inscription") }}</a>
-                    </li> -->
-                    <!-- <li><a href="/#schedule">Étapes</a>
+                    <li><NuxtLink :to="localePath('/mindset25#event-section')">{{ t("inscription") }}</NuxtLink>
                     </li>
-                    <li><a href="/#tournaments">Tournois</a>
+                    <li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank" aria-label="Discord Mindset">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink>
+                    </li>
+                    <!-- <li><NuxtLink to="/#schedule">Étapes</NuxtLink>
+                    </li>
+                    <li><NuxtLink to="/#tournaments">Tournois</NuxtLink>
                     </li> -->
                     <li @click="$emit('toggleContact')">Contact</li>
                     <!-- <li @click="$emit('toggleClassement')">Classement</li> -->
@@ -18,19 +20,20 @@
                     <div class="follow-us">
                         <h4 class="text-center">Suivez NSXC</h4>
                         <p class="text-center">
-                            <a href="https://discord.gg/d2jgxxyZg3" target="_blank" class="ml-1 mr-1" aria-label="Discord Mindset"><span class="icon-discord-1"></span></a>
-                            <a href="https://twitter.com/_NSxC" target="_blank" class="ml-1 mr-1" aria-label="Twitter NSxC"><span class="icon-x"></span></a>
-                            <a href="https://www.instagram.com/__nsxc" target="_blank" class="ml-1 mr-1" aria-label="Instagram NSxC"><span class="icon-instagram"></span></a>
-                            <a href="https://www.twitch.tv/nsxc_tv" target="_blank" class="ml-1 mr-1" aria-label="Twitcch NSxC"><span class="icon-twitch-1"></span></a>
+                            <NuxtLink to="https://twitter.com/_NSxC" target="_blank" class="ml-1 mr-1" aria-label="Twitter NSxC"><span class="icon-x"></span></NuxtLink>
+                            <NuxtLink to="https://www.instagram.com/__nsxc" target="_blank" class="ml-1 mr-1" aria-label="Instagram NSxC"><span class="icon-instagram"></span></NuxtLink>
+                            <NuxtLink to="https://www.twitch.tv/nsxc_tv" target="_blank" class="ml-1 mr-1" aria-label="Twitcch NSxC"><span class="icon-twitch-1"></span></NuxtLink>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-credits">
-            MINDSET © <a href="#" target="_blank">NSXC</a> - 
-            Site conçu et réalisé par <a href="https://twitter.com/iamarktall" target="_blank">Arktall
-                (@iamarktall)</a>
+            MINDSET © <NuxtLink to="#" target="_blank">NSXC</NuxtLink> - 
+            Site conçu et réalisé par <NuxtLink to="https://twitter.com/iamarktall" target="_blank">Arktall
+                (@iamarktall)</NuxtLink> - Photos prises par <NuxtLink to="https://soriya.myportfolio.com/" target="_blank">Soriya</NuxtLink> 
+                (<NuxtLink to="https://x.com/Soriya_fr" target="_blank">@Soriya_fr</NuxtLink>) et <NuxtLink to="https://www.instagram.com/guysimonreal" target="_blank">Guy Simon</NuxtLink> 
+                (<NuxtLink to="https://x.com/gsimonreal" target="_blank">@gsimonreal</NuxtLink>)
         </div>
     </footer>
 </template>
@@ -39,8 +42,11 @@
 
 import { RouterLink, RouterView } from 'vue-router'
 import NSXCLogo from '~/public/img/NSXC_BLANC2.webp'
-
+import { useI18n, useLocalePath } from '#imports'
+const { locales, setLocale } = useI18n();
+const localePath = useLocalePath()
 const { t } = useI18n()
+
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";

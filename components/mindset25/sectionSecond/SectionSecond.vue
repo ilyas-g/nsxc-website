@@ -5,12 +5,26 @@
             <div>
                 <div class="event-description vertical-align-content">
                     <div class="portraits">
-                        <div class="photo">
-                        <img :src="dase" class="portrait" alt="Dase" />
-                        <span class="author">&copy; Guy Simon</span>
-                        </div>
-                        <img :src="norman" class="portrait genius" alt="Ydile" />
-                        <img :src="idile" class="portrait" alt="Ydile" />
+                        <Portrait
+                        name="Dase"
+                        author="Guy Simon"
+                        people="dase"
+                        :imgSrc="dase"
+                        link="https://x.com/gsimonreal" />
+
+                        <Portrait
+                        name="Genius"
+                        author="Soriya"
+                        people="genius"
+                        :imgSrc="genius"
+                        link="https://x.com/Soriya_fr" />
+
+                        <Portrait
+                        name="Ydile"
+                        author="Soriya"
+                        people="ydile"
+                        :imgSrc="ydile"
+                        link="https://x.com/Soriya_fr" />
                     </div>
                     <div>
                         <h2 class="text-right">Définir le mindset ?</h2>
@@ -30,6 +44,7 @@
                         <img :src="aerisu" class="portrait" alt="Ydile" />
                     </div> -->
                 </div>
+
                 <div class="event-description vertical-align-content">
                     <div>
                         <p>A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA »,
@@ -51,12 +66,14 @@
     </section>
 </template>
 <script setup lang="ts">
+import Portrait from '~/components/mindset25/portrait/Portrait.vue'
+
 import dase from '~/public/img/dase.jpg'
-import idile from '~/public/img/idile.jpg'
+import ydile from '~/public/img/idile.jpg'
 import whitemother from '~/public/img/whitemother.jpg'
 import ambiance from '~/public/img/ambiance.jpg'
 import aerisu from '~/public/img/aerisu.jpg'
-import norman from '~/public/img/norman.jpg'
+import genius from '~/public/img/norman.jpg'
 import pap from '~/public/img/pap.jpg'
 
 </script>
@@ -67,8 +84,12 @@ import pap from '~/public/img/pap.jpg'
 #event-section {
     position: relative;
     color: #fff;
-    padding: 300px 15px 320px;
+    padding: 100px 15px 320px;
     background-color: variables.$dark-color;
+    
+    p {
+        font-size: 1.7vw;
+    }
 
     .keyword {
         font-family: "Gotham Ultra";
@@ -80,23 +101,24 @@ import pap from '~/public/img/pap.jpg'
     }
     .event-description {
         display: flex;
+        justify-content: space-between;
     }
 
-    .photo {
-        .author {
-            color: variables.$main-color;
-            font-size: 12px;
-            font-weight: bold;
-            position: absolute;
-            z-index: 1;
+    // .photo {
+    //     .author {
+    //         color: variables.$main-color;
+    //         font-size: 12px;
+    //         font-weight: bold;
+    //         position: absolute;
+    //         z-index: 1;
 
-            &:first-of-type {
-                top: -230px;
-                left: 193px;
-                transform: rotate(15deg);
-            }
-        }
-    }
+    //         &:first-of-type {
+    //             top: -230px;
+    //             left: 193px;
+    //             transform: rotate(15deg);
+    //         }
+    //     }
+    // }
     .portrait {
         width: 160px;
         height: 160px;
@@ -123,29 +145,44 @@ import pap from '~/public/img/pap.jpg'
                         box-shadow: 0 0 60px color.adjust(variables.$main-color, $lightness: 15%);
 
         }
-    }
 
-
-
-    .portraits:first-child .portrait {
-        position: absolute;
-        // margin-bottom: 230px;
-
-        &:first-of-type {
+        &.dase {
             transform: rotate(-20deg);
             top: -235px;
             left: 15px;
-            // padding-top: 20px;
         }
-        &.genius {
-            display: none;
+
+        .genius {
+
         }
-        &:last-of-type {
-            transform: rotate(15deg);
-            right: 20px;
-            top: -310px;
+
+        .ydile {
+
         }
+
     }
+
+
+
+    // .portraits:first-child .portrait {
+    //     position: absolute;
+    //     // margin-bottom: 230px;
+
+    //     &:first-of-type {
+    //         transform: rotate(-20deg);
+    //         top: -235px;
+    //         left: 15px;
+    //         // padding-top: 20px;
+    //     }
+    //     &.genius {
+    //         display: none;
+    //     }
+    //     &:last-of-type {
+    //         transform: rotate(15deg);
+    //         right: 20px;
+    //         top: -310px;
+    //     }
+    // }
 
     .portraits:last-child .portrait {
         position: absolute;

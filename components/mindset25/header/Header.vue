@@ -27,6 +27,7 @@
 			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="video" target="_blank">{{ t("inscription") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset25#schedule')">Line Up</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset25#event-section')">Présentation</NuxtLink></li>
+			<li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink></li>
 		</ul>
 		<div class="langBtn">
 			<NuxtLink :to="$switchLocalePath('en')">EN</NuxtLink>
@@ -39,11 +40,12 @@
 import nsxcLogo from '~/public/img/NSXC_BLANC2.webp'
 import mindsetIcon from '~/public/img/mindset-icon-3.webp'
 import mindsetIconWhite from '~/public/img/mindset-icon-white.webp'
-import { useI18n, useLocalePath } from '#imports'
 import { ref } from 'vue'
 
+import { useI18n, useLocalePath } from '#imports'
 const { locales, setLocale } = useI18n();
 const localePath = useLocalePath()
+
 const isBurger = ref(false)
 const toggleBurger = (toggleValue: boolean) => {
     isBurger.value = toggleValue;

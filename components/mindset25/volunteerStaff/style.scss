@@ -29,6 +29,7 @@
     &-btn {
         display: block;
         margin: 30px auto;
+        max-width: 24vw;
 
         @media screen and (min-width: variables.$media-queries-desktop) {
 
