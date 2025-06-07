@@ -27,7 +27,7 @@
 			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="video" target="_blank">{{ t("inscription") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset25#schedule')">Line Up</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset25#event-section')">Présentation</NuxtLink></li>
-			<li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink></li>
+			<li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank" class="discord">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink></li>
 		</ul>
 		<div class="langBtn">
 			<NuxtLink :to="$switchLocalePath('en')">EN</NuxtLink>

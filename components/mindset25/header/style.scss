@@ -203,6 +203,18 @@ header {
                     }
                 }
 
+                &.discord {
+                    background-color: variables.$discord-color;
+
+                    &:hover {
+                        color: #fff;
+                        box-shadow: 0 0 60px color.adjust(variables.$discord-color, $lightness: 5%);
+                        height: 65px;
+                        line-height: 65px;
+                        cursor: pointer;
+                    }
+                }
+
                 &.special {
                     color: #fff;
                     background: variables.$main-color;
