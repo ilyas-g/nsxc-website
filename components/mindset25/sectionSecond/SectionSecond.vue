@@ -8,23 +8,37 @@
 
                     <div class="parent">
                         <img :src="ydile" alt="Ydile" class="div1" />
+                        <img :src="whitemother" alt="Whiteblack et sa mère" class="div1"
+                        v-gsap.to="{
+                            scrollTrigger: {
+                            trigger: '.event-description',
+                            start: '100vh 700px',
+                            end: '200vh 550px',
+                            scrub: true,
+                            markers: false,
+                            },
+                            opacity: 0,
+                        }"/>
+
                         <img :src="dase" alt="Dase" class="div2" />
+                         <div class="div2">
                         <img 
                         :src="pap" 
-                        alt="Dase" 
-                        class="div2" 
+                        alt="Pap" 
+                        class="pap" 
                         v-gsap.to="{
                             scrollTrigger: {
                             trigger: '.event-description',
                             start: '200vh 700px',
                             end: '300vh 550px',
                             scrub: true,
-                            markers: true
+                            markers: false,
+
                             },
-                            opacity: 0,
-                            // x: 100
+                            opacity: 1,
+                            x: -1000
                         }"/>
-                        
+                        </div>
                         <div class="div3">
                             <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
                             <img :src="aerisu" alt="Dase" />
@@ -46,6 +60,7 @@
                         </div>
 
                         <img :src="ambiance" alt="Dase" class="div5" />
+                        <div class="rouge"></div>
 
                     </div>
 
@@ -67,7 +82,7 @@ import genius from '~/public/img/norman.jpg'
 import pap from '~/public/img/pap.jpg'
 
 const { t } = useI18n()
-
+const width100 = "100%"
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";
@@ -82,10 +97,28 @@ const { t } = useI18n()
     img {
         width: 100%;
         height: 285px;
-                object-fit: cover;
+        object-fit: cover;
     }
     p {
         font-size: 1.2rem;
+    }
+
+    .rouge {
+        background-color: #9321ef78;
+        grid-area: 1/2/3/3;
+        width: 50%;
+    }
+
+    .pap {
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+        grid-area: 1 / 4 / 1 / 7;
+        right: -1000px;
+    }
+
+    .ydile {
+        opacity: 0;
     }
 
     .parent {
@@ -97,7 +130,11 @@ const { t } = useI18n()
         }
 
     .div1 { grid-area: 1 / 1 / 1 / 4; margin-top: 46px; }
-    .div2 { grid-area: 1 / 4 / 1 / 7; }
+    .div2 {
+        grid-area: 1 / 4 / 1 / 7;
+        position: relative;
+        overflow-x: hidden;
+    }
 
     @media screen and (max-width: variables.$media-queries-tablet-small) {
 
@@ -123,7 +160,7 @@ const { t } = useI18n()
         .div1 {
             grid-area: 1 / 4 / 2 / 5;
         }
-        .div2 { grid-area: 1 / 5 / 2 / 7; }
+        .div2, .pap { grid-area: 1 / 5 / 2 / 7; height: 285px;}
         .div3 { grid-area: 1/ 1/ 2/ 3; margin-top: 55px; height: 150px; object-fit: cover; margin-left: 30px;}
         .div4 {
             grid-area: 2/4/2/7; 

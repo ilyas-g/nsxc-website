@@ -17,10 +17,21 @@ import { ref } from 'vue'
 
 // const {width} = useDimension()
 
+import Lenis from 'lenis'
+
 const isModal = ref(false)
 const toggleModal = (toggleValue: boolean) => {
     isModal.value = toggleValue;
 };
+
+// const lenis = new Lenis({
+//   autoRaf: true,
+// });
+
+// // Listen for the scroll event and log the event data
+// lenis.on('scroll', (e) => {
+//   console.log(e);
+// });
 
 useSeoMeta({
   title: 'NSXC - MINDSET 25',
