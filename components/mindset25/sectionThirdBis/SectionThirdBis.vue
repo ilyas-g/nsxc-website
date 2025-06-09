@@ -12,7 +12,7 @@
                                 <Game :imgSrc=xko support="Playstation 5" format="Solo" description="Logo de 2xko" />
                                 <Game :imgSrc=sf6 support="PC" format="Solo" description="Logo de Street Fighter 6" />
                                 <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Logo de 2xko" :protour="twt" />
-                                <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Logo de 2xko" :protour="arcc" :linkBtn="localePath('/mindset25/rules#formatDuChampionnat')"/>
+                                <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Logo de 2xko" :linkBtn="localePath('/mindset25/rules#formatDuChampionnat')"/>
                                 <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Logo de 2xko" />
                                 <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Logo de 2xko" />
                                 <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Logo de 2xko" />

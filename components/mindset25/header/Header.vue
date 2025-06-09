@@ -23,7 +23,7 @@
 			<!-- <li class="classement" @click="$emit('toggleClassement')">Classement</li> -->
 			<li class="contact-switch" @click="$emit('toggleContact')">Contact</li>
 			<!-- <li><a id="five" data-toggle="modal" data-target="#myModal" class="video" @click="$emit('toggleModal')">{{ t("hello") }}</a></li> -->
-			<li><NuxtLink :to="localePath('/mindset25#event-section')">{{ t("Join Us") }}</NuxtLink></li>
+			<li><NuxtLink :to="localePath('/mindset25#event-section')">{{ t("joinUsTitle") }}</NuxtLink></li>
 			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="video" target="_blank">{{ t("inscription") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset25#schedule')">Line Up</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset25#event-section')">Présentation</NuxtLink></li>

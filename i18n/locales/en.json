@@ -3,12 +3,14 @@
   "inscription": "Sign Up",
   "joinDiscord": "Join the discord",
   "watchTrailer": "Watch the trailer",
+  "joinUsTitle": "Join Us",
   "venueTitle": "How to come to the Mindset?",
+  "partnersTitle": "Partners",
   "moreInformations": "More informations",
 
-    "rulesTitle": "Rules of the Mindset 25",
-    "rulesglobal": "Global rules",
-    "rulesTournamentsTitle": "Tournaments rules",
-    "rulesSFT6itle": "Rules of the Street Fighter 6 tournament",
-    "rulesSF6": "Rule of de Street Fighter 6"
+  "rulesTitle": "Rules of the Mindset 25",
+  "rulesglobal": "Global rules",
+  "rulesTournamentsTitle": "Tournaments rules",
+  "rulesSFT6itle": "Rules of the Street Fighter 6 tournament",
+  "rulesSF6": "Rule of de Street Fighter 6"
 }

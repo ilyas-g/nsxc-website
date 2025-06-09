@@ -1,7 +1,7 @@
 <template>
     <section class="sectionStaff">
 
-        <h2 class="text-center">Joins Us</h2>
+        <h2 class="text-center">{{ t("joinUsTitle") }}</h2>
         <div class="needsStaff">
             <StaffCard title="Commentators" :imgSrc="commentators"
             description="
@@ -20,6 +20,7 @@ import StaffCard from '~/components/mindset25/volunteerStaff/VolunteerStaff.vue'
 import volunteers from '~/public/img/volunteers.jpeg'
 import media from '~/public/img/media.jpeg'
 import commentators from '~/public/img/commentators.jpeg'
+const { t } = useI18n()
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";

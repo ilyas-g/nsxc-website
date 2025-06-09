@@ -6,7 +6,7 @@
             <div class="home-content">
                 <div>
                     <div id="ope-logo" class="mb-4">
-                        <img :src="MK1Logo" alt="Logo Mortal Kombat 1" />
+                        <img :src="mindsetLogo" alt="Logo Mindset" />
                     </div>
                     <br>
                     <div class="home-event-date">
@@ -26,7 +26,7 @@
 <script setup lang="ts">
 // import { useI18n } from 'vue-i18n'
 
-import MK1Logo from '~/public/img/mindset-logo.webp'
+import mindsetLogo from '~/public/img/mindset-logo.webp'
 import videoBg from '~/public/img/mindsetvideov2.mp4'
 
 const { t } = useI18n()
