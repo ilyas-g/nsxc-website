@@ -45,17 +45,13 @@ const { t } = useI18n()
     // }
 }
 
-.bg-overlay {
-    background: rgba(0, 1, 0, .8);
-}
-
 .bg-layer {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 99;
 }
 .dark-section {
     background-color: #000;

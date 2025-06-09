@@ -32,9 +32,9 @@ useSeoMeta({
 })
 </script>
 
-<template>
+<template id="smooth-wrapper">
   <Header />
-  <main>
+  <main id="smooth-content">
     <SectionFirst @toggle-modal="toggleModal(true)"/>
     <WhiteBar />
     <SectionSecond />

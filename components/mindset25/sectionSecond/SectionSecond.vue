@@ -9,6 +9,21 @@
                     <div class="parent">
                         <img :src="ydile" alt="Ydile" class="div1" />
                         <img :src="dase" alt="Dase" class="div2" />
+                        <img 
+                        :src="pap" 
+                        alt="Dase" 
+                        class="div2" 
+                        v-gsap.to="{
+                            scrollTrigger: {
+                            trigger: '.event-description',
+                            start: '200vh 700px',
+                            end: '300vh 550px',
+                            scrub: true,
+                            markers: true
+                            },
+                            opacity: 0,
+                            // x: 100
+                        }"/>
                         
                         <div class="div3">
                             <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
