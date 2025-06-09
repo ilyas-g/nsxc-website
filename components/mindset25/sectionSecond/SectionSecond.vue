@@ -121,6 +121,19 @@ const width100 = "100%"
         opacity: 0;
     }
 
+    .btn-ope {
+        max-width: 320px;
+    transition: all 0.5s ease 0s;
+        &:hover {
+            background-color: #fff;
+            color: #0a0a0a;
+
+            span {
+                color: black;
+                margin-left: 10px
+            }
+        }
+    }
     .parent {
         display: grid;
         grid-template-columns: repeat(6, 1fr);

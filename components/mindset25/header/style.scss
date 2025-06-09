@@ -5,7 +5,7 @@ header {
     font-family: "Gotham Light";
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 63px;
     background: rgba(0, 0, 0, .7);
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@ header {
         padding: 15px 5px 15px 25px;
         position: absolute;
         right: 0;
-        top: 60px;
+        top: 63px;
 
         button,
         a {
@@ -94,7 +94,7 @@ header {
             position: absolute;
             width: 350px;
             background: #1b2838;
-            top: 60px;
+            top: 63px;
             right: -5px;
             padding: 0;
             // display: none;
@@ -116,8 +116,8 @@ header {
                 display: block;
                 text-align: center;
                 cursor: pointer;
-                height: 60px;
-                line-height: 60px;
+                height: 63px;
+                line-height: 63px;
                 padding: 0 15px;
                 color: #fff;
                 transition: all .25s ease 0s;
@@ -163,6 +163,8 @@ header {
                 height: 60px;
                 line-height: 60px;
                 padding: 0 15px;
+                margin-right: 5px;
+                border-bottom: 3px solid transparent;
                 color: #fff;
                 transition: all .25s ease 0s;
 
@@ -172,22 +174,23 @@ header {
                     font-size: 18px;
                     line-height: 1;
                     height: auto;
-                    border-bottom: 1px solid #000;
+                    border-bottom: 3px solid transparent;
                 }
 
                 &:hover {
                     color: variables.$main-color;
+                    border-bottom: 3px solid variables.$main-color;
 
                     @media only screen and (max-width: variables.$media-queries-desktop) {
                         background: variables.$main-color-hover;
                         color: #fff;
                         height: auto;
                         line-height: 1;
-                        border-bottom: 1px solid #000;
+                        border-bottom: 3px solid rgba(0, 0, 0, .7);
                     }
                 }
 
-                &.video {
+                &.signup {
                     color: #fff;
                     background: linear-gradient(90deg,
                             color.adjust(variables.$main-color, $lightness: -25%) 10%,
@@ -200,11 +203,13 @@ header {
                         height: 65px;
                         line-height: 65px;
                         cursor: pointer;
+                        border-bottom: 3px solid transparent;
                     }
                 }
 
                 &.discord {
                     background-color: variables.$discord-color;
+                    border-bottom: 3px solid variables.$discord-color;
 
                     &:hover {
                         color: #fff;
@@ -264,7 +269,7 @@ header {
     padding: 15px 25px;
     position: absolute;
     right: 0;
-    top: 60px;
+    top: 63px;
     cursor: pointer;
 
     span {
@@ -275,8 +280,8 @@ header {
 .responsive-menu-opener {
     float: right;
     font-size: 36px;
-    height: 60px;
-    line-height: 60px;
+    height: 63px;
+    line-height: 63px;
     margin-right: 15px;
     cursor: pointer;
 }
