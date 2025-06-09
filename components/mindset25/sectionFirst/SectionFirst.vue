@@ -154,14 +154,18 @@ const { t } = useI18n()
     background: rgba(0, 0, 0, .5);
     color: #fff;
     border: 3px solid variables.$main-color;
-    max-width: 300px;
-    width: 100%;
+
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
     padding: 10px 15px;
     text-align: center;
     transition: all .25s ease 0s;
+
+    @media only screen and (min-width: variables.$media-queries-desktop) {
+        max-width: 300px;
+        width: 100%;
+    }
 
     &:active,
     &:focus,

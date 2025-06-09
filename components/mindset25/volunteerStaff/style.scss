@@ -28,10 +28,10 @@
 
     &-btn {
         display: block;
-        margin: 30px auto;
-        max-width: 24vw;
+        margin: 30px 7px;
 
         @media screen and (min-width: variables.$media-queries-desktop) {
+            max-width: 24vw;
 
             position: absolute;
             bottom: 0;
@@ -53,6 +53,7 @@
         img {
             width: 100%;
             // max-width: 354px;
+
         }
     }
 

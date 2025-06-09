@@ -9,23 +9,29 @@
                     <div class="parent">
                         <img :src="ydile" alt="Ydile" class="div1" />
                         <img :src="dase" alt="Dase" class="div2" />
-                        <img :src="dase" alt="Dase" class="div3" />
                         
-                        <div class="div4 ml-2">
+                        <div class="div3">
                             <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
+                            <img :src="aerisu" alt="Dase" />
                             <p>Une nouvelle ère démarre : l'ère du rassemblement !<br />
                                 Le NSxC, soutenu par Warner Bros Games France, a le plaisir de vous annoncer:<br />
                                 Le Championnat de France Mortal Kombat !</p>
-                            <p>Une aventure communautaire par la communauté et pour tous les amoureux de la licence.</p>
+                            
                         </div>
 
-                        <div class="div5">
+                        <div class="div4">
+                            <p>Une aventure communautaire par la communauté et pour tous les amoureux de la licence.</p>
                             <p>
                                 A l'initiative de Normann « FlashNo47 », soutenu par l'un des ambassadeurs émérites de la communauté, Elfrid « RZA »,
                                 ainsi que de nombreux acteurs de la FGC tels que YUZU GAMING & SPRNTD, le championnat de France a pour objectif de rassembler les 
                                 meilleurs combattants de l’Earthrealm français autour d’un championnat et de désigner qui sera notre grand Champion.
                             </p>
+                        <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink>
+
                         </div>
+
+                        <img :src="ambiance" alt="Dase" class="div5" />
+
                     </div>
 
                 </div>
@@ -45,6 +51,8 @@ import aerisu from '~/public/img/aerisu.jpg'
 import genius from '~/public/img/norman.jpg'
 import pap from '~/public/img/pap.jpg'
 
+const { t } = useI18n()
+
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";
@@ -59,39 +67,60 @@ import pap from '~/public/img/pap.jpg'
     img {
         width: 100%;
         height: 285px;
-        object-fit: cover;
+                object-fit: cover;
     }
     p {
-        font-size: 0.778rem;
+        font-size: 1.2rem;
     }
 
     .parent {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
-    .div1 {
-        margin-top: min(13.5vw, 104px);
-        grid-area: 1 / 1 / 2 / 4;
+
+    .div1 { grid-area: 1 / 1 / 1 / 4; margin-top: 46px; }
+    .div2 { grid-area: 1 / 4 / 1 / 7; }
+
+    @media screen and (max-width: variables.$media-queries-tablet-small) {
+
+        .div1, .div2 {
+            width: 100%;
+            height: 525px;
+        }
     }
-    .div2 { grid-area: 1 / 4 / 2 / 7; }
-    .div3 { grid-area: 2 / 1 / 3 / 2; }
-    .div4 { grid-area: 2 / 1 / 3 / 3; }
-    .div5 { grid-area: 3 / 1 / 4 / 2; }
-    .div6 { grid-area: 3 / 2 / 4 / 3; }
+
+    .div3 {
+        grid-area: 2 / 1 / 2 / 7;
+
+        img {
+        height: 190px;
+        margin: -74px 0 15px 10px;
+        }
+    }
+.div4 { grid-column-start: 1; grid-column-end: 7; }
+.div5 { grid-area: 3 / 1 / 7 / 7; }
+.div6 { grid-area: 5 / 1 / 8 / 3; }
 
     @media screen and (min-width: variables.$media-queries-tablet) {
         .div1 {
             grid-area: 1 / 4 / 2 / 5;
         }
         .div2 { grid-area: 1 / 5 / 2 / 7; }
-        .div3 { grid-area: 1/ 1/ 2/ 3; margin-top: 55px; height: 150px; object-fit: cover;}
-        .div4 {         grid-area: 2 / 1 / 3 / 4;
-        margin-top: -135px;
-        padding-right: 30px; }
-        .div5 { grid-area: 3 / 1 / 4 / 4; }
+        .div3 { grid-area: 1/ 1/ 2/ 3; margin-top: 55px; height: 150px; object-fit: cover; margin-left: 30px;}
+        .div4 {
+            grid-area: 2/4/2/7; 
+            margin-top: 30px;
+            margin-left: 20px;
+            padding-right: 10px;
+        }
+        .div5 {
+            grid-area: 2 / 1 / 2 / 4;
+            margin-top: 50px;
+            margin-left: -15px;
+        }
 
     }
 

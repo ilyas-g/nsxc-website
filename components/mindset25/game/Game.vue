@@ -54,7 +54,11 @@ defineProps<{
         position: relative;
 
         img {
-            width: 250px;
+            width: 100%;
+
+            @media screen and (min-width: variables.$media-queries-mobile) {
+                max-width: 250px;
+            }
         }
 
         .worldtour {
