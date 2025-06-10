@@ -67,7 +67,7 @@
                             start: '100vh 700px',
                             end: '700vh 550px',
                             scrub: true,
-                            markers: true,
+                            markers: false,
 
                             },
                             // opacity: 1,
