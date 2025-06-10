@@ -42,7 +42,7 @@
                         <div class="div3">
                             <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
                             <img :src="aerisu" alt="Dase" />
-                            <p>Une nouvelle ère démarre : l'ère du rassemblement !<br />
+                            <p class="p-relative">Une nouvelle ère démarre : l'ère du rassemblement !<br />
                                 Le NSxC, soutenu par Warner Bros Games France, a le plaisir de vous annoncer:<br />
                                 Le Championnat de France Mortal Kombat !</p>
                             
@@ -60,7 +60,20 @@
                         </div>
 
                         <img :src="ambiance" alt="Dase" class="div5" />
-                        <div class="rouge"></div>
+                        <div class="rouge"
+                        v-gsap.to="{
+                            scrollTrigger: {
+                            trigger: '.event-description',
+                            start: '100vh 700px',
+                            end: '700vh 550px',
+                            scrub: true,
+                            markers: true,
+
+                            },
+                            // opacity: 1,
+                            // x: -1000
+                            width: width50
+                        }"></div>
 
                     </div>
 
@@ -83,6 +96,7 @@ import pap from '~/public/img/pap.jpg'
 
 const { t } = useI18n()
 const width100 = "100%"
+const width50 = "50%"
 </script>
 <style lang="scss">
 @use "~/assets/mindset25/css/variables";
@@ -106,7 +120,8 @@ const width100 = "100%"
     .rouge {
         background-color: #9321ef78;
         grid-area: 1/2/3/3;
-        width: 50%;
+        width: 0;
+        mix-blend-mode: difference;
     }
 
     .pap {

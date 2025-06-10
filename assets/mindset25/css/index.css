@@ -466,6 +466,10 @@ img {
   border-style: none;
 }
 
+.p-relative {
+  position: relative;
+}
+
 .activeLang {
   color: #ffd342;
 }
