@@ -57,7 +57,7 @@ const { t } = useI18n()
     color: #fff;
     padding: 50px 20px;
     border-top: 30px solid variables.$main-color-hover;
-    background: url("~/public/img/00663.webp") no-repeat #000 fixed;
+    // background: url("~/public/img/00663.webp") no-repeat #000 fixed;
     background-size: cover;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     display: block;
