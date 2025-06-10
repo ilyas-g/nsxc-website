@@ -1,0 +1,197 @@
+@use "~/assets/mindset25/css/variables";
+@use "sass:color";
+
+#schedule {
+    color: #fff;
+    // background-image: url("~/public/img/mindset25_bg_section_3.jpg");
+    // background-color: color.adjust(variables.$second-color, $lightness: -30%);
+    background-color: black;
+    padding: 30px 20px;
+    min-height: 100vh;
+    position: relative;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    // position: relative;
+
+    @media screen and (min-width: variables.$media-queries-desktop-xl) {
+        padding: 30px 50px;
+    }
+
+    .flextest {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: variables.$media-queries-desktop-xl) {
+            flex-direction: row;
+        }
+    }
+
+    .flexBus {
+        @media screen and (min-width: variables.$media-queries-desktop) {
+            display: flex;
+            justify-content: space-between;
+
+            .voieDeBus:first-child {
+                padding-right: 15px;
+            }
+
+            .voieDeBus:last-child {
+                padding-left: 15px;
+            }
+        }
+    }
+
+    h3,
+    h4 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+
+    .card-hotel {
+        background-color: #fff;
+        color: variables.$dark-color;
+
+        img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .card-hotel-body {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+
+            p {
+                width: 300px;
+                text-align: center;
+            }
+        }
+    }
+
+    // &::before {
+    //     content: "";
+    //     display: block;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     z-index: 1;
+    //     background: rgba(0, 0, 0, .3);
+    // }
+
+    // img {
+    //     width: 300px;
+    //     display: block;
+    //     margin: auto;
+    // }
+
+    .container {
+        @media screen and (min-width: variables.$media-queries-desktop) {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            // align-items: center;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (min-width: variables.$media-queries-desktop-xl) {
+            // flex-wrap: nowrap;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        // &>div {
+        //     flex: 0 0 auto;
+        // }
+
+        @media screen and (min-width: variables.$media-queries-desktop-xl) {
+            .transports {
+                padding-right: 80px;
+            }
+        }
+
+        .transport:nth-child(2) {
+            padding-right: 15px;
+        }
+
+        @media screen and (min-width: variables.$media-queries-desktop-xl) {
+            .transport:last-child {
+                flex: 1 0 1120px;
+            }
+        }
+
+    }
+
+    .rules ul li::before {
+        content: "▪";
+        color: variables.$main-color-hover;
+        padding-right: 10px;
+    }
+
+    .master-plus {
+        text-shadow: 2px 2px 2px #000000;
+
+        @media screen and (min-width: variables.$media-queries-tablet) {
+            font-size: 38px;
+        }
+    }
+
+    .btn-ope {
+        max-width: 24vw;
+        display: block;
+        font-family: "Gotham Narrow Medium";
+        text-shadow: 1px 1px 2px black;
+
+        &.masterEventPlus {
+            background: linear-gradient(90deg, rgba(205, 57, 66, 1) 0%, rgba(239, 212, 98, 1) 50%, rgba(205, 57, 66, 1) 100%);
+            border: 3px solid #fff5e1;
+            border-radius: 0%;
+            // padding: 0.6em 1.2em;
+            text-shadow: 1px 1px 1px #322921;
+
+            &:active,
+            &:focus,
+            &:hover {
+                cursor: pointer;
+                // max-width: 400px;
+                // padding: 19px;
+                color: #fff;
+                box-shadow: 0 0 60px rgb(242 150 39 / 60%);
+            }
+        }
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+
+
+    @media screen and (max-width: variables.$media-queries-desktop-xl) {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+}

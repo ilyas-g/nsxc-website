@@ -1,7 +1,7 @@
 <template>
   <div>
     <img src="/img/NSXC_BLANC.png" alt="Logo NSXC" class="logo-nsxc logo-main-page" />
-    <NuxtLink to="/mindset"><img src="/img/mindset-logo.webp" alt="Logo Mindset" class="logo-mindset logo-main-page" /></NuxtLink>
+    <NuxtLink to="/mindset25"><img src="/img/mindset-logo.webp" alt="Logo Mindset" class="logo-mindset logo-main-page" /></NuxtLink>
   </div>
 </template>
 <style>

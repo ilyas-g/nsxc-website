@@ -1,11 +1,7 @@
 @charset "UTF-8";
+@import "~/assets/mindset25/css/gothamFonts.css";
 /** Font faces **/
-@font-face {
-  font-family: "Gotham Narrow Ultra";
-  src: url(~/assets/mindset25/fonts/gotham-narrow-ultra.otf);
-  font-weight: 200;
-  font-style: normal;
-}
+
 @font-face {
   font-family: "Raleway";
   src: url(~/assets/mindset25/fonts/raleway/raleway-light-webfont.eot);
@@ -66,22 +62,6 @@
   font-display: block;
 }
 
-
-
-
-@font-face {
-  font-family: "Gotham Black";
-  src: url(~/assets/mindset25/fonts/gotham-font-family//Gotham/Gotham-Black.otf);
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gotham BlackItalic";
-  src: url(~/assets/mindset25/fonts/gotham-font-family//Gotham/Gotham-BlackItalic.otf);
-  font-weight: 200;
-  font-style: normal;
-}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -155,9 +135,8 @@
 
 
 
-
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -185,7 +164,7 @@ a {
 body {
   margin: 0;
   line-height: 1.5;
-  font-family: 'Raleway';
+  font-family: "Gotham Narrow Book";
   background-size: cover;
   color: #000;
   /* font-size: 18px; */
@@ -228,6 +207,9 @@ button:focus-visible {
   }
 }
 
+.text-right {
+  text-align: right;
+}
 .text-center {
   text-align: center;
 }
@@ -261,6 +243,7 @@ h6 {
 }
 
 h2 {
+    font-family: "Gotham Black Italic";
     font-size: 37px;
     font-weight: 700;
     text-transform: uppercase;
@@ -422,3 +405,89 @@ th {
   vertical-align: top;
   font-weight: 700;
 }
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  /* margin: 0; */
+}
+
+/* a {
+  color: #fe7312;
+} */
+a:hover {
+  color: #ff8c3c;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.p-relative {
+  position: relative;
+  z-index: 1;
+}
+
+.activeLang {
+  color: #ffd342;
+}
+/* --------------- */
+
+/* #event-section:before,
+#schedule-details::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, .5);
+} */
+
+
+/* --------------- */
