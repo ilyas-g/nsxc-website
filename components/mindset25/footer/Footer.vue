@@ -20,7 +20,7 @@
 
                 <div>
                     <div class="follow-us">
-                        <h4 class="text-center">Suivez NSXC</h4>
+                        <h4 class="text-center">{{ t("followNSXC") }}</h4>
                         <p class="text-center">
                             <NuxtLink to="https://twitter.com/_NSxC" target="_blank" class="ml-1 mr-1" aria-label="Twitter NSxC"><span class="icon-x"></span></NuxtLink>
                             <NuxtLink to="https://www.instagram.com/__nsxc" target="_blank" class="ml-1 mr-1" aria-label="Instagram NSxC"><span class="icon-instagram"></span></NuxtLink>
@@ -32,9 +32,9 @@
         </div>
         <div class="footer-credits">
             MINDSET © <NuxtLink to="#" target="_blank">NSXC</NuxtLink> - 
-            Site conçu et réalisé par <NuxtLink to="https://twitter.com/iamarktall" target="_blank">Arktall
-                (@iamarktall)</NuxtLink> - Photos prises par <NuxtLink to="https://soriya.myportfolio.com/" target="_blank">Soriya</NuxtLink> 
-                (<NuxtLink to="https://x.com/Soriya_fr" target="_blank">@Soriya_fr</NuxtLink>) et <NuxtLink to="https://www.instagram.com/guysimonreal" target="_blank">Guy Simon</NuxtLink> 
+            {{ t("websiteBy") }} <NuxtLink to="https://twitter.com/iamarktall" target="_blank">Arktall
+                (@iamarktall)</NuxtLink> - {{ t("photosBy") }} <NuxtLink to="https://soriya.myportfolio.com/" target="_blank">Soriya</NuxtLink> 
+                (<NuxtLink to="https://x.com/Soriya_fr" target="_blank">@Soriya_fr</NuxtLink>) {{ t("andFooter") }} <NuxtLink to="https://www.instagram.com/guysimonreal" target="_blank">Guy Simon</NuxtLink> 
                 (<NuxtLink to="https://x.com/gsimonreal" target="_blank">@gsimonreal</NuxtLink>)
         </div>
     </footer>

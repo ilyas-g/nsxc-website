@@ -4,7 +4,8 @@
 #schedule {
     color: #fff;
     // background-image: url("~/public/img/mindset25_bg_section_3.jpg");
-    background-color: color.adjust(variables.$second-color, $lightness: -30%);
+    // background-color: color.adjust(variables.$second-color, $lightness: -30%);
+    background-color: black;
     padding: 30px 20px;
     min-height: 100vh;
     position: relative;

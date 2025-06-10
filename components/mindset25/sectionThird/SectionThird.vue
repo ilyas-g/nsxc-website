@@ -11,7 +11,7 @@
 
                     <div class="container transports">
                     <div class="transport">
-                        <h4>🚙 CAR 🚙</h4>
+                        <h4>🚙 {{ t("car") }} 🚙</h4>
                         <ul>
                             <li>A86 direction Colombes</li>
                         </ul>
@@ -33,7 +33,7 @@
                         
                         <div class="flexBus">
                             <div class="voieDeBus">
-                                <h5>From Paris - La Défense :</h5>
+                                <h5>{{ t("parisLaDefense") }}</h5>
 
                                 <ul>
                                     <li>BUS RATP 276 - Station "Boulevard d'achères"<br></li>
@@ -43,7 +43,7 @@
 
 
                             <div class="voieDeBus">
-                                <h5>Other Way around the venue :</h5>
+                                <h5>{{ t("otherWayAroundTheVenue") }}</h5>
 
                                 <ul>
                                     <li>BUS RATP 176 - Station "Boulevard d'achères"<br></li>
@@ -93,7 +93,7 @@
 
     </div>
     <div class="relative-content">
-        <h3>Hébergement</h3>
+        <h3>{{ t("accommodation") }}</h3>
         <div class="needsStafff">
 
             <StaffCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/en"
