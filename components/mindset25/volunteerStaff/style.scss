@@ -39,6 +39,11 @@
             right: 0;
             margin-left: auto;
             margin-right: auto;
+
+            &.video {
+                color: #ebb37f;
+                // text-shadow: 1px 1px 2px #ffe0bf;
+            }
         }
     }
 
