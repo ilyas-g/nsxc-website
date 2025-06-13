@@ -27,7 +27,7 @@
 // import { useI18n } from 'vue-i18n'
 
 import mindsetLogo from '~/public/img/mindset-logo.webp'
-import videoBg from '~/public/img/mindsetvideov2.mp4'
+import videoBg from '~/public/img/mindsetvideeeeeeov2.mp4'
 
 const { t } = useI18n()
 </script>
