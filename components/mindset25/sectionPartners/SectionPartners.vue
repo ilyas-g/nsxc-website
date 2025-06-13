@@ -34,13 +34,13 @@ const { t } = useI18n()
         }
 
         img {
-            width: 100%;
+            max-height: 200px;
             margin: 50px 0;
+            align-self: center;
 
-        @media screen and (min-width: variables.$media-queries-tablet-small) {
-            max-width: 200px;
-            margin: 50px 15px;
-        }
+            @media screen and (min-width: variables.$media-queries-tablet-small) {
+                margin: 50px 15px;
+            }
         }
     }
 }
