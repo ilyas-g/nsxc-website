@@ -4,24 +4,28 @@
         <div class="container relative-content align-center">
             <div>
                 <div class="event-description vertical-align-content">
-                    <h2 class="ml-5 mb-5">Pourquoi Mindset ?</h2>
-
+                    
                     <div class="parent">
-                        <img :src="ydile" alt="Ydile" class="div1" />
-                        <img :src="tpk" alt="Whiteblack et sa mère" class="div1 tpk"
-                        v-gsap.to="{
-                            scrollTrigger: {
-                            trigger: '.event-description',
-                            start: '100vh 700px',
-                            end: '700vh 550px',
-                            scrub: true,
-                            markers: false,
-                            },
-                            opacity: 0,
-                        }"/>
+                        <div class="div1">
+                            <h2>Pourquoi Mindset ?</h2>
+                        </div>
 
-                        <img :src="whitemother" alt="Dase" class="div2" />
-                         <div class="div2">
+                        <div class="div2">
+                            <img :src="aerisu" alt="Dase" />
+                            <img :src="dase" class="daseTest" alt="Dase" 
+                                v-gsap.to="{
+                                scrollTrigger: {
+                                trigger: '.event-description',
+                                start: '100vh 700px',
+                                end: '700vh 550px',
+                                scrub: true,
+                                markers: false,
+                                },
+                                opacity: 0,
+                            }"/>
+                        </div>
+                        <!-- <img :src="whitemother" alt="Dase" class="div2" />
+                        <div class="div2">
                         <img 
                         :src="dad" 
                         alt="Pap" 
@@ -38,23 +42,11 @@
                             opacity: 1,
                             x: -1000
                         }"/>
-                        </div>
+                        </div> -->
                         <div class="div3">
                             <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
-                            <img :src="aerisu" alt="Dase" />
-                            <img :src="dase" class="daseTest" alt="Dase" 
 
-                                                    v-gsap.to="{
-                            scrollTrigger: {
-                            trigger: '.event-description',
-                            start: '100vh 700px',
-                            end: '700vh 550px',
-                            scrub: true,
-                            markers: false,
-                            },
-                            opacity: 0,
-                        }"/>
-                            <p class="p-relative">Mindset was born in 2024 with the desire to
+                            <p>Mindset was born in 2024 with the desire to
                                 make its contribution in an ecosystem where
                                 esport is taking more and more place; bring a
                                 vision that invites introspection and consider
@@ -62,11 +54,58 @@
                                 talent pool , Mindset is an inclusive esport
                                 event promoting versus fighting and each
                                 member of the fighting games community.</p>
-                            
                         </div>
 
-                        <div class="div4">
+                        <div class="div5">
+                            <img :src="ydile" alt="Ydile" />
+                            <img :src="tpk" alt="TPK" class="tpk"
+                            v-gsap.to="{
+                                scrollTrigger: {
+                                trigger: '.event-description',
+                                start: '100vh 700px',
+                                end: '700vh 550px',
+                                scrub: true,
+                                markers: false,
+                                },
+                                opacity: 0,
+                            }"/>
+                        </div>
 
+                        <div class="div6">
+                            <img :src="ark" alt="Dase" />
+                        </div>
+                        <div class="div4 rouge"
+                            v-gsap.to="{
+                            scrollTrigger: {
+                            trigger: '.event-description',
+                            start: '100vh 700px',
+                            end: '700vh 550px',
+                            scrub: true,
+                            markers: false,
+
+                            },
+                            width: width100
+                        }"></div>
+                        <div class="div8">
+                            <img :src="whitemother" alt="Dase" />
+                            <img 
+                            :src="dad" 
+                            alt="Pap" 
+                            class="pap" 
+                            v-gsap.to="{
+                                scrollTrigger: {
+                                trigger: '.event-description',
+                                start: '100vh 700px',
+                                end: '700vh 550px',
+                                scrub: true,
+                                markers: false,
+
+                                },
+                                opacity: 1,
+                                x: -1000
+                            }"/>
+                        </div>
+                        <div class="div7">
                             <p>
                                 We want to create an identity and an
                                 environment of trust where anyone who
@@ -76,33 +115,19 @@
                                 healthy environment governed by principles and
                                 values such as fair play, surpassing oneself, selfknowledge, self-esteem, resilience ,adaptation ...
                             </p>
-                        <!-- <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink> -->
-
+                            <!-- <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink> -->
                         </div>
 
-                        <img :src="ark" alt="Dase" class="div5" />
-                        <img :src="ambiance" alt="Dase" class="div6" />
-                        <div class="rouge"
+                        <div class="div9">
+                            <img :src="ambiance" alt="Dase" />
+                        </div>
+
+                        <div class="rouge div10"
                         v-gsap.to="{
                             scrollTrigger: {
                             trigger: '.event-description',
-                            start: '100vh 700px',
-                            end: '700vh 550px',
-                            scrub: true,
-                            markers: false,
-
-                            },
-                            // opacity: 1,
-                            // x: -1000
-                            width: width50
-                        }"></div>
-
-                        <div class="rougee"
-                        v-gsap.to="{
-                            scrollTrigger: {
-                            trigger: '.event-description',
-                            start: '600vh 900px',
-                            end: '1000vh 750px',
+                            start: '870vh 1000px',
+                            end: '1500vh 750px',
                             scrub: true,
                             markers: true,
 
@@ -158,14 +183,6 @@ const width50 = "50%"
 
     .rouge {
         background-color: #9321ef78;
-        grid-area: 1/2/3/6;
-        width: 0;
-        mix-blend-mode: difference;
-    }
-
-    .rougee {
-        background-color: #9321ef78;
-        grid-area: 3/5/4/7;
         width: 0;
         mix-blend-mode: difference;
     }
@@ -184,7 +201,7 @@ const width50 = "50%"
 
     .btn-ope {
         max-width: 320px;
-    transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
         &:hover {
             background-color: #fff;
             color: #0a0a0a;
@@ -195,78 +212,126 @@ const width50 = "50%"
             }
         }
     }
+
     .parent {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(22, 1fr);
+        grid-template-rows: 1fr repeat(4, 2fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+
+        div {
+            position: relative;
+
+            img {
+                position: absolute;
+            }
         }
 
-    .div1 { grid-area: 1 / 1 / 1 / 4; margin-top: 46px;
-    
-        &.tpk {
-            -ms-transform: scale(1.5); /* IE 9 */
-            -webkit-transform: scale(1.5); /* Safari 3-8 */
-            transform: scale(1.5);
-        }
-    }
-    .div2 {
-        grid-area: 1 / 4 / 1 / 7;
-        position: relative;
-        overflow-x: hidden;
-    }
-
-    @media screen and (max-width: variables.$media-queries-tablet-small) {
-
-        .div1, .div2 {
-            width: 100%;
-            height: 525px;
+        p {
+            margin-block-start: 1em;
+            margin-block-end: 1em;
         }
     }
 
-    .div3 {
-        grid-area: 2 / 1 / 2 / 7;
-
+    .div1 { grid-area: 1 / 1 / 2 / 19; }
+    .div2 { grid-area: 2 / 1 / 3 / 8; }
+    .div3 { grid-area: 3 / 1 / 4 / 8;
+            p {
+            margin: 0;
+        }
+    }
+    .div4 { grid-area: 2 / 4 / 5 / 10; }
+    .div5 { grid-area: 2 / 12 / 4 / 16;
         img {
-        height: 250px;
-        margin: -74px 0 15px 10px;
-
-        &.daseTest {
-            margin-top: -301px !important;
-        }
+            top: 5.5vh;
         }
     }
-.div4 { grid-column-start: 1; grid-column-end: 7; }
-.div5 { grid-area: 3 / 1 / 7 / 7; }
-// .div6 { grid-area: 5 / 1 / 8 / 3; }
-.div6 {
-    position: absolute;
-    bottom: 120px;
-    width: 50%;
-    right: 0;
-}
-
-    @media screen and (min-width: variables.$media-queries-tablet) {
-        .div1 {
-            grid-area: 1 / 4 / 2 / 5;
+    .div6 { grid-area: 3 / 8 / 5 / 12;
+        img {
+            height: 670px;
+            object-fit: cover;
+            object-position: -490px -160px;
+            position: static !important;
         }
-        .div2, .pap { grid-area: 1 / 5 / 2 / 7; height: 285px;}
-        .div3 { grid-area: 1/ 1/ 2/ 3; margin-top: 55px; height: 150px; object-fit: cover; margin-left: 30px;}
-        .div4 {
-            grid-area: 2/4/2/7; 
-            margin-top: 30px;
-            margin-left: 20px;
-            padding-right: 10px;
-        }
-        .div5 {
-            grid-area: 2 / 3 / 2 / 4;
-            width: 250px;
-            margin-top: 50px;
-            margin-left: -15px;
-        }
-
     }
+
+    .div7 { grid-area: 3 / 13 / 5 / 22;; }
+    .div8 { grid-area: 2 / 16 / 4 / 23; overflow-x: hidden; }
+    .div9 { grid-area: 4 / 13 / 6 / 23; }
+    .div10 { grid-area: 3 / 15 / 5 / 18; margin-top: 30vh; margin-bottom: -20vh;}
+
+//     .parent {
+//         display: grid;
+//         grid-template-columns: repeat(6, 1fr); 
+//         grid-template-rows: repeat(3, 1fr);
+//         grid-column-gap: 0px;
+//         grid-row-gap: 0px;
+//     }
+
+//     .div1 { grid-area: 1 / 1 / 1 / 4; margin-top: 46px;
+    
+//         &.tpk {
+//             -ms-transform: scale(1.5); /* IE 9 */
+//             -webkit-transform: scale(1.5); /* Safari 3-8 */
+//             transform: scale(1.5);
+//         }
+//     }
+//     .div2 {
+//         grid-area: 1 / 4 / 1 / 7;
+//         position: relative;
+//         overflow-x: hidden;
+//     }
+
+//     @media screen and (max-width: variables.$media-queries-tablet-small) {
+
+//         .div1, .div2 {
+//             width: 100%;
+//             height: 525px;
+//         }
+//     }
+
+//     .div3 {
+//         grid-area: 2 / 1 / 2 / 7;
+
+//         img {
+//         height: 250px;
+//         margin: -74px 0 15px 10px;
+
+//         &.daseTest {
+//             margin-top: -301px !important;
+//         }
+//         }
+//     }
+// .div4 { grid-column-start: 1; grid-column-end: 7; }
+// .div5 { grid-area: 3 / 1 / 7 / 7; }
+// // .div6 { grid-area: 5 / 1 / 8 / 3; }
+// .div6 {
+//     position: absolute;
+//     bottom: 120px;
+//     width: 50%;
+//     right: 0;
+// }
+
+//     @media screen and (min-width: variables.$media-queries-tablet) {
+//         .div1 {
+//             grid-area: 1 / 4 / 2 / 5;
+//         }
+//         .div2, .pap { grid-area: 1 / 5 / 2 / 7; height: 285px;}
+//         .div3 { grid-area: 1/ 1/ 2/ 3; margin-top: 55px; height: 150px; object-fit: cover; margin-left: 30px;}
+//         .div4 {
+//             grid-area: 2/4/2/7; 
+//             margin-top: 30px;
+//             margin-left: 20px;
+//             padding-right: 10px;
+//         }
+//         .div5 {
+//             grid-area: 2 / 3 / 2 / 4;
+//             width: 250px;
+//             margin-top: 50px;
+//             margin-left: -15px;
+//         }
+//     }
 
     .keyword {
         font-family: "Gotham Ultra";
