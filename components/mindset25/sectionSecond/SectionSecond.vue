@@ -87,11 +87,11 @@
                             width: width100
                         }"></div>
                         <div class="div8">
-                            <img :src="whitemother" alt="Dase" />
-                            <img 
+                                                        <img 
                             :src="dad" 
                             alt="Pap" 
-                            class="pap" 
+                            class="pap" />
+                            <img :src="whitemother" alt="Dase" class="mother"
                             v-gsap.to="{
                                 scrollTrigger: {
                                 trigger: '.event-description',
@@ -101,9 +101,11 @@
                                 markers: false,
 
                                 },
-                                opacity: 1,
-                                x: -1000
+                            x: 1000,
+                                // opacity: 1,
+                                // width: 0
                             }"/>
+
                         </div>
                         <div class="div7">
                             <p>
@@ -129,7 +131,7 @@
                             start: '870vh 1000px',
                             end: '1500vh 750px',
                             scrub: true,
-                            markers: true,
+                            markers: false,
 
                             },
                             // opacity: 1,
@@ -169,7 +171,8 @@ const width50 = "50%"
 #event-section {
     position: relative;
     color: #fff;
-    padding: 100px 15px;
+    // padding: 100px 15px;
+    padding: 70px 0 0 30px;
     background-color: variables.$dark-color;
     
     img {
@@ -187,18 +190,27 @@ const width50 = "50%"
         mix-blend-mode: difference;
     }
 
+    .mother {
+        // width: 100%;
+        // overflow: hidden;
+    }
+
     .pap {
-        opacity: 0;
+        // opacity: 0;
         width: 100%;
-        position: absolute;
-        grid-area: 1 / 4 / 1 / 7;
-        right: -1000px;
+        object-position: 0 -150px;
+        // right: -1000px;
     }
 
     .ydile {
         opacity: 0;
     }
 
+    .tpk {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
     .btn-ope {
         max-width: 320px;
         transition: all 0.5s ease 0s;
