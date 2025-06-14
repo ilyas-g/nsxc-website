@@ -72,7 +72,7 @@ useSeoMeta({
   </main>
   <Footer @toggle-contact="toggleContact(true)" @toggle-classement="toggleClassement(true)" />
   <div v-if="isContact === true">
-    <Contact mail="flashno47@gmail.com" @toggle-contact="toggleContact(false)" />
+    <Contact mail="nsxcpro@gmail.com" @toggle-contact="toggleContact(false)" />
   </div>
 
 </template>
