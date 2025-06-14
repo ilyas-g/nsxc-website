@@ -15,11 +15,11 @@
                             <img :src="dase" class="daseTest" alt="Dase" 
                                 v-gsap.to="{
                                 scrollTrigger: {
-                                trigger: '.event-description',
-                                start: '100vh 700px',
-                                end: '700vh 550px',
-                                scrub: true,
-                                markers: false,
+                                    trigger: '.event-description',
+                                    start: '100vh 700px',
+                                    end: '700vh 550px',
+                                    scrub: true,
+                                    markers: false,
                                 },
                                 opacity: 0,
                             }"/>
@@ -61,42 +61,41 @@
                             <img :src="tpk" alt="TPK" class="tpk"
                             v-gsap.to="{
                                 scrollTrigger: {
-                                trigger: '.event-description',
-                                start: '100vh 700px',
-                                end: '700vh 550px',
-                                scrub: true,
-                                markers: false,
+                                    trigger: '.event-description',
+                                    start: '100vh 700px',
+                                    end: '700vh 550px',
+                                    scrub: true,
+                                    markers: false,
                                 },
                                 opacity: 0,
                             }"/>
                         </div>
 
                         <div class="div6">
-                            <img :src="ark" alt="Dase" />
+                            <img :src="ark" alt="Arktall" />
                         </div>
                         <div class="div4 rouge"
                             v-gsap.to="{
                             scrollTrigger: {
-                            trigger: '.event-description',
-                            start: '100vh 700px',
-                            end: '700vh 550px',
-                            scrub: true,
-                            markers: false,
-
+                                trigger: '.event-description',
+                                start: '100vh 700px',
+                                end: '700vh 550px',
+                                scrub: true,
+                                markers: false,
                             },
                             width: width100
                         }"></div>
                         <div class="div8">
-                                                        <img 
+                            <img 
                             :src="dad" 
                             alt="Pap" 
                             class="pap" />
-                            <img :src="whitemother" alt="Dase" class="mother"
+                            <img :src="whitemother" alt="Whiebl4ck" class="mother"
                             v-gsap.to="{
                                 scrollTrigger: {
                                 trigger: '.event-description',
-                                start: '100vh 700px',
-                                end: '700vh 550px',
+                                start: '700vh 700px',
+                                end: '1100vh 550px',
                                 scrub: true,
                                 markers: false,
 
@@ -115,7 +114,7 @@
                                 through a common passion.</p>
                             <p>Promote accessibility and inclusivity by creating a
                                 healthy environment governed by principles and
-                                values such as fair play, surpassing oneself, selfknowledge, self-esteem, resilience ,adaptation ...
+                                values such as fair play, surpassing oneself, selfknowledge, self-esteem, resilience, adaptation...
                             </p>
                             <!-- <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink> -->
                         </div>
@@ -172,7 +171,7 @@ const width50 = "50%"
     position: relative;
     color: #fff;
     // padding: 100px 15px;
-    padding: 70px 0 0 30px;
+    padding: 70px 0 100px 30px;
     background-color: variables.$dark-color;
     
     img {
@@ -268,10 +267,10 @@ const width50 = "50%"
         }
     }
 
-    .div7 { grid-area: 3 / 13 / 5 / 22;; }
-    .div8 { grid-area: 2 / 16 / 4 / 23; overflow-x: hidden; }
-    .div9 { grid-area: 4 / 13 / 6 / 23; }
-    .div10 { grid-area: 3 / 15 / 5 / 18; margin-top: 30vh; margin-bottom: -20vh;}
+    .div7 { grid-area: 4 / 13 / 5 / 22;; }
+    .div8 { grid-area: 3 / 16 / 4 / 23; overflow-x: hidden; margin-top: -15vh;}
+    .div9 { grid-area: 5 / 13 / 6 / 23; }
+    .div10 { grid-area: 4 / 15 / 5 / 19; margin-top: 30vh; margin-bottom: -44vh;}
 
 //     .parent {
 //         display: grid;

@@ -24,8 +24,6 @@
     </section>
 </template>
 <script setup lang="ts">
-// import { useI18n } from 'vue-i18n'
-
 import mindsetLogo from '~/public/img/mindset-logo.webp'
 import videoBg from '~/public/img/mindsetvideeeeeeov2.mp4'
 
