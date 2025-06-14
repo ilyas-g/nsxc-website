@@ -5,17 +5,8 @@
 
                 <ul class="footer-nav mb-4">
                     <li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank" aria-label="Discord Mindset">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink></li>
-                    <li><NuxtLink :to="localePath('/mindset25#event-section')">Présentation</NuxtLink></li>
-                    <li><NuxtLink :to="localePath('/mindset25#schedule')">Line Up</NuxtLink></li>
                     <li><NuxtLink :to="localePath('/mindset25#event-section')">{{ t("inscription") }}</NuxtLink></li>
-                    <li><NuxtLink :to="localePath('/mindset25#event-section')">{{ t("joinUsTitle") }}</NuxtLink></li>
-
-                    <!-- <li><NuxtLink to="/#schedule">Étapes</NuxtLink>
-                    </li>
-                    <li><NuxtLink to="/#tournaments">Tournois</NuxtLink>
-                    </li> -->
                     <li @click="$emit('toggleContact')">Contact</li>
-                    <!-- <li @click="$emit('toggleClassement')">Classement</li> -->
                 </ul>
 
                 <div>
@@ -42,10 +33,7 @@
 <script setup lang="ts">
 // // import { useI18n } from 'vue-i18n'
 
-import { RouterLink, RouterView } from 'vue-router'
-import NSXCLogo from '~/public/img/NSXC_BLANC2.webp'
 import { useI18n, useLocalePath } from '#imports'
-const { locales, setLocale } = useI18n();
 const localePath = useLocalePath()
 const { t } = useI18n()
 
@@ -57,8 +45,6 @@ const { t } = useI18n()
     color: #fff;
     padding: 50px 20px;
     border-top: 30px solid variables.$main-color-hover;
-    // background: url("~/public/img/00663.webp") no-repeat #000 fixed;
-    background-size: cover;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     display: block;
 
@@ -98,7 +84,7 @@ const { t } = useI18n()
 
             &:hover {
                 cursor: pointer;
-                color: #d99a2b;
+                color: variables.$main-color;
             }
         }
 
@@ -131,7 +117,7 @@ const { t } = useI18n()
         font-size: 18px;
 
         a {
-            color: #d99a2b;
+            color: variables.$main-color;
         }
     }
 }
