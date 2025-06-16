@@ -1,20 +1,20 @@
 <script setup lang="ts">
-// import TheWelcome from '~/components/mindset25/TheWelcome.vue'
+// import TheWelcome from '~/components/mindset/TheWelcome.vue'
 
-import Header from '~/components/mindset25/header/Header.vue'
-import Footer from '~/components/mindset25/footer/Footer.vue'
-import SectionFirst from '~/components/mindset25/sectionFirst/SectionFirst.vue'
-import WhiteBar from '~/components/mindset25/whiteBar/WhiteBar.vue'
-import SectionSecond from '~/components/mindset25/sectionSecond/SectionSecond.vue'
-import SectionThird from '~/components/mindset25/sectionThird/SectionThird.vue'
-import SectionThirdBis from '~/components/mindset25/sectionThirdBis/SectionThirdBis.vue'
-import SectionStaff from '~/components/mindset25/sectionStaff/SectionStaff.vue'
-import SectionPartners from '~/components/mindset25/sectionPartners/SectionPartners.vue'
-import Contact from '~/components/mindset25/contactBlock/ContactBlock.vue'
-import Modal from '~/components/mindset25/modal/Modal.vue'
+import Header from '~/components/mindset/header/Header.vue'
+import Footer from '~/components/mindset/footer/Footer.vue'
+import SectionFirst from '~/components/mindset/sectionFirst/SectionFirst.vue'
+import WhiteBar from '~/components/mindset/whiteBar/WhiteBar.vue'
+import SectionSecond from '~/components/mindset/sectionSecond/SectionSecond.vue'
+import SectionThird from '~/components/mindset/sectionThird/SectionThird.vue'
+import SectionThirdBis from '~/components/mindset/sectionThirdBis/SectionThirdBis.vue'
+import SectionStaff from '~/components/mindset/sectionStaff/SectionStaff.vue'
+import SectionPartners from '~/components/mindset/sectionPartners/SectionPartners.vue'
+import Contact from '~/components/mindset/contactBlock/ContactBlock.vue'
+import Modal from '~/components/mindset/modal/Modal.vue'
 // import useDimension from './utils/useDimension.js'
 
-// import useDimension from '~/pages/mindset25/utils/useDimension.js'
+// import useDimension from '~/pages/mindset/utils/useDimension.js'
 
 import { ref } from 'vue'
 
@@ -79,6 +79,6 @@ useSeoMeta({
 
 
 <style lang="scss">
-@use '~/assets/mindset25/css/_section.scss';
-@import url("~/assets/mindset25/css/index.css");
+@use '~/assets/mindset/css/_section.scss';
+@import url("~/assets/mindset/css/index.css");
 </style>
