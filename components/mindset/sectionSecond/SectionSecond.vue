@@ -253,7 +253,7 @@ const width50 = "50%"
             padding-right: 20px;
         }
     }
-    .div4 { grid-area: 2 / 4 / 5 / 10; }
+    .div4 { grid-area: 2 / 4 / 5 / 10; margin-top: 50px; }
     .div5 { grid-area: 2 / 12 / 4 / 16;
         img {
             top: 5.5vh;
