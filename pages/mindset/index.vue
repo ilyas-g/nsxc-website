@@ -65,7 +65,7 @@ useSeoMeta({
   ogTitle: 'NSXC - MINDSET 25',
   description: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.',
   ogDescription: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.',
-  ogImage: '~/public/img/seo-screen.webp',
+  ogImage: 'https://images.start.gg/images/tournament/715965/image-1327951b994c5db7174073f192799454.png?ehk=%2FdIYPqXMiyxlZhAZ1pGUzh8GGrHibWs9QYP7u1%2Fm9wQ%3D&ehkOptimized=fMcijnmETeDACdR%2F8VwyEllzA71nhct3uAonhHhayuU%3D',
   twitterTitle: 'NSXC - MINDSET 25',
   twitterImage: '~/public/img/seo-screen.webp',
   twitterCard: 'summary_large_image',
