@@ -138,6 +138,10 @@
                             width: width50
                         }"></div>
 
+                        <div class="div11">
+                            <img :src="smile" alt="Smile" />
+                        </div>
+
                     </div>
 
                 </div>
@@ -158,6 +162,7 @@ import aerisu from '~/public/img/aerisu.jpg'
 import dad from '~/public/img/dad.webp'
 import pap from '~/public/img/pap.jpg'
 import tpk from '~/public/img/tpk.jfif'
+import smile from '~/public/img/smile.jpg'
 
 const { t } = useI18n()
 const width100 = "100%"
@@ -277,6 +282,11 @@ const width50 = "50%"
         grid-area: 4 / 15 / 5 / 19;
         margin-top: 10vh;
         margin-bottom: -25vh;
+    }
+
+    .div11 {
+        grid-area: 5/1/5/9;
+        margin-left: -30px;
     }
 
 //     .parent {

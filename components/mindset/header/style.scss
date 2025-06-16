@@ -24,6 +24,7 @@ header {
 
         button,
         a {
+            font-family: "Gotham Bold";
             margin: 0 3px;
             border: none;
             background-color: transparent;
@@ -42,7 +43,7 @@ header {
         // height: 50px;
         position: absolute;
         display: inline-block;
-        padding-top: 5px;
+        padding-top: 6px;
 
         img {
             height: 50px;
@@ -61,6 +62,10 @@ header {
             display: inline;
             opacity: 1;
         }
+    }
+
+    .router-link-active {
+        color: variables.$main-color;
     }
 
     /* A NE PAS SUPPRIMER JUSQU'A AVOIR CLEAN LE CODE !! PEUT-ÊTRE A REUTILISER S'IL Y A UN SOUCI AVEC LE LOGO DONT LE CSS EST AU DESSUS (APPELE 'NOUVEAU LOGO') */
