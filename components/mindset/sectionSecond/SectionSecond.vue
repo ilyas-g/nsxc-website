@@ -264,6 +264,7 @@ const width50 = "50%"
             object-fit: cover;
             object-position: -490px -160px;
             position: static !important;
+            margin-top: 50px;
         }
     }
 
