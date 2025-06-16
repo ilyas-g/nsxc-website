@@ -97,10 +97,11 @@
         <div class="needsStafff">
 
             <StaffCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/en"
-            description="KOPSTER Hotel Residence Paris Ouest Colombes" />
+            description="KOPSTER Hotel Residence Paris Ouest Colombes" adress="65 Rue Germaine Tillion, 92700 Colombes, France" />
             <StaffCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://letude.group/"
-            description="Hôtel Kyriad Colombes" />
-            <StaffCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" description="All Suites Appart Hôtel Paris Ouest Colombes" />
+            description="Hôtel Kyriad Colombes" adress="ZAC, Av. Kléber, 92700 Colombes" />
+            <StaffCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" description="All Suites Appart Hôtel Paris Ouest Colombes"
+            adress="1 All. Louise Michel, 92700 Colombes" />
 
         </div>
     </div>
