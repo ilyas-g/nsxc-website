@@ -354,8 +354,8 @@
 </template>
 
 <script setup lang="ts">
-import Header from '~/components/mindset25/header/Header.vue'
-import Footer from '~/components/mindset25/footer/Footer.vue'
+import Header from '~/components/mindset/header/Header.vue'
+import Footer from '~/components/mindset/footer/Footer.vue'
 
 import ArcWorldTour from '~/public/img/arcworldtour2025-2026.webp'
 
@@ -371,9 +371,9 @@ useSeoMeta({
 })
 </script>
 <style lang="scss">
-@use "~/assets/mindset25/css/variables";
-@use '~/assets/mindset25/css/section';
-@import url("~/assets/mindset25/css/index.css");
+@use "~/assets/mindset/css/variables";
+@use '~/assets/mindset/css/section';
+@import url("~/assets/mindset/css/index.css");
 
 .rulesPage {
     color: white;
