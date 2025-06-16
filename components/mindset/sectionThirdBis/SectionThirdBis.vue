@@ -5,7 +5,7 @@
         <div>
             <div class="containerr relative-content">
                 <div>
-                    <h2 class="text-center">Line Up</h2>
+                    <h2 class="text-center">{{ t("gamesTitle") }}</h2>
 
                     <div>
                         <div class="text-center more-info">
@@ -32,8 +32,6 @@
     </section>
 </template>
 <script setup lang="ts">
-import { useLocalePath } from '#imports'
-
 import AnimateImage from "../animateImage/AnimateImage.vue"
 
 import ethernet from "~/public/img/ethernet.webp"
@@ -51,6 +49,8 @@ import twt from '~/public/img/twt2025.png'
 import Game from '~/components/mindset/game/Game.vue'
 
 const localePath = useLocalePath()
+import { useI18n, useLocalePath } from '#imports'
+const { t } = useI18n()
 
 </script>
 <style lang="scss">
