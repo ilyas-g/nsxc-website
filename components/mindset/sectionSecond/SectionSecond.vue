@@ -62,7 +62,7 @@
                             v-gsap.to="{
                                 scrollTrigger: {
                                     trigger: '.event-description',
-                                    start: '100vh 700px',
+                                    start: '280vh 700px',
                                     end: '700vh 550px',
                                     scrub: true,
                                     markers: false,
@@ -88,19 +88,19 @@
                         <div class="div8">
                             <img 
                             :src="dad" 
-                            alt="Pap" 
+                            alt="Whiteblack" 
                             class="pap" />
                             <img :src="whitemother" alt="Whiebl4ck" class="mother"
                             v-gsap.to="{
                                 scrollTrigger: {
                                 trigger: '.event-description',
-                                start: '700vh 700px',
-                                end: '1100vh 550px',
+                                start: '500vh 700px',
+                                end: '1220vh 550px',
                                 scrub: true,
                                 markers: false,
 
                                 },
-                            x: 1000,
+                            x: -1000,
                                 // opacity: 1,
                                 // width: 0
                             }"/>
@@ -172,6 +172,7 @@ const width50 = "50%"
     color: #fff;
     // padding: 100px 15px;
     padding: 70px 0 100px 30px;
+    padding: 70px 0 0 30px;
     background-color: variables.$dark-color;
     
     img {
@@ -263,16 +264,20 @@ const width50 = "50%"
         img {
             height: 670px;
             object-fit: cover;
-            object-position: -490px -160px;
+            object-position: -24vw -160px;
             position: static !important;
             margin-top: 50px;
         }
     }
 
-    .div7 { grid-area: 4 / 13 / 5 / 22;; }
+    .div7 { grid-area: 3 / 13 / 5 / 22; margin-top: 230px; }
     .div8 { grid-area: 3 / 16 / 4 / 23; overflow-x: hidden; margin-top: -15vh;}
-    .div9 { grid-area: 5 / 13 / 6 / 23; }
-    .div10 { grid-area: 4 / 15 / 5 / 19; margin-top: 30vh; margin-bottom: -44vh;}
+    .div9 { grid-area: 4 / 13 / 6 / 23; margin-top: 150px;}
+    .div10 {
+        grid-area: 4 / 15 / 5 / 19;
+        margin-top: 10vh;
+        margin-bottom: -25vh;
+    }
 
 //     .parent {
 //         display: grid;
