@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/i18n', 'v-gsap-nuxt'],
+  modules: ['@nuxtjs/i18n', 'v-gsap-nuxt', 'lenis/nuxt'],
   vgsap: {
     extraPlugins: {
       scrollTrigger: true

@@ -4,7 +4,7 @@
 header {
     font-family: "Gotham Light";
     position: fixed;
-    height: 63px;
+    height: 60px;
     background: rgba(0, 0, 0, .7);
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@ header {
         padding: 15px 5px 15px 25px;
         position: absolute;
         right: 0;
-        top: 63px;
+        top: 60px;
 
         button,
         a {
@@ -162,7 +162,7 @@ header {
                 text-align: center;
                 height: 60px;
                 line-height: 60px;
-                padding: 0 15px;
+                padding: 0 12px;
                 margin-right: 5px;
                 border-bottom: 3px solid transparent;
                 color: #fff;
