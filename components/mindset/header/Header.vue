@@ -24,7 +24,7 @@
 			<li><NuxtLink :to="localePath('/mindset#joinUs')">{{ t("joinUsTitle") }}</NuxtLink></li>
 			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="signup" target="_blank">{{ t("inscription") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset/rules')">{{ t("rulesTitleHeader") }}</NuxtLink></li>
-			<li><NuxtLink :to="localePath('/mindset#schedule-details')">Line Up</NuxtLink></li>
+			<li><NuxtLink :to="localePath('/mindset#schedule-details')">{{ t("gamesTitle") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset#event-section')">{{ t("whyMindset") }}</NuxtLink></li>
 			<li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank" class="discord">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink></li>
 		</ul>
