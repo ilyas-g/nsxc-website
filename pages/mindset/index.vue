@@ -13,14 +13,33 @@ import SectionPartners from '~/components/mindset/sectionPartners/SectionPartner
 import Contact from '~/components/mindset/contactBlock/ContactBlock.vue'
 import Modal from '~/components/mindset/modal/Modal.vue'
 // import useDimension from './utils/useDimension.js'
-
 // import useDimension from '~/pages/mindset/utils/useDimension.js'
 
 import { ref } from 'vue'
 
-// const {width} = useDimension()
+import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
+import { watch } from 'vue'
 
-import Lenis from 'lenis'
+const lenisOptions = {
+  // lenis options (optional)
+}
+
+const lenis = useLenis((lenis) => {
+  // called every scroll
+  console.log(lenis)
+})
+
+watch(
+  lenis,
+  (lenis) => {
+    // lenis instance
+    console.log(lenis)
+  },
+  { immediate: true }
+)
+
+
+// const {width} = useDimension()
 
 const isContact = ref(false);
 const toggleContact = (toggleValue: boolean) => {
@@ -39,14 +58,6 @@ const toggleContact = (toggleValue: boolean) => {
 //     }
 // };
 
-// const lenis = new Lenis({
-//   autoRaf: true,
-// });
-
-// // Listen for the scroll event and log the event data
-// lenis.on('scroll', (e) => {
-//   console.log(e);
-// });
 // const {width} = useDimension()
 
 useSeoMeta({
@@ -63,6 +74,7 @@ useSeoMeta({
 </script>
 
 <template>
+  <VueLenis root :options="lenisOptions" />
   <Header @toggle-contact="toggleContact(true)" />
   <main id="smooth-content">
     <SectionFirst @toggle-modal="toggleModal(true)"/>
