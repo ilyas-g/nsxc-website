@@ -250,6 +250,7 @@ const width50 = "50%"
     .div3 { grid-area: 3 / 1 / 4 / 8;
             p {
             margin: 0;
+            padding-right: 20px;
         }
     }
     .div4 { grid-area: 2 / 4 / 5 / 10; }
