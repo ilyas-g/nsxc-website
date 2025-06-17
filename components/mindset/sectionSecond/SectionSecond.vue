@@ -139,7 +139,9 @@
                         }"></div>
 
                         <div class="div11">
-                            <img :src="smile" alt="Smile" />
+                            <!-- <img :src="smile" alt="Smile" /> -->
+                            <video :src="videoLoop" autoPlay loop muted />
+
                         </div>
 
                     </div>
@@ -152,6 +154,7 @@
 </template>
 <script setup lang="ts">
 import Portrait from '~/components/mindset/portrait/Portrait.vue'
+import videoLoop from '~/public/img/mindsetloop.mp4'
 
 import dase from '~/public/img/dase.jpg'
 import ydile from '~/public/img/idile.jpg'
@@ -289,13 +292,18 @@ const width50 = "50%"
         grid-area: 5/1/5/9;
         margin-left: -30px;
         margin-top: -120px;
-        overflow:hidden;
+        // overflow:hidden;
 
-        img {
-        height: 350px;
-        // -o-object-position: -3.5vw;
-        object-position: -7vw -11px;
-        // transform: scale(1.5);
+        // img {
+        // height: 350px;
+        // // -o-object-position: -3.5vw;
+        // object-position: -7vw -11px;
+        // // transform: scale(1.5);
+        // }
+
+        video {
+            width: 100%;
+            height: 350px;
         }
     }
 
