@@ -96,12 +96,11 @@
         <h3>{{ t("accommodation") }}</h3>
         <div class="needsStafff">
 
-            <StaffCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/en"
-            description="KOPSTER Hotel Residence Paris Ouest Colombes" adress="65 Rue Germaine Tillion, 92700 Colombes, France" />
-            <StaffCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://letude.group/"
-            description="Hôtel Kyriad Colombes" adress="ZAC, Av. Kléber, 92700 Colombes" />
-            <StaffCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" description="All Suites Appart Hôtel Paris Ouest Colombes"
-            adress="1 All. Louise Michel, 92700 Colombes" />
+            <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/en"
+            description="KOPSTER Hotel Residence Paris Ouest Colombes" />
+            <HotelCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://letude.group/"
+            description="Hôtel Kyriad Colombes" />
+            <HotelCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" description="All Suites Appart Hôtel Paris Ouest Colombes" />
 
         </div>
     </div>
@@ -110,7 +109,7 @@
 </template>
 <script setup lang="ts">
 // import { useI18n } from 'vue-i18n'
-import StaffCard from '~/components/mindset/volunteerStaff/VolunteerStaff.vue'
+import HotelCard from '~/components/mindset/hotelCard/HotelCard.vue'
 
 import kopster from '~/public/img/hotel-kopster.jpg'
 import allSuites from '~/public/img/hotel-all-suites.jpg'
