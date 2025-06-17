@@ -294,7 +294,7 @@ const width50 = "50%"
         img {
         height: 350px;
         // -o-object-position: -3.5vw;
-        object-position: -7vw;
+        object-position: -7vw -11px;
         // transform: scale(1.5);
         }
     }
