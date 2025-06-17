@@ -13,7 +13,7 @@
                 <p class="text-center adress">{{ adress }}</p>
             </div>
             <div class="button">
-                <a :href="link" target="_blank" class="btn-ope video cardStaff-btn">{{ t("fillTheForm") }}</a>
+                <a :href="link" target="_blank" class="btn-ope video cardStaff-btn">{{ t("bookARoom") }}</a>
             </div>
         </div>
     </div>
