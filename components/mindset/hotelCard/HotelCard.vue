@@ -10,11 +10,10 @@
             
             <div class="desc">
                 <!-- <p class="text-center">{{ description }}</p> -->
-                 <p><span class="icon-instagram"></span> to venue</p>
+                 <!-- <p><span class="icon-instagram"></span> to venue</p> -->
                 <p class="text-center adress">{{ adress }}</p>
             </div>
             <div class="button">
-                ss
                 <a :href="link" target="_blank" class="btn-ope video cardStaff-btn">{{ t("bookARoom") }}</a>
             </div>
         </div>
