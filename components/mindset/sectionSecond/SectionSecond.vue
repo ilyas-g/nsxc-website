@@ -193,6 +193,7 @@ const width50 = "50%"
         background-color: #9321ef78;
         width: 0;
         mix-blend-mode: difference;
+        z-index: 1;
     }
 
     .mother {
@@ -287,6 +288,15 @@ const width50 = "50%"
     .div11 {
         grid-area: 5/1/5/9;
         margin-left: -30px;
+        margin-top: -120px;
+        overflow:hidden;
+
+        img {
+        height: 350px;
+        // -o-object-position: -3.5vw;
+        object-position: -7vw;
+        // transform: scale(1.5);
+        }
     }
 
 //     .parent {
