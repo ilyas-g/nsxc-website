@@ -1,6 +1,6 @@
 @use "~/assets/mindset/css/variables";
 
-.cardStaff {
+.cardHotel {
     margin: 15px 15px 30px;
     color: variables.$dark-color;
     background-color: white;
@@ -69,7 +69,8 @@
         padding: 0 10px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        // grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 3fr 1fr 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 

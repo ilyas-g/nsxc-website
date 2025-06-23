@@ -9,8 +9,8 @@
             </div>
             
             <div class="desc">
-                <!-- <p class="text-center">{{ description }}</p> -->
-                <p class="text-center adress">{{ adress }}</p>
+                <p class="text-center">{{ description }}</p>
+                <!-- <p class="text-center adress">{{ adress }}</p> -->
             </div>
             <div class="button">
                 <a :href="link" target="_blank" class="btn-ope video cardStaff-btn">{{ t("fillTheForm") }}</a>

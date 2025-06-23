@@ -3,15 +3,12 @@
 
         <h2 class="text-center">{{ t("joinUsTitle") }}</h2>
         <div class="needsStaff">
-            <StaffCard title="Commentators" :imgSrc="commentators"
-            description="
-            Commentators have the power to accompany our memories and make us feel strong emotions. We need you to make us vibrate, shout and share these moments that will be historic
-            " />
-            <StaffCard title="Volunteers" :imgSrc="volunteers" link="https://letude.group/"
-            description="
-            We need your help to provide one of the best experience on fighting games event! If you're looking to be a part of MINDSET team ?
-            " />
-            <StaffCard title="Media" :imgSrc="media" description="" />
+            <StaffCard :title="commentatorTitle" :imgSrc="commentators" link="https://www.start.gg/tournament/mindset-2024/details"
+            :description="commentatorDesc" />
+            <StaffCard :title="volunteersTitle" :imgSrc="volunteers" link="https://letude.group/"
+            :description="volunteersDesc" />
+            <StaffCard :title="mediaTitle" :imgSrc="media" 
+            :description="mediaDesc" />
         </div>
     </section>
 </template>
@@ -20,7 +17,16 @@ import StaffCard from '~/components/mindset/volunteerStaff/VolunteerStaff.vue'
 import volunteers from '~/public/img/volunteers.jpeg'
 import media from '~/public/img/media.jpeg'
 import commentators from '~/public/img/commentators.jpeg'
+
 const { t } = useI18n()
+
+const commentatorTitle = t("commentatorTitle")
+const volunteersTitle = t("volunteersTitle")
+const mediaTitle = t("mediaTitle")
+const commentatorDesc = t("commentatorDesc")
+const volunteersDesc = t("volunteersDesc")
+const mediaDesc = t("mediaDesc")
+
 </script>
 <style lang="scss">
 @use "~/assets/mindset/css/variables";

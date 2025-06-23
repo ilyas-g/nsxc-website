@@ -10,7 +10,7 @@
                     <div>
                         <div class="text-center more-info">
                             <Game :imgSrc=sf6 support="PC" format="Solo" description="Logo de Street Fighter 6" />
-                            <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Logo de 2xko" :protour="twt" />
+                            <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Logo de 2xko" />
                             <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Logo de 2xko" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
                             <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Logo de 2xko" />
                         </div>

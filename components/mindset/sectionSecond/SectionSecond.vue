@@ -46,14 +46,7 @@
                         <div class="div3">
                             <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
 
-                            <p>Mindset was born in 2024 with the desire to
-                                make its contribution in an ecosystem where
-                                esport is taking more and more place; bring a
-                                vision that invites introspection and consider
-                                its place within this community.<br />Convinced that diversity is a strength and
-                                talent pool , Mindset is an inclusive esport
-                                event promoting versus fighting and each
-                                member of the fighting games community.</p>
+                            <p>{{ t("whyMindsetDescFirst") }}<br />{{ t("whyMindsetDescSecond") }}</p>
                         </div>
 
                         <div class="div5">
@@ -107,15 +100,8 @@
 
                         </div>
                         <div class="div7">
-                            <p>
-                                We want to create an identity and an
-                                environment of trust where anyone who
-                                identifies with it can fully express themselves
-                                through a common passion.</p>
-                            <p>Promote accessibility and inclusivity by creating a
-                                healthy environment governed by principles and
-                                values such as fair play, surpassing oneself, selfknowledge, self-esteem, resilience, adaptation...
-                            </p>
+                            <p>{{ t("whyMindsetDescThird") }}</p>
+                            <p>{{ t("whyMindsetDescFourth") }}</p>
                             <!-- <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink> -->
                         </div>
 
