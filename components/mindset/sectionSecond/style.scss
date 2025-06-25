@@ -18,6 +18,10 @@
 
     p {
         font-size: 1.2rem;
+
+        @media screen and (min-width: variables.$media-queries-tablet-small) {
+            font-size: 1.4rem;
+        }
     }
 
     .rouge {
@@ -92,7 +96,7 @@
     .div3,
     .div7 {
         p:first-child {
-            margin-top: -50px;
+            margin-top: -150px;
         }
     }
 
