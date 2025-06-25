@@ -101,6 +101,7 @@
                         </div>
                         <div class="div7">
                             <p>{{ t("whyMindsetDescThird") }}</p>
+
                             <p>{{ t("whyMindsetDescFourth") }}</p>
                             <!-- <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink> -->
                         </div>
@@ -165,8 +166,9 @@ const width50 = "50%"
     position: relative;
     color: #fff;
     // padding: 100px 15px;
-    padding: 70px 0 100px 30px;
-    padding: 70px 0 0 30px;
+    // padding: 70px 0 100px 30px;
+    // padding: 70px 0 0 30px;
+    padding: 70px 0 0;
     background-color: variables.$dark-color;
     
     img {
@@ -221,11 +223,7 @@ const width50 = "50%"
     }
 
     .parent {
-        display: grid;
-        grid-template-columns: repeat(22, 1fr);
-        grid-template-rows: 1fr repeat(4, 2fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+
 
         div {
             position: relative;
@@ -235,22 +233,70 @@ const width50 = "50%"
             }
         }
 
+        h2 {
+            padding: 0 30px;
+        }
+
         p {
-            margin-block-start: 1em;
-            margin-block-end: 1em;
+            padding: 0 30px;
         }
     }
 
+    .div4, .div10 {
+        display: none;
+    }
+    .tpk {
+        display: none;
+    }
+    .div3, .div7 {
+        p:first-child {
+            margin-top: -50px;
+        }
+    }
+
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 2fr 1fr repeat(6, 2fr) repeat(2, 1fr) 2fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 3 / 1 / 4 / 2; }
+.div4 { grid-area: 1 / 1 / 5 / 2; }
+.div5 { grid-area: 4 / 1 / 4 / 2; }
+.div6 { grid-area: 5 / 1 / 5 / 2; }
+.div7 { grid-area: 7 / 1 / 8 / 2; }
+.div8 { grid-area: 6 / 1 / 7 / 2; }
+.div9 { grid-area: 8 / 1 / 11 / 2; }
+.div10 { grid-area: 1 / 1 / 1 / 2; }
+.div11 { grid-area: 9 / 1 / 13 / 2; }
+    @media screen and (min-width: variables.$media-queries-tablet-small) {
+
+            .parent {
+        display: grid;
+        grid-template-columns: repeat(22, 1fr);
+        grid-template-rows: 1fr repeat(4, 2fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;}
     .div1 { grid-area: 1 / 1 / 2 / 19; }
     .div2 { grid-area: 2 / 1 / 3 / 8; }
-    .div3 { grid-area: 3 / 1 / 4 / 8;
-            p {
+    .div3 { 
+        grid-area: 3 / 1 / 4 / 8;
+
+        p {
             margin: 0;
             padding-right: 20px;
+            position: relative;
+            z-index: 2;
         }
     }
     .div4 { grid-area: 2 / 4 / 5 / 10; margin-top: 50px; }
-    .div5 { grid-area: 2 / 12 / 4 / 16;
+    .div5 {
+        grid-area: 2 / 12 / 4 / 16;
+
         img {
             top: 5.5vh;
         }
@@ -287,12 +333,12 @@ const width50 = "50%"
         // // transform: scale(1.5);
         // }
 
-        video {
-            width: 100%;
-            height: 350px;
+            video {
+                width: 100%;
+                height: 350px;
+            }
         }
     }
-
 //     .parent {
 //         display: grid;
 //         grid-template-columns: repeat(6, 1fr); 
