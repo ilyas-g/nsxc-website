@@ -1,11 +1,14 @@
 <template>
-  <div>
-    <img src="/img/NSXC_BLANC.png" alt="Logo NSXC" class="logo-nsxc logo-main-page" />
-    <NuxtLink to="/mindset"><img src="/img/mindset-logo.webp" alt="Logo Mindset" class="logo-mindset logo-main-page" /></NuxtLink>
-  </div>
+    <NuxtLink to="/mindset"><img src="/img/mindset-logo-2.webp" alt="Logo Mindset" class="logo-mindset logo-main-page p-absolute-center" /></NuxtLink>
 </template>
 <style>
 @import url("~/assets/global/css/index.css");
+.p-absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
 
 <script setup lang="ts">
