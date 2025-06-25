@@ -97,6 +97,10 @@
     .div7 {
         p:first-child {
             margin-top: -150px;
+
+            @media screen and (min-width: variables.$media-queries-tablet-small) {
+                margin-top: -50px;
+            }
         }
     }
 
