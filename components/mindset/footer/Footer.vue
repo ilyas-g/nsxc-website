@@ -22,11 +22,12 @@
             </div>
         </div>
         <div class="footer-credits">
-            MINDSET © <NuxtLink to="#" target="_blank">NSXC</NuxtLink> - 
-            {{ t("websiteBy") }} <NuxtLink to="https://twitter.com/iamarktall" target="_blank">Arktall
+            <p>{{ t("websiteBy") }} <NuxtLink to="https://twitter.com/iamarktall" target="_blank">Arktall
                 (@iamarktall)</NuxtLink> - {{ t("photosBy") }} <NuxtLink to="https://soriya.myportfolio.com/" target="_blank">Soriya</NuxtLink> 
                 (<NuxtLink to="https://x.com/Soriya_fr" target="_blank">@Soriya_fr</NuxtLink>) {{ t("andFooter") }} <NuxtLink to="https://www.instagram.com/guysimonreal" target="_blank">Guy Simon</NuxtLink> 
                 (<NuxtLink to="https://x.com/gsimonreal" target="_blank">@gsimonreal</NuxtLink>)
+            </p>
+            <p>© {{currentDate.getFullYear()}} <NuxtLink to="#" target="_blank">NSXC</NuxtLink> - {{ t("allRightsReserved") }}</p>
         </div>
     </footer>
 </template>
@@ -37,11 +38,14 @@ import { useI18n, useLocalePath } from '#imports'
 const localePath = useLocalePath()
 const { t } = useI18n()
 
+const currentDate: Date = new Date
+
 </script>
 <style lang="scss">
 @use "~/assets/mindset/css/variables";
 
 #footer {
+    background-color: #242424;
     color: #fff;
     padding: 50px 20px;
     border-top: 30px solid variables.$main-color-hover;
@@ -118,6 +122,10 @@ const { t } = useI18n()
 
         a {
             color: variables.$main-color;
+        }
+
+        p {
+            margin-bottom: 15px;
         }
     }
 }
