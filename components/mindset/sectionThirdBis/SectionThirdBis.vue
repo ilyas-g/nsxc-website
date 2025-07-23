@@ -9,23 +9,16 @@
 
                     <div>
                         <div class="text-center more-info">
-                            <Game :imgSrc=sf6 support="PC" format="Solo" description="Street Fighter 6 logo" />
-                            <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Tekken 8 logo" />
-                            <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
-                            <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
-                            <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Granblue Fantasy Versus: Rising logo" />
-                            <Game :imgSrc=ggxrdrev2 support="Playstation 4" format="Solo" description="Guilty Gear Xrd REV 2 logo" />
-                            <Game :imgSrc=xko support="PC" format="Solo & 2V2" description="2XKO logo" />
+                            <Game :imgSrc=sf6 support="PC" format="Solo" description="Street Fighter 6 logo" :linkBtn="localePath('/mindset/rules#sf6rules')" />
+                            <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Tekken 8 logo" :linkBtn="localePath('/mindset/rules#t8rules')" />
+                            <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#ffcotwrules')"/>
+                            <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#ggstrules')"/>
+                            <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
+                            <Game :imgSrc=ggxrdrev2 support="Playstation 4" format="Solo" description="Guilty Gear Xrd REV 2 logo" :linkBtn="localePath('/mindset/rules#ggxrdrev2rules')" />
+                            <Game :imgSrc=xko support="PC" format="Solo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
+                            <Game :imgSrc=xko_double support="PC" format="2V2" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
                         </div>
                     </div>
-                    <!-- <div class="online-events">
-                        <div class="text-center pr-5 pl-5 mb-5">
-                            <p class="mb-5">L'opportunité pour n'importe quel organisateur de tournoi de contribuer à ce championnat.
-                            <br/>Les « online community event » sont des événements ouverts à tous (Français uniquement). Pour soumettre son tournoi en ligne et être éligible, il vous suffit de contacter « FlashNo47 » par mail ou sur le discord MK France. Le NSxC proposera six tournois en ligne. Six autres tournois seront laissés à la disposition d'organisateurs de la communauté pour proposer leur propre tournoi. Les demandes devront être passées entre le 10 octobre 2023 et le 31 décembre 2023.
-                            <br/>Les tournois devront avoir lieu entre le 10 Octobre 2023 et le 31 Janvier 2024.</p>
-                            <RouterLink to="/rules" class="btn-ope special">Voir le règlement<span class="icon-chevron-down-solid-1" aria-hidden="true"></span></RouterLink>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -39,11 +32,11 @@ import drapeau from "~/public/img/drapeauFR.webp"
 
 import sf6 from '~/public/img/games_logos/sf6.png'
 import xko from '~/public/img/games_logos/2xko.png'
+import xko_double from '~/public/img/games_logos/2xko-2v2.webp'
 import t8 from '~/public/img/games_logos/t8.png'
 import ggst from '~/public/img/games_logos/ggst.png'
 import gbvsr from '~/public/img/games_logos/gbvsr.png'
 import ffcotw from '~/public/img/games_logos/ffcotw.png'
-import hxh from '~/public/img/games_logos/hxh.png'
 import arcc from '~/public/img/arcworldtour2025-2026.webp'
 import twt from '~/public/img/twt2025.png'
 import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.png'
@@ -61,7 +54,6 @@ const { t } = useI18n()
 #schedule-details {
     color: #fff;
     padding: 50px 35px;
-    // background-image: url('~/public/img/WuAcademyDay_2.webp');
     background-color: black;
     position: relative;
 
@@ -141,10 +133,6 @@ const { t } = useI18n()
             width: 400px;
         }
     }
-
-    // .btn-ope {
-    //     max-width: 350px;
-    // }
 
     .streamers {
         display: flex;
