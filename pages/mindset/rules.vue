@@ -62,7 +62,7 @@
         <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
 
         <ul>
-          <li>{{ t("GBVSRRuleSet") }}</li>
+          <li>{{ t("GBVSRRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
           <li>{{ t("GBVSRFormat") }}</li>
           <li>{{ t("GBVSRRounds") }}</li>
           <li>{{ t("GBVSRMatches") }}</li>
