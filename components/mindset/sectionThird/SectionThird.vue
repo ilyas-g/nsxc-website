@@ -71,12 +71,12 @@
         <h3>{{ t("accommodation") }}</h3>
         <div class="needsStafff">
 
-            <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/en"
+            <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/colombes/"
             description="KOPSTER Hotel Residence Paris Ouest Colombes" adress="65 Rue Germaine Tillion, 92700 Colombes" />
-            <HotelCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://letude.group/"
+            <HotelCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://paris-ouest-colombes.kyriad.com/fr-fr/?sr=SEO_GOOGLE#L'H%C3%B4tel"
             description="Hôtel Kyriad Colombes" adress="ZAC, Av. Kléber, 92700 Colombes" />
             <HotelCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" 
-            description="All Suites Appart Hôtel Paris Ouest Colombes" 
+            description="All Suites Appart Hôtel Paris Ouest Colombes" link="https://www.allsuites.com/hotel/appart-hotel-paris-colombes"
             adress="1 All. Louise Michel, 92700 Colombes" />
 
         </div>

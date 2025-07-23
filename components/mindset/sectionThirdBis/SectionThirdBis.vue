@@ -15,7 +15,8 @@
                             <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
                             <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Granblue Fantasy Versus: Rising logo" />
                             <Game :imgSrc=ggxrdrev2 support="Playstation 4" format="Solo" description="Guilty Gear Xrd REV 2 logo" />
-                            <Game :imgSrc=xko support="PC" format="Solo & 2V2" description="2XKO logo" />
+                            <Game :imgSrc=xko support="PC" format="Solo" description="2XKO logo" />
+                            <Game :imgSrc=xko_double support="PC" format="2V2" description="2XKO logo" />
                         </div>
                     </div>
                     <!-- <div class="online-events">
@@ -25,7 +26,7 @@
                             <br/>Les tournois devront avoir lieu entre le 10 Octobre 2023 et le 31 Janvier 2024.</p>
                             <RouterLink to="/rules" class="btn-ope special">Voir le règlement<span class="icon-chevron-down-solid-1" aria-hidden="true"></span></RouterLink>
                         </div>
-                    </div> -->
+                    </div> --> 
                 </div>
             </div>
         </div>
@@ -39,6 +40,7 @@ import drapeau from "~/public/img/drapeauFR.webp"
 
 import sf6 from '~/public/img/games_logos/sf6.png'
 import xko from '~/public/img/games_logos/2xko.png'
+import xko_double from '~/public/img/games_logos/2xko-2v2.webp'
 import t8 from '~/public/img/games_logos/t8.png'
 import ggst from '~/public/img/games_logos/ggst.png'
 import gbvsr from '~/public/img/games_logos/gbvsr.png'
