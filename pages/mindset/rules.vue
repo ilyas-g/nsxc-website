@@ -7,8 +7,7 @@
         <h1 class='text-center'>{{ t("rulesTitle") }}</h1>
 
         <h2 class="anchor" id="tournamentRules">{{ t("rulesTournamentsTitle") }}</h2>
-        <p>Les tournois sont ouverts aux personnes âgées de dix-huit (18) ans révolus ou plus à la date de leur inscription à un tournoi. Les tournois en ligne et hors ligne sont réservés exclusivement aux résidents français.
-        </p>
+        <p>{{ t("ruleGlobal") }}</p>
 
 
         <h3 id="sf6rules">Street Fighter 6</h3>
