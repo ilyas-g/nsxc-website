@@ -47,7 +47,7 @@
   "SF6Stage:": "Stage Select: Random",
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
 
-  "T8RuleSet": "We will apply TWT2025 ruleset:",
+  "T8RuleSet": "We will apply the Tekken World Tour 2025 ruleset:",
   "T8Format": "Double Elimination Bracket",
   "T8Rounds": "Rounds: First to 3",
   "T8Matches": "Matches: First to 2",
@@ -55,7 +55,7 @@
   "T8Timer": "Timer: Default (60 seconds)",
   "T8Stage": "Stage must be randomly selected for every game. Players must go back to stage select & pick random for every game",
 
-  "GGSTRuleSet": "We will apply AWT 2025 ruleset:",
+  "GGSTRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GGSTFormat": "Double Elimination Bracket",
   "GGSTRounds": "Rounds: First to 2",
   "GGSTMatches": "Matches: First to 3",
@@ -64,7 +64,7 @@
   "GGSTCharacters": "Characters: No restrictions. However, additional DLC characters may not be used within the first two (2) weeks of release.",
   "GGSTCharacetrsColor": "Character Colors: No restrictions.",
 
-  "GBVSRRuleSet": "We will apply AWT 2025 ruleset:",
+  "GBVSRRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GBVSRFormat": "Double Elimination Bracket",
   "GBVSRRounds": "Rounds: First to 2",
   "GBVSRMatches": "Matches: First to 3",
