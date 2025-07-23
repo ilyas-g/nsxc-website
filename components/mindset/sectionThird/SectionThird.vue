@@ -2,7 +2,7 @@
     <section id="schedule">
         <!-- <div class="bg-layer"></div> -->
         <div class="flextest">
-            <div class="container relative-content div1">
+            <div class="container relative-content">
                 <div>
                     <h2 class="relative-content">{{ t("venueTitle") }}</h2>
 
@@ -57,7 +57,7 @@
             </div>
 
         </div>
-        <div class="text-center relative-content div2">
+        <div class="text-center relative-content">
             <div>
                 <div class="text-center map-responsive">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.051374113094!2d2.252171775966242!3d48.9334632954211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665dbfc4b5c09%3A0xce609c8318b7871a!2s65%20Rue%20Germaine%20Tillion%2C%2092700%20Colombes!5e0!3m2!1sfr!2sfr!4v1745347940260!5m2!1sfr!2sfr"
