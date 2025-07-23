@@ -22,7 +22,7 @@
 		<ul class="header-menu clearfix" :class="isBurger === false && 'hide-responsive-992'">
 			<li class="contact-switch" @click="$emit('toggleContact')">Contact</li>
 			<li><NuxtLink :to="localePath('/mindset#joinUs')">{{ t("joinUsTitle") }}</NuxtLink></li>
-			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="signup" target="_blank">{{ t("inscription") }}</NuxtLink></li>
+			<li><NuxtLink to="https://www.start.gg/tournament/mindset-2025/details" class="signup" target="_blank">{{ t("inscription") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset/rules')">{{ t("rulesTitleHeader") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset#schedule-details')">{{ t("gamesTitle") }}</NuxtLink></li>
 			<li><NuxtLink :to="localePath('/mindset#event-section')">{{ t("whyMindset") }}</NuxtLink></li>
