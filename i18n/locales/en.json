@@ -47,15 +47,15 @@
   "SF6Stage:": "Stage Select: Random",
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
 
-  "T8RuleSet": "We will apply TWT2025 ruleset : https://www.bandainamcoent.com/legal/community-events/official-rules-twt",
+  "T8RuleSet": "We will apply TWT2025 ruleset:",
   "T8Format": "Double Elimination Bracket",
   "T8Rounds": "Rounds: First to 3",
   "T8Matches": "Matches: First to 2",
-  "T8Finals": "First to 3 for Winners Finals, Losers Semis ans Grand Finals",
+  "T8Finals": "First to 3 for Winners Finals, Losers Semis, Loser Final and Grand Finals",
   "T8Timer": "Timer: Default (60 seconds)",
   "T8Stage": "Stage must be randomly selected for every game. Players must go back to stage select & pick random for every game",
 
-  "GGSTRuleSet": "We will apply AWT 2025 ruleset : https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf",
+  "GGSTRuleSet": "We will apply AWT 2025 ruleset:",
   "GGSTFormat": "Double Elimination Bracket",
   "GGSTRounds": "Rounds: First to 2",
   "GGSTMatches": "Matches: First to 3",
@@ -71,7 +71,7 @@
   "GBVSRTimer": "Timer: Default (99 seconds)",
   "GBVSRStage": "Stage must be randomly selected for every game except if both players are agreed about it",
   "GBVSRMusic": "Music must be randomly selected for every game except if both players are agreed about it",
-  "GBVSRCondition": "Winner must keep the same character (can Switch from Classic or Modern). Loser can switch their character.",
+  "GBVSRCondition": "Winner must keep the same character. Loser can switch their character.",
   "GBVSRCharacetrsColor": "Lunalu's colors 17 et 18 and weapons skins EX are banned",
 
   "FFCOTWFormat": "Double Elimination Bracket",
@@ -84,5 +84,7 @@
   "GGXRDREV2Rounds": "Rounds: First to 2",
   "GGXRDREV2Matches": "Matches: First to 2",
   "GGXRDREV2Timer": "Timer: Default (60 seconds)",
-  "GGXRDREV2Stage": "Stage must be randomly selected for every game"
+  "GGXRDREV2Stage": "Stage must be randomly selected for every game",
+
+  "2xkoComingSoon": "Coming Soon"
 }
