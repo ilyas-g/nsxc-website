@@ -34,7 +34,7 @@
           <li>{{ t("T8Stage") }}</li>
         </ul>
 
-        <img :src="ArcWorldTour" alt="Logo Mortal Kombat 1" />
+        <img :src="ArcWorldTour" alt="Arc World Tour 2025" />
         <h3 id="ggstrules">Guilty Gear Strive</h3>
 
         <ul>
