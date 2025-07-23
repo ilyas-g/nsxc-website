@@ -1,6 +1,7 @@
 <template lang="">
     <VueLenis root :options="lenisOptions" />
-    <Header />
+  <Header @toggle-contact="toggleContact(true)" />
+
     <main class='rulesPage'>
       <section class="mb-5">
         <h1 class='text-center'>{{ t("rulesTitle") }}</h1>
@@ -110,13 +111,16 @@
         </div>
       </aside>
     </main>
-  <Footer @toggle-contact="toggleContact(true)" @toggle-classement="toggleClassement(true)" />
-
+  <Footer @toggle-contact="toggleContact(true)" />
+  <div v-if="isContact === true">
+    <Contact mail="nsxc.pro@gmail.com" @toggle-contact="toggleContact(false)" />
+  </div>
 </template>
 
 <script setup lang="ts">
 import Header from '~/components/mindset/header/Header.vue'
 import Footer from '~/components/mindset/footer/Footer.vue'
+import Contact from '~/components/mindset/contactBlock/ContactBlock.vue'
 
 import ArcWorldTour from '~/public/img/arcworldtour2025-2026.webp'
 
@@ -155,6 +159,13 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
   twitterImageAlt: 'NSXC - Rules of the MINDSET 25'
 })
+
+const isContact = ref(false);
+const toggleContact = (toggleValue: boolean) => {
+  isContact.value = toggleValue;
+  console.log("vraiaiaiai");
+  
+};
 </script>
 <style lang="scss">
 @use "~/assets/mindset/css/variables";
