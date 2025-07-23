@@ -2,7 +2,7 @@
     <section id="schedule">
         <!-- <div class="bg-layer"></div> -->
         <div class="flextest">
-            <div class="container relative-content">
+            <div class="container relative-content div1">
                 <div>
                     <h2 class="relative-content">{{ t("venueTitle") }}</h2>
 
@@ -56,33 +56,8 @@
                 </div>
             </div>
 
-            
-
-
-
-            <!-- <div class="relative-content">
-                <h4>🚍 BUS 🚍</h4>
-                <div class="container">
-                    <div class="mr-4 mb-4">
-                        <h5>From Paris - La Défense :</h5>
-                        <p>BUS RATP 276 - Station "Boulevard d'achères"<br>
-                            <a href="https://www.ratp.fr/plans-lignes/busratp/276" target="_blank">https://www.ratp.fr/plans-lignes/busratp/276</a>
-                        </p>
-                    </div>
-                    <div class="ml-4 mb-4">
-                        <h5>Other Way around the venue :</h5>
-                        <p>BUS RATP 176 - Station "Boulevard d'achères"<br>
-                            <a href="https://www.ratp.fr/plans-lignes/busratp/176" target="_blank">https://www.ratp.fr/plans-lignes/busratp/176</a>
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-
         </div>
-        
-        <!-- <p class="master-plus">Le MASTER EVENT + est l'unique événement de sa catégorie. Une étape majeure du championnat qui donnera un avantage considérable dans le classement général.</p> -->
-        <div class="text-center relative-content">
+        <div class="text-center relative-content div2">
             <div>
                 <div class="text-center map-responsive">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.051374113094!2d2.252171775966242!3d48.9334632954211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665dbfc4b5c09%3A0xce609c8318b7871a!2s65%20Rue%20Germaine%20Tillion%2C%2092700%20Colombes!5e0!3m2!1sfr!2sfr!4v1745347940260!5m2!1sfr!2sfr"
@@ -106,7 +81,6 @@
 
         </div>
     </div>
-<!-- <a href="https://www.start.gg/tournament/paris-games-week-master-event/details" target="_blank" class="btn-ope masterEventPlus mt-5 mx-auto">{t('signup')}</a> -->
     </section>
 </template>
 <script setup lang="ts">
@@ -118,6 +92,7 @@ import allSuites from '~/public/img/hotel-all-suites.jpg'
 import kyriad from '~/public/img/hotel-kyriad.jpg'
 
 const { t } = useI18n()
+
 </script>
 <style lang="scss">
 @use "./style.scss";
