@@ -13,10 +13,7 @@
                         {{ t("datesEvent") }}
                     </div>
                     <div class="home-event-buttons">
-                        <!-- <a href="/#event-section" class="btn-ope">{{ t("watchTrailer") }}</a> -->
-                        <!-- <button class="btn-ope video btf-btn">{{ t("inscription") }}</button> -->
-                        <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope video btf-btn" target="_blank">{{ t("inscription") }}</NuxtLink>
-                        <!-- <a href="/#tournaments" class="btn-ope special">Inscription <span class="icon-chevron-down-solid-1" aria-hidden="true"></span></a> -->
+                        <NuxtLink to="https://www.start.gg/tournament/mindset-2025/details" class="btn-ope video btf-btn" target="_blank">{{ t("inscription") }}</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -34,13 +31,7 @@ const { t } = useI18n()
 @use "sass:color";
 
 #home-section {
-    // background-image: url('~/public/img/001.jpg');
-    // background-image: url('https://img.freepik.com/photos-premium/fond-abstrait-vague-blanche-fond-ecran-graphique-blanc-minimal-illustration-2d_67092-1294.jpg?w=2000');
     overflow: hidden;
-
-    // .bg-layer {
-    //     height: 98%;
-    // }
 }
 
 .bg-layer {
@@ -211,8 +202,6 @@ const { t } = useI18n()
         &:focus,
         &:hover {
             cursor: pointer;
-            // max-width: 310px;
-            // padding: 19px;
             color: #fff;
             box-shadow: 0 0 60px color.adjust(variables.$main-color, $lightness: 15%);
         }
@@ -239,8 +228,4 @@ video {
     display: flex;
     justify-content: center;
 }
-
-// padding: 0.6em 1.2em;
-// hover : padding 15
-
 </style>

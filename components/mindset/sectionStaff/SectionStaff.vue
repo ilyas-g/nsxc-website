@@ -3,11 +3,11 @@
 
         <h2 class="text-center">{{ t("joinUsTitle") }}</h2>
         <div class="needsStaff">
-            <StaffCard :title="commentatorTitle" :imgSrc="commentators" link="https://www.start.gg/tournament/mindset-2024/details"
+            <StaffCard :title="commentatorTitle" :imgSrc="commentators" link="https://docs.google.com/forms/d/e/1FAIpQLSffiHoYBD3jpksl1icxAvS5VVSnKYrP1uZSv1Hr5ppK4m9jMA/viewform"
             :description="commentatorDesc" />
-            <StaffCard :title="volunteersTitle" :imgSrc="volunteers" link="https://letude.group/"
+            <StaffCard :title="volunteersTitle" :imgSrc="volunteers" link="https://docs.google.com/forms/d/e/1FAIpQLSdXvXVVD8MCqGlI_oU9dyDfkg9ClGYvTuC-oqtIjKAfV154yA/viewform"
             :description="volunteersDesc" />
-            <StaffCard :title="mediaTitle" :imgSrc="media" 
+            <StaffCard :title="mediaTitle" :imgSrc="media" link="https://docs.google.com/forms/d/e/1FAIpQLSeG9mKzjnFknx02ng1gVccV7SDEPybPjU_1GairD6Ib0hf64Q/viewform"
             :description="mediaDesc" />
         </div>
     </section>
