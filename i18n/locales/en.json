@@ -51,7 +51,7 @@
   "T8Format": "Double Elimination Bracket",
   "T8Rounds": "Rounds: First to 3",
   "T8Matches": "Matches: First to 2",
-  "T8Finals": "First to 3 for Winners Finals, Losers Semis, Loser Final and Grand Finals",
+  "T8Finals": "First to 3 for Winners Final, Losers Semis, Losers Final and Grand Final",
   "T8Timer": "Timer: Default (60 seconds)",
   "T8Stage": "Stage must be randomly selected for every game. Players must go back to stage select & pick random for every game",
 
@@ -77,14 +77,17 @@
   "FFCOTWFormat": "Double Elimination Bracket",
   "FFCOTWRounds": "Rounds: First to 2",
   "FFCOTWMatches": "Matches: First to 2",
+  "FFCOTWFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
   "FFCOTWTimer": "Timer: Default (60 seconds)",
   "FFCOTWStage": "Stage must be randomly selected for every game",
 
   "GGXRDREV2Format": "Double Elimination Bracket",
   "GGXRDREV2Rounds": "Rounds: First to 2",
   "GGXRDREV2Matches": "Matches: First to 2",
-  "GGXRDREV2Timer": "Timer: Default (60 seconds)",
+  "GGXRDREV2Finals": "First to 3 for Winners Final, Losers Final and Grand Final",
+  "GGXRDREV2Timer": "Timer: Default (99 seconds)",
   "GGXRDREV2Stage": "Stage must be randomly selected for every game",
+  "GGXRDREV2Condition": "Winner must keep the same character. Loser can switch their character.",
 
   "2xkoComingSoon": "Coming Soon"
 }
