@@ -45,8 +45,8 @@
   "SF6Rounds": "Rounds: Deux (2) rounds gagnants",
   "SF6Matches": "Matchs: Trois (3) matchs gagnants",
   "SF6Timer": "Timer: Par défaut (99 secondes)",
-  "SF6Stage:": "Stage Select: Aléatoire",
   "SF6Condition": "Le gagnant doit conserver le même personnage (possibilité de passer du mode Classique au mode Moderne). Le perdant peut changer de personnage.",
+  "SF6Stage": "Stage Select: Aléatoire",
 
   "T8RuleSet": "Nous appliquerons le règlement du Tekken World Tour 2025 :",
   "T8Format": "Bracket Double Élimination",

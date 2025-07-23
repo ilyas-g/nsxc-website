@@ -44,8 +44,8 @@
   "SF6Rounds": "Rounds: First to 2",
   "SF6Matches": "Matches: First to 3 games",
   "SF6Timer": "Timer: Default (99 seconds)",
-  "SF6Stage:": "Stage Select: Random",
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
+  "SF6Stage": "Stage Select: Random",
 
   "T8RuleSet": "We will apply the Tekken World Tour 2025 ruleset:",
   "T8Format": "Double Elimination Bracket",
