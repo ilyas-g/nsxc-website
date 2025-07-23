@@ -78,14 +78,17 @@
   "FFCOTWFormat": "Bracket Double Élimination",
   "FFCOTWRounds": "Rounds: Deux (2) rounds gagnants",
   "FFCOTWMatches": "Matchs: Deux (2) matchs gagnants",
+  "FFCOTWFinals": "Trois matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale.",
   "FFCOTWTimer": "Timer: Par défaut (60 secondes)",
   "FFCOTWStage": "Le stage doit être choisi aléatoirement pour tous les matchs.",
 
   "GGXRDREV2Format": "Bracket Double Élimination",
   "GGXRDREV2Rounds": "Rounds: Deux (2) rounds gagnants",
   "GGXRDREV2Matches": "Matchs: Deux (2) matchs gagnants",
-  "GGXRDREV2Timer": "Timer: Par défaut (60 secondes)",
+  "GGXRDREV2Finals": "Trois matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale.",
+  "GGXRDREV2Timer": "Timer: Par défaut (99 secondes)",
   "GGXRDREV2Stage": "Le stage doit être choisi aléatoirement pour tous les matchs.",
+  "GGXRDREV2ondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage.",
 
   "2xkoComingSoon": "À venir"
 }

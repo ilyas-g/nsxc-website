@@ -77,8 +77,10 @@
           <li>{{ t("GGXRDREV2Format") }}</li>
           <li>{{ t("GGXRDREV2Rounds") }}</li>
           <li>{{ t("GGXRDREV2Matches") }}</li>
+          <li>{{ t("GGXRDREV2Finals") }}</li>
           <li>{{ t("GGXRDREV2Timer") }}</li>
           <li>{{ t("GGXRDREV2Stage") }}</li>
+          <li>{{ t("GGXRDREV2Condition") }}</li>
         </ul>
 
         <h3 id="2xko1v1rules">2XKO (1V1)</h3>
