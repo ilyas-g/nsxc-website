@@ -5,17 +5,6 @@
       <section class="mb-5">
         <h1 class='text-center'>{{ t("rulesTitle") }}</h1>
 
-        <h2 id="definitions">Définitions</h2>
-        <p>Best-of-X - signifie qu'un set comporte un nombre X de match et que le joueur qui remporte la majorité des matchs est déclaré vainqueur.</p>
-        <p>Set : on appellera ici « set » la rencontre entre les deux adversaires se disputant un nombre X de match.</p>
-        <p>Match : On appellera ici « match », la rencontre entre les deux adversaires se disputant un nombre X de round.</p>
-        <p>Phase Finale - désigne un tournoi fermé mettant fin à la durée du championnat et mettant en vedette les 7 joueurs les mieux classés aux points et le huitième joueur qualifié lors du last chance qualifier.</p>
-        <p>Round Robin - désigne une phase du tournoi où chaque joueur joue contre tous les autres joueurs du groupe.</p>
-        <p>Tournoi - un événement individuel du championnat, comprenant des événements en ligne et hors ligne.</p>
-        <p>Organisateurs de tournois - l'organisateur respectif de chaque tournoi, toute entité impliquée dans la fourniture ou la remise des prix, et toute autre entité impliquée dans la mise en œuvre, la production ou la gestion d'un tournoi, en tout ou en partie.
-        </p>
-        <p>Gagnant - tout joueur officiellement déclaré gagnant</p>
-
         <h2 class="anchor" id="tournamentRules">{{ t("rulesTournamentsTitle") }}</h2>
         <p>Les tournois sont ouverts aux personnes âgées de dix-huit (18) ans révolus ou plus à la date de leur inscription à un tournoi. Les tournois en ligne et hors ligne sont réservés exclusivement aux résidents français.
         </p>
@@ -36,7 +25,7 @@
         <h3 id="t8rules">Tekken 8</h3>
 
         <ul>
-          <li>{{ t("T8RuleSet") }}</li>
+          <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">https://www.bandainamcoent.com/legal/community-events/official-rules-twt</NuxtLink></li>
           <li>{{ t("T8Format") }}</li>
           <li>{{ t("T8Rounds") }}</li>
           <li>{{ t("T8Matches") }}</li>
@@ -49,7 +38,7 @@
         <h3 id="ggstrules">Guilty Gear Strive</h3>
 
         <ul>
-          <li>{{ t("GGSTRuleSet") }}</li>
+          <li>{{ t("GGSTRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
           <li>{{ t("GGSTFormat") }}</li>
           <li>{{ t("GGSTRounds") }}</li>
           <li>{{ t("GGSTMatches") }}</li>
@@ -70,7 +59,6 @@
           <li>{{ t("GBVSRStage") }}</li>
           <li>{{ t("GBVSRMusic") }}</li>
           <li>{{ t("GBVSRCondition") }}</li>
-          <li>{{ t("GBVSRCharacetrsColor") }}</li>
         </ul>
 
         <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
@@ -94,10 +82,10 @@
         </ul>
 
         <h3 id="2xko1v1rules">2XKO (1V1)</h3>
-        Coming Soon
+        <p>{{ t("2xkoComingSoon") }}</p>
 
         <h3 id="2xko2v2rules" >2XKO (2V2)</h3>
-        Coming Soon
+        <p>{{ t("2xkoComingSoon") }}</p>
       </section>
 
       <aside class="sommaire">
@@ -105,17 +93,16 @@
           <div>
             <p class='text-center text-uppercase title'>Sommaire</p>
             <ul>
-              <li><a href="#definitions">Définitions</a></li>
               <li><a href="#tournamentRules">{{ t("rulesTournamentsTitle") }}</a>
                 <ul>
-                  <li><a href="#sf6rules">Street Fighter 6</a></li>
-                  <li><a href="#t8rules">Tekken 8</a></li>
-                  <li><a href="#ggstrules">Guilty Gear Strive</a></li>
-                  <li><a href="#gbvsrrules">Granblue Fantasy Versus: Rising</a></li>
-                  <li><a href="#ffcotwrules">Fatal Fury: City of The Wolves</a></li>
-                  <li><a href="#ggxrdrev2rules">Guilty Gear Xrd REV 2</a></li>
-                  <li><a href="#2xko1v1rules">2XKO (1V1)</a></li>
-                  <li><a href="#2xko2v2rules">2XKO (2V2)</a></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#sf6rules')">Street Fighter 6</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#t8rules')">Tekken 8</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#ggstrules')">Guilty Gear Strive</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#gbvsrrules')">Granblue Fantasy Versus: Rising</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#ggxrdrev2rules')">Guilty Gear Xrd REV 2</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO (1V1)</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (2V2)</NuxtLink></li>
                 </ul>
               </li>
             </ul>
@@ -135,7 +122,8 @@ import ArcWorldTour from '~/public/img/arcworldtour2025-2026.webp'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
-
+const localePath = useLocalePath()
+import { useI18n, useLocalePath } from '#imports'
 const lenisOptions = {
   // lenis options (optional)
 }
