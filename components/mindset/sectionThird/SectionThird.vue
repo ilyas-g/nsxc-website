@@ -56,32 +56,7 @@
                 </div>
             </div>
 
-            
-
-
-
-            <!-- <div class="relative-content">
-                <h4>🚍 BUS 🚍</h4>
-                <div class="container">
-                    <div class="mr-4 mb-4">
-                        <h5>From Paris - La Défense :</h5>
-                        <p>BUS RATP 276 - Station "Boulevard d'achères"<br>
-                            <a href="https://www.ratp.fr/plans-lignes/busratp/276" target="_blank">https://www.ratp.fr/plans-lignes/busratp/276</a>
-                        </p>
-                    </div>
-                    <div class="ml-4 mb-4">
-                        <h5>Other Way around the venue :</h5>
-                        <p>BUS RATP 176 - Station "Boulevard d'achères"<br>
-                            <a href="https://www.ratp.fr/plans-lignes/busratp/176" target="_blank">https://www.ratp.fr/plans-lignes/busratp/176</a>
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-
         </div>
-        
-        <!-- <p class="master-plus">Le MASTER EVENT + est l'unique événement de sa catégorie. Une étape majeure du championnat qui donnera un avantage considérable dans le classement général.</p> -->
         <div class="text-center relative-content">
             <div>
                 <div class="text-center map-responsive">
@@ -106,7 +81,6 @@
 
         </div>
     </div>
-<!-- <a href="https://www.start.gg/tournament/paris-games-week-master-event/details" target="_blank" class="btn-ope masterEventPlus mt-5 mx-auto">{t('signup')}</a> -->
     </section>
 </template>
 <script setup lang="ts">
@@ -118,6 +92,7 @@ import allSuites from '~/public/img/hotel-all-suites.jpg'
 import kyriad from '~/public/img/hotel-kyriad.jpg'
 
 const { t } = useI18n()
+
 </script>
 <style lang="scss">
 @use "./style.scss";
