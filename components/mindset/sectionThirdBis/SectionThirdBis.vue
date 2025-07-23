@@ -9,10 +9,13 @@
 
                     <div>
                         <div class="text-center more-info">
-                            <Game :imgSrc=sf6 support="PC" format="Solo" description="Logo de Street Fighter 6" />
-                            <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Logo de 2xko" />
-                            <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Logo de 2xko" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
-                            <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Logo de 2xko" />
+                            <Game :imgSrc=sf6 support="PC" format="Solo" description="Street Fighter 6 logo" />
+                            <Game :imgSrc=t8 support="Playstation 5" format="Solo" description="Tekken 8 logo" />
+                            <Game :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
+                            <Game :imgSrc=ggst support="Playstation 4" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#formatDuChampionnat')"/>
+                            <Game :imgSrc=gbvsr support="Playstation 5" format="Solo" description="Granblue Fantasy Versus: Rising logo" />
+                            <Game :imgSrc=ggxrdrev2 support="Playstation 4" format="Solo" description="Guilty Gear Xrd REV 2 logo" />
+                            <Game :imgSrc=xko support="PC" format="Solo & 2V2" description="2XKO logo" />
                         </div>
                     </div>
                     <!-- <div class="online-events">
@@ -35,6 +38,7 @@ import ethernet from "~/public/img/ethernet.webp"
 import drapeau from "~/public/img/drapeauFR.webp"
 
 import sf6 from '~/public/img/games_logos/sf6.png'
+import xko from '~/public/img/games_logos/2xko.png'
 import t8 from '~/public/img/games_logos/t8.png'
 import ggst from '~/public/img/games_logos/ggst.png'
 import gbvsr from '~/public/img/games_logos/gbvsr.png'
@@ -42,6 +46,7 @@ import ffcotw from '~/public/img/games_logos/ffcotw.png'
 import hxh from '~/public/img/games_logos/hxh.png'
 import arcc from '~/public/img/arcworldtour2025-2026.webp'
 import twt from '~/public/img/twt2025.png'
+import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.png'
 
 import Game from '~/components/mindset/game/Game.vue'
 
