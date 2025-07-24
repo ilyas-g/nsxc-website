@@ -21,7 +21,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
-const fooo = defineProps<{
+defineProps<{
   support: string,
   format: string,
   imgSrc: string,
@@ -31,15 +31,7 @@ const fooo = defineProps<{
   icon: string,
   group?: boolean
 }>()
-// watchEffect(() => {
-//   // runs only once before 3.5
-//   // re-runs when the "foo" prop changes in 3.5+
-//   console.log(fooo.format)
 
-//   if (fooo.group === true) {
-
-//   }
-// })
 </script>
 <style lang="scss">
 @use "~/assets/mindset/css/variables";

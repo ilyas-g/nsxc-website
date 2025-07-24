@@ -188,6 +188,7 @@ const toggleContact = (toggleValue: boolean) => {
 <style lang="scss">
 @use "~/assets/mindset/css/variables";
 @use '~/assets/mindset/css/section';
+@use "sass:color";
 @import url("~/assets/mindset/css/index.css");
 
 .rulesPage {
@@ -228,8 +229,24 @@ const toggleContact = (toggleValue: boolean) => {
         }
     }
 
+    a {
+      color: variables.$link-color;
+
+      &:hover {
+          color: variables.$main-color;
+      }
+    }
+
     .sommaire {
         display: none;
+
+        a {
+          color: variables.$white;
+
+          &:hover {
+            color: variables.$main-color;
+          }
+        }
 
         @media screen and (min-width: variables.$media-queries-desktop) {
             display: block;
