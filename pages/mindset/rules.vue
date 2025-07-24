@@ -25,6 +25,7 @@
         <h3 id="t8rules">Tekken 8</h3>
         <img :src="t8" alt="Tekken 8 Logo" />
         <ul>
+          <li>{{ t("T8Platform") }}</li>
           <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">https://www.bandainamcoent.com/legal/community-events/official-rules-twt</NuxtLink></li>
           <li>{{ t("T8Format") }}</li>
           <li>{{ t("T8Rounds") }}</li>
@@ -37,6 +38,7 @@
         <h3 id="ggstrules">Guilty Gear Strive</h3>
         <img :src="ggst" alt="Gulty Gear Strive Logo" />
         <ul>
+          <li>{{ t("GGSTPlatform") }}</li>
           <li>{{ t("GGSTRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
           <li>{{ t("GGSTFormat") }}</li>
           <li>{{ t("GGSTRounds") }}</li>
@@ -50,6 +52,7 @@
         <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
         <img :src="gbvsr" alt="Granblue Fantasy Versus: Rising Logo" />
         <ul>
+          <li>{{ t("GBVSRPlatform") }}</li>
           <li>{{ t("GBVSRRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
           <li>{{ t("GBVSRFormat") }}</li>
           <li>{{ t("GBVSRRounds") }}</li>
@@ -63,6 +66,7 @@
         <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
         <img :src="ffcotw" alt="Fatal Fury: City Of The Wolves Logo" />
         <ul>
+          <li>{{ t("FFCOTWPlatform") }}</li>
           <li>{{ t("FFCOTWFormat") }}</li>
           <li>{{ t("FFCOTWRounds") }}</li>
           <li>{{ t("FFCOTWMatches") }}</li>
@@ -74,6 +78,7 @@
         <h3 id="ggxrdrev2rules">Guilty Gear Xrd REV2</h3>
         <img :src="ggxrdrev2" alt="Guilty Gear Xrd REV2 Logo" />
         <ul>
+          <li>{{ t("GGXRDREV2Platform") }}</li>
           <li>{{ t("GGXRDREV2Format") }}</li>
           <li>{{ t("GGXRDREV2Rounds") }}</li>
           <li>{{ t("GGXRDREV2Matches") }}</li>

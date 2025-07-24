@@ -47,6 +47,7 @@
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
   "SF6Stage": "Stage Select: Random",
 
+  "T8Platform": "Platform: Playstation 5 (TBC)",
   "T8RuleSet": "We will apply the Tekken World Tour 2025 ruleset:",
   "T8Format": "Double Elimination Bracket",
   "T8Rounds": "Rounds: First to 3",
@@ -55,6 +56,7 @@
   "T8Timer": "Timer: Default (60 seconds)",
   "T8Stage": "Stage must be randomly selected for every game. Players must go back to stage select & pick random for every game",
 
+  "GGSTPlatform": "Platform: Playstation 4 (TBC)",
   "GGSTRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GGSTFormat": "Double Elimination Bracket",
   "GGSTRounds": "Rounds: First to 2",
@@ -64,6 +66,7 @@
   "GGSTCharacters": "Characters: No restrictions. However, additional DLC characters may not be used within the first two (2) weeks of release.",
   "GGSTCharacetrsColor": "Character Colors: No restrictions.",
 
+  "GBVSRPlatform": "Platform: Playstation 4 (TBC)",
   "GBVSRRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GBVSRFormat": "Double Elimination Bracket",
   "GBVSRRounds": "Rounds: First to 2",
@@ -74,6 +77,7 @@
   "GBVSRCondition": "Winner must keep the same character. Loser can switch their character.",
   "GBVSRCharacetrsColor": "Lunalu's colors 17 et 18 and weapons skins EX are banned",
 
+  "FFCOTWPlatform": "Platform: Playstation 5 (TBC)",
   "FFCOTWFormat": "Double Elimination Bracket",
   "FFCOTWRounds": "Rounds: First to 2",
   "FFCOTWMatches": "Matches: First to 2",
@@ -81,6 +85,7 @@
   "FFCOTWTimer": "Timer: Default (60 seconds)",
   "FFCOTWStage": "Stage must be randomly selected for every game",
 
+  "GGXRDREV2Platform": "Platform: Playstation 4 (TBC)",
   "GGXRDREV2Format": "Double Elimination Bracket",
   "GGXRDREV2Rounds": "Rounds: First to 2",
   "GGXRDREV2Matches": "Matches: First to 2",

@@ -7,7 +7,7 @@
         </div>
         <div class="cardGame-body">
             <p><span class="icon-gamepad"></span> {{ support }}</p>
-            <p><span class="icon-user-solid"></span> {{  format }}</p>
+            <p><span class="icon-user-solid"></span> {{ format }}</p>
             <NuxtLink :to="linkBtn" target="_blank" class="btn-game mx-auto">{{ t("moreInformations") }}</NuxtLink>
         </div>
     </div></div>
