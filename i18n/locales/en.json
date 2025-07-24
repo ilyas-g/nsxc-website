@@ -30,9 +30,9 @@
   "firstVenueItinerary": "You're in the venue",
   "secondVenueItinerary": "24 min to the venue",
   "thirdVenueItinerary": "8 min to the venue",
-  "firstVenuePrice": "330€ for three nights",
-  "thirdVenuePrice": "190€ for three nights",
-  "secondVenuePrice": "200€ for three nights",
+  "firstVenuePrice": "Around 100€ per night",
+  "thirdVenuePrice": "Around 70 € per night ",
+  "secondVenuePrice": "Around 85 per night",
 
   "wifiAvailable": "Wi-Fi available",
   "bookARoom": "Book a Room",
@@ -66,7 +66,7 @@
   "T8Stage": "Stage: Must be randomly selected for every game. Players must go back to stage select & pick random for every game",
   "T8Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
-  "GGSTPlatform": "Platform: Playstation 4",
+  "GGSTPlatform": "Platform: Playstation 4 Pro",
   "GGSTRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GGSTFormat": "Bracket: Double Elimination",
   "GGSTRounds": "Rounds: First to 2",

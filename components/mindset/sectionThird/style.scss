@@ -212,13 +212,16 @@
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+
+    @media screen and (min-width: variables.$media-queries-desktop-4k) {
+        padding-bottom: 49%;
+    }
 }
 
 .map-responsive iframe {
 
     @media screen and (min-width: variables.$media-queries-desktop-xl) and (max-width: 1400px) {
         width: 45vw;
-
     }
 
     @media screen and (max-width: variables.$media-queries-desktop-xl) {
@@ -227,6 +230,10 @@
         height: 100%;
         width: 100%;
         position: absolute;
+    }
+
+    @media screen and (min-width: variables.$media-queries-desktop-4k) {
+        width: 48vw;
     }
 
 }

@@ -43,7 +43,6 @@
           <li>{{ t("GGSTRounds") }}</li>
           <li>{{ t("GGSTMatches") }}</li>
           <li>{{ t("GGSTTimer") }}</li>
-          <li>{{ t("GGSTStage") }}</li>
           <li>{{ t("GGSTCondition") }}</li>
           <li>{{ t("GGSTCharacters") }}</li>
           <li>{{ t("GGSTCharacetrsColor") }}</li>
