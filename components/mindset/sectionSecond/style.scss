@@ -260,6 +260,22 @@
         }
     }
 
+    @media screen and (min-width: variables.$media-queries-desktop-4k) {
+        .div6 img {
+            object-position: -15vw -160px;
+        }
+
+        .div8 img {
+            &:first-child {
+                object-position: 0 -240px;
+            }
+
+            &:last-child {
+                object-position: 0 -160px;
+            }
+        }
+    }
+
     //     .parent {
     //         display: grid;
     //         grid-template-columns: repeat(6, 1fr); 
