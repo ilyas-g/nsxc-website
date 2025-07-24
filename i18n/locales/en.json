@@ -51,7 +51,7 @@
   "SF6Matches": "Matches: First to 3",
   "SF6Timer": "Timer: Default (99 seconds)",
   "SF6Stage": "Stage: Random",
-  "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
+  "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
   "T8Platform": "Platform: Playstation 5 (TBC)",
   "T8RuleSet": "We will apply the Tekken World Tour 2025 ruleset:",
@@ -61,7 +61,7 @@
   "T8Finals": "First to 3 for Winners Final, Losers Semis, Losers Final and Grand Final",
   "T8Timer": "Timer: Default (60 seconds)",
   "T8Stage": "Stage: Must be randomly selected for every game. Players must go back to stage select & pick random for every game",
-  "T8Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
+  "T8Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
   "GGSTPlatform": "Platform: Playstation 4 (TBC)",
   "GGSTRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
@@ -70,9 +70,9 @@
   "GGSTMatches": "Matches: First to 3",
   "GGSTTimer": "Timer: Default (99 seconds)",
   "GGSTStage": "Stage: Must be randomly selected for every game. Players must go back to stage select & pick random for every game",
-  "GGSTCharacters": "Characters: No restrictions. However, additional DLC characters may not be used within the first two (2) weeks of release.",
-  "GGSTCharacetrsColor": "Character Colors: No restrictions.",
-  "GGSTCondition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character.",
+  "GGSTCharacters": "Characters: No restrictions. However, additional DLC characters may not be used within the first two (2) weeks of release",
+  "GGSTCharacetrsColor": "Character Colors: No restrictions",
+  "GGSTCondition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
   "GBVSRPlatform": "Platform: Playstation 4 (TBC)",
   "GBVSRRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
@@ -82,7 +82,7 @@
   "GBVSRTimer": "Timer: Default (99 seconds)",
   "GBVSRStage": "Stage: Must be randomly selected for every game except if both players are agreed about it",
   "GBVSRMusic": "Music must be randomly selected for every game except if both players are agreed about it",
-  "GBVSRCondition": "Winner must keep the same character. Loser can switch their character.",
+  "GBVSRCondition": "Winner must keep the same character. Loser can switch their character",
   "GBVSRCharacetrsColor": "Lunalu's colors 17 et 18 and weapons skins EX are banned",
 
   "FFCOTWPlatform": "Platform: Playstation 5 (TBC)",
@@ -92,7 +92,7 @@
   "FFCOTWFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
   "FFCOTWTimer": "Timer: Default (60 seconds)",
   "FFCOTWStage": "Stage: Must be randomly selected for every game",
-  "FFCOTWCondition": "Winner must keep the same character. Loser can switch their character.",
+  "FFCOTWCondition": "Winner must keep the same character. Loser can switch their character",
 
   "GGXRDREV2Platform": "Platform: Playstation 4 (TBC)",
   "GGXRDREV2Format": "Bracket: Double Elimination",
@@ -101,7 +101,7 @@
   "GGXRDREV2Finals": "First to 3 for Winners Final, Losers Final and Grand Final",
   "GGXRDREV2Timer": "Timer: Default (99 seconds)",
   "GGXRDREV2Stage": "Stage: Must be randomly selected for every game",
-  "GGXRDREV2Condition": "Winner must keep the same character. Loser can switch their character.",
+  "GGXRDREV2Condition": "Winner must keep the same character. Loser can switch their character",
 
   "2xkoComingSoon": "Coming Soon"
 }
