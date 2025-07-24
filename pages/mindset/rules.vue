@@ -11,7 +11,7 @@
 
 
         <h3 id="sf6rules">Street Fighter 6</h3>
-
+        <img :src="sf6" alt="Street Fighter 6 Logo" />
         <ul>
           <li>{{ t("SF6Platform") }}</li>
           <li>{{ t("SF6Format") }}</li>
@@ -23,7 +23,7 @@
         </ul>
 
         <h3 id="t8rules">Tekken 8</h3>
-
+        <img :src="t8" alt="Tekken 8 Logo" />
         <ul>
           <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">https://www.bandainamcoent.com/legal/community-events/official-rules-twt</NuxtLink></li>
           <li>{{ t("T8Format") }}</li>
@@ -34,9 +34,8 @@
           <li>{{ t("T8Stage") }}</li>
         </ul>
 
-        <img :src="ArcWorldTour" alt="Arc World Tour 2025" />
         <h3 id="ggstrules">Guilty Gear Strive</h3>
-
+        <img :src="ggst" alt="Gulty Gear Strive Logo" />
         <ul>
           <li>{{ t("GGSTRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
           <li>{{ t("GGSTFormat") }}</li>
@@ -49,7 +48,7 @@
         </ul>
 
         <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
-
+        <img :src="gbvsr" alt="Granblue Fantasy Versus: Rising Logo" />
         <ul>
           <li>{{ t("GBVSRRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
           <li>{{ t("GBVSRFormat") }}</li>
@@ -62,17 +61,18 @@
         </ul>
 
         <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
-
+        <img :src="ffcotw" alt="Fatal Fury: City Of The Wolves Logo" />
         <ul>
           <li>{{ t("FFCOTWFormat") }}</li>
           <li>{{ t("FFCOTWRounds") }}</li>
           <li>{{ t("FFCOTWMatches") }}</li>
+          <li>{{ t("FFCOTWFinals") }}</li>
           <li>{{ t("FFCOTWTimer") }}</li>
           <li>{{ t("FFCOTWStage") }}</li>
         </ul>
 
         <h3 id="ggxrdrev2rules">Guilty Gear Xrd REV2</h3>
-
+        <img :src="ggxrdrev2" alt="Guilty Gear Xrd REV2 Logo" />
         <ul>
           <li>{{ t("GGXRDREV2Format") }}</li>
           <li>{{ t("GGXRDREV2Rounds") }}</li>
@@ -83,10 +83,12 @@
           <li>{{ t("GGXRDREV2Condition") }}</li>
         </ul>
 
-        <h3 id="2xko1v1rules">2XKO (1V1)</h3>
+        <img :src="xko" alt="2XKO Logo" />
+        <h3 id="2xko1v1rules">2XKO (Solo)</h3>
         <p>{{ t("2xkoComingSoon") }}</p>
 
-        <h3 id="2xko2v2rules" >2XKO (2V2)</h3>
+
+        <h3 id="2xko2v2rules" >2XKO (Duo)</h3>
         <p>{{ t("2xkoComingSoon") }}</p>
       </section>
 
@@ -103,8 +105,8 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#gbvsrrules')">Granblue Fantasy Versus: Rising</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ggxrdrev2rules')">Guilty Gear Xrd REV 2</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO (1V1)</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (2V2)</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO (Solo)</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
                 </ul>
               </li>
             </ul>
@@ -124,6 +126,16 @@ import Footer from '~/components/mindset/footer/Footer.vue'
 import Contact from '~/components/mindset/contactBlock/ContactBlock.vue'
 
 import ArcWorldTour from '~/public/img/arcworldtour2025-2026.webp'
+
+import sf6 from '~/public/img/games_logos/sf6.png'
+import xko from '~/public/img/games_logos/2xko.png'
+import xko_double from '~/public/img/games_logos/2xko-2v2.webp'
+import t8 from '~/public/img/games_logos/t8.png'
+import ggst from '~/public/img/games_logos/ggst.png'
+import gbvsr from '~/public/img/games_logos/gbvsr.png'
+import ffcotw from '~/public/img/games_logos/ffcotw.png'
+import arcc from '~/public/img/arcworldtour2025-2026.webp'
+import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.png'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
