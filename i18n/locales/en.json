@@ -53,7 +53,7 @@
   "SF6Stage": "Stage: Random",
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
-  "T8Platform": "Platform: Playstation 5 (TBC)",
+  "T8Platform": "Platform: TBC",
   "T8RuleSet": "We will apply the Tekken World Tour 2025 ruleset:",
   "T8Format": "Bracket: Double Elimination",
   "T8Rounds": "Rounds: First to 3",
@@ -63,7 +63,7 @@
   "T8Stage": "Stage: Must be randomly selected for every game. Players must go back to stage select & pick random for every game",
   "T8Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
-  "GGSTPlatform": "Platform: Playstation 4 (TBC)",
+  "GGSTPlatform": "Platform: Playstation 4",
   "GGSTRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GGSTFormat": "Bracket: Double Elimination",
   "GGSTRounds": "Rounds: First to 2",
@@ -74,7 +74,7 @@
   "GGSTCharacetrsColor": "Character Colors: No restrictions",
   "GGSTCondition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
-  "GBVSRPlatform": "Platform: Playstation 4 (TBC)",
+  "GBVSRPlatform": "Platform: TBC",
   "GBVSRRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
   "GBVSRFormat": "Bracket: Double Elimination",
   "GBVSRRounds": "Rounds: First to 2",
@@ -85,7 +85,7 @@
   "GBVSRCondition": "Winner must keep the same character. Loser can switch their character",
   "GBVSRCharacetrsColor": "Lunalu's colors 17 et 18 and weapons skins EX are banned",
 
-  "FFCOTWPlatform": "Platform: Playstation 5 (TBC)",
+  "FFCOTWPlatform": "Platform: TBC",
   "FFCOTWFormat": "Bracket: Double Elimination",
   "FFCOTWRounds": "Rounds: First to 2",
   "FFCOTWMatches": "Matches: First to 2.",
@@ -94,7 +94,7 @@
   "FFCOTWStage": "Stage: Must be randomly selected for every game",
   "FFCOTWCondition": "Winner must keep the same character. Loser can switch their character",
 
-  "GGXRDREV2Platform": "Platform: Playstation 4 (TBC)",
+  "GGXRDREV2Platform": "Platform: TBC",
   "GGXRDREV2Format": "Bracket: Double Elimination",
   "GGXRDREV2Rounds": "Rounds: First to 2",
   "GGXRDREV2Matches": "Matches: First to 2.",

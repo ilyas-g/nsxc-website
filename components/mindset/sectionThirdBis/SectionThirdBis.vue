@@ -10,11 +10,11 @@
                     <div>
                         <div class="text-center more-info">
                             <Game  :imgSrc=sf6 support="PC" format="Solo" description="Street Fighter 6 logo" :linkBtn="localePath('/mindset/rules#sf6rules')" />
-                            <Game  :imgSrc=t8 support="Playstation 5 (TBC)" format="Solo" description="Tekken 8 logo" :linkBtn="localePath('/mindset/rules#t8rules')" />
-                            <Game  :imgSrc=ffcotw support="Playstation 5 (TBC)" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#ffcotwrules')"/>
-                            <Game  :imgSrc=ggst support="Playstation 4 (TBC)" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#ggstrules')"/>
-                            <Game  :imgSrc=gbvsr support="Playstation 4 (TBC)" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
-                            <Game  :imgSrc=ggxrdrev2 support="Playstation 4 (TBC)" format="Solo" description="Guilty Gear Xrd REV 2 logo" :linkBtn="localePath('/mindset/rules#ggxrdrev2rules')" />
+                            <Game  :imgSrc=t8 support="TBC" format="Solo" description="Tekken 8 logo" :linkBtn="localePath('/mindset/rules#t8rules')" />
+                            <Game  :imgSrc=ffcotw support="TBC" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#ffcotwrules')"/>
+                            <Game  :imgSrc=ggst support="Playstation 4" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#ggstrules')"/>
+                            <Game  :imgSrc=gbvsr support="TBC" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
+                            <Game  :imgSrc=ggxrdrev2 support="TBC" format="Solo" description="Guilty Gear Xrd REV 2 logo" :linkBtn="localePath('/mindset/rules#ggxrdrev2rules')" />
                             <Game  :imgSrc=xko support="PC" format="Solo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
                             <Game group=true :imgSrc=xko support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
                         </div>
