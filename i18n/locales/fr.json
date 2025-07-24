@@ -30,9 +30,9 @@
     "firstVenueItinerary": "Vous êtes sur place",
     "secondVenueItinerary": "24 min du lieu",
     "thirdVenueItinerary": "8 min du lieu",
-    "firstVenuePrice": "330€ pour trois nuits",
-    "thirdVenuePrice": "190€ pour trois nuits",
-    "secondVenuePrice": "200€ pour trois nuits",
+    "firstVenuePrice": "Autour de 100€ par nuit",
+    "thirdVenuePrice": "Autour de 70€ par nuit",
+    "secondVenuePrice": "Autour de 85€ par nuit",
 
     "wifiAvailable": "Wi-Fi disponible",
     "bookARoom": "Réserver une chambre",
@@ -67,7 +67,7 @@
   "T8Stage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs. Les joueurs doivent retourner dans la sélection de stages et choisir 'Stage aléatoire' pour tous les matchs",
   "T8Condition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
-  "GGSTPlatform": "Plateforme: Playstation 4",
+  "GGSTPlatform": "Plateforme: Playstation 4 Pro",
   "GGSTRuleSet": "Nous appliquerons le règlement de l'Arc World Tour 2025 :",
   "GGSTFormat": "Type d'arbre : Double Élimination",
   "GGSTRounds": "Rounds: Deux (2) rounds gagnants",
