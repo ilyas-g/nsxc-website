@@ -17,6 +17,10 @@
         height: 700px;
     }
 
+    @media screen and (min-width: variables.$media-queries-desktop-4k) {
+        height: 790px;
+    }
+
     h3 {
         text-transform: uppercase;
         margin-top: revert;
