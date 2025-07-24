@@ -36,4 +36,6 @@ $second-color: rgb(149 33 236);
 $dark-color: #0a0a0a;
 $main-color-hover: $second-color;
 
-$discord-color: #5865F2
+$discord-color: #5865F2;
+
+$link-color: color.adjust($main-color, $lightness: 20%);

@@ -36,6 +36,13 @@
             justify-content: space-between;
             margin-left: 0;
 
+            .voieDeBus a {
+                color: variables.$link-color;
+
+                &:hover {
+                    color: variables.$main-color;
+                }
+            }
 
             .voieDeBus:first-child {
                 padding-right: 15px;
