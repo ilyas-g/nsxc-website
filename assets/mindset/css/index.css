@@ -147,6 +147,9 @@
 .icon-connection:before {
   content: "\e91b";
 }
+.icon-coin-euro:before {
+  content: "\e93c";
+}
 .icon-checkmark:before {
   content: "\ea10";
 }

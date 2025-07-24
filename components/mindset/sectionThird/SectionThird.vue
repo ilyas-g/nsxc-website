@@ -65,19 +65,19 @@
                 </div>
             </div>
         </div>
-
     </div>
+
     <div class="relative-content">
         <h3>{{ t("accommodation") }}</h3>
         <div class="needsStafff">
 
             <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/colombes/"
-            description="KOPSTER Hotel Residence Paris Ouest Colombes" adress="65 Rue Germaine Tillion, 92700 Colombes" :timeToVenue="firstVenueItinerary" />
-            <HotelCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://paris-ouest-colombes.kyriad.com/fr-fr/?sr=SEO_GOOGLE#L'H%C3%B4tel"
-            description="Hôtel Kyriad Colombes" adress="ZAC, Av. Kléber, 92700 Colombes" :timeToVenue="secondVenueItinerary" />
-            <HotelCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" 
+            description="KOPSTER Hotel Residence Paris Ouest Colombes" :timeToVenue="firstVenueItinerary" :hotelPrice="firstVenuePrice" />
+            <HotelCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites"
             description="All Suites Appart Hôtel Paris Ouest Colombes" link="https://www.allsuites.com/hotel/appart-hotel-paris-colombes"
-            adress="1 All. Louise Michel, 92700 Colombes" :timeToVenue="thirdVenueItinerary" />
+            :timeToVenue="thirdVenueItinerary" :hotelPrice="thirdVenuePrice" />
+            <HotelCard title="B&B HOTEL Argenteuil" :imgSrc="bb" link="https://www.hotel-bb.com/fr/hotel/argenteuil"
+            description="B&B HOTEL Argenteuil" :timeToVenue="secondVenueItinerary" :hotelPrice="secondVenuePrice" />
 
         </div>
     </div>
@@ -89,12 +89,18 @@ import HotelCard from '~/components/mindset/hotelCard/HotelCard.vue'
 import kopster from '~/public/img/hotel-kopster.jpg'
 import allSuites from '~/public/img/hotel-all-suites.jpg'
 import kyriad from '~/public/img/hotel-kyriad.jpg'
+import bb from '~/public/img/hotel-b&b-argenteuil.webp'
 
 const { t } = useI18n()
 
 const firstVenueItinerary = t("firstVenueItinerary")
 const secondVenueItinerary = t("secondVenueItinerary")
 const thirdVenueItinerary = t("thirdVenueItinerary")
+
+const firstVenuePrice = t("firstVenuePrice")
+const secondVenuePrice = t("secondVenuePrice")
+const thirdVenuePrice = t("thirdVenuePrice")
+
 </script>
 <style lang="scss">
 @use "./style.scss";
