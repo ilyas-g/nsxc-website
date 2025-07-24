@@ -10,8 +10,13 @@
             
             <div class="desc">
                 <!-- <p class="text-center">{{ description }}</p> -->
-                 <!-- <p><span class="icon-instagram"></span> to venue</p> -->
-                <p class="text-center adress">{{ adress }}</p>
+
+                <div class="desc-flex">
+                    <p><span class="icon-directions_walk"></span> <small>{{ timeToVenue }}</small></p>
+                    <p><span class="icon-connection"></span> <small>{{ t("wifiAvailable") }}</small></p>
+                </div>
+
+                <!-- <p class="text-center adress">{{ adress }}</p> -->
             </div>
             <div class="button">
                 <a :href="link" target="_blank" class="btn-ope video cardHotel-btn">{{ t("bookARoom") }}</a>
@@ -30,10 +35,20 @@ defineProps<{
   description: string,
   adress: string,
   link?: string,
-  textButton: string
+  textButton: string,
+  timeToVenue: string
 }>()
 </script>
 <style lang="scss">
 @use "./style.scss";
 
+.desc-flex {
+    display: flex;
+    justify-content: space-around;
+
+    span {
+        display: block;
+        text-align: center;
+    }
+}
 </style>

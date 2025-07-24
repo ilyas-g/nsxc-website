@@ -30,13 +30,19 @@
 
     .flexBus {
         justify-content: space-around;
-        margin-left: -75px;
 
         @media screen and (min-width: variables.$media-queries-desktop) {
             display: flex;
             justify-content: space-between;
             margin-left: 0;
 
+            .voieDeBus a {
+                color: variables.$link-color;
+
+                &:hover {
+                    color: variables.$main-color;
+                }
+            }
 
             .voieDeBus:first-child {
                 padding-right: 15px;
@@ -74,6 +80,14 @@
         margin-bottom: 15px;
     }
 
+    .adress-event {
+        display: flex;
+        align-items: center;
+
+        .icon-location-dot-solid {
+            padding-right: 12px;
+        }
+    }
 
     .card-hotel {
         background-color: #fff;
@@ -114,6 +128,15 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+        }
+
+        .transport h4 {
+            display: flex;
+            align-items: center;
+
+            span {
+                padding-right: 12px;
+            }
         }
 
         @media screen and (min-width: variables.$media-queries-desktop-xl) {
