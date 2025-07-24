@@ -3,11 +3,17 @@
     <div class="cardGame">
         <div class="cardGame-head">
             <img :src="imgSrc" :alt="description" class="inline-photo show-on-scroll is-visible" />
-            <img v-if="protour!==undefined" :src="protour" alt="dedededed" class="worldtour"  tooltip="Slide to the left" flow="left"/>
+            <img v-if="protour!==undefined" :src="protour" alt="Pro Tour" class="worldtour"  tooltip="Slide to the left" flow="left"/>
         </div>
         <div class="cardGame-body">
             <p><span class="icon-gamepad"></span> {{ support }}</p>
-            <p><span class="icon-user-solid"></span> {{  format }}</p>
+            <p v-if="group===false">
+              <span class="icon-user-solid"></span> {{ format }}
+            </p>
+            <p v-else>
+              <span class="icon-user-solid"></span> 
+              <span class="icon-user-solid"></span> {{ format }}
+            </p>
             <NuxtLink :to="linkBtn" target="_blank" class="btn-game mx-auto">{{ t("moreInformations") }}</NuxtLink>
         </div>
     </div></div>
@@ -15,15 +21,17 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
-
 defineProps<{
   support: string,
   format: string,
   imgSrc: string,
   description: string,
   protour?: string,
-  linkBtn: string
+  linkBtn: string,
+  icon: string,
+  group?: boolean
 }>()
+
 </script>
 <style lang="scss">
 @use "~/assets/mindset/css/variables";

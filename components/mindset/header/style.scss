@@ -4,7 +4,7 @@
 header {
     font-family: "Gotham Light";
     position: fixed;
-    height: 60px;
+    height: 57px;
     background: rgba(0, 0, 0, .7);
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@ header {
         padding: 15px 5px 15px 25px;
         position: absolute;
         right: 0;
-        top: 60px;
+        top: 57px;
 
         button,
         a {
@@ -147,19 +147,6 @@ header {
                     line-height: 1;
                     height: auto;
                     border-bottom: 1px solid #000;
-                }
-            }
-
-            &.classement {
-                background-image: url('~/public/img/bg-classement3_1.webp');
-                background-size: cover;
-                color: #602b20;
-                font-weight: 700;
-                // display: none;
-
-                &:hover {
-                    height: 70px;
-                    line-height: 70px;
                 }
             }
 
