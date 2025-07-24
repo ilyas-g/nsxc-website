@@ -28,8 +28,11 @@
     "accommodation": "Hébergement",
 
     "firstVenueItinerary": "Vous êtes sur place",
-    "secondVenueItinerary": "5 min du lieu",
+    "secondVenueItinerary": "24 min du lieu",
     "thirdVenueItinerary": "8 min du lieu",
+    "firstVenuePrice": "330€ pour trois nuits",
+    "thirdVenuePrice": "190€ pour trois nuits",
+    "secondVenuePrice": "200€ pour trois nuits",
 
     "wifiAvailable": "Wi-Fi disponible",
     "bookARoom": "Réserver une chambre",

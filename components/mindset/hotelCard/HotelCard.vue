@@ -13,7 +13,7 @@
 
                 <div class="desc-flex">
                     <p><span class="icon-directions_walk"></span> <small>{{ timeToVenue }}</small></p>
-                    <p><span class="icon-connection"></span> <small>{{ t("wifiAvailable") }}</small></p>
+                    <p><span class="icon-coin-euro"></span> <small>{{ hotelPrice }}</small></p>
                 </div>
 
                 <!-- <p class="text-center adress">{{ adress }}</p> -->
@@ -36,7 +36,8 @@ defineProps<{
   adress: string,
   link?: string,
   textButton: string,
-  timeToVenue: string
+  timeToVenue: string,
+  hotelPrice: string
 }>()
 </script>
 <style lang="scss">

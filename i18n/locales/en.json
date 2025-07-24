@@ -28,8 +28,11 @@
   "accommodation": "Accommodation",
 
   "firstVenueItinerary": "You're in the venue",
-  "secondVenueItinerary": "5 min to the venue",
+  "secondVenueItinerary": "24 min to the venue",
   "thirdVenueItinerary": "8 min to the venue",
+  "firstVenuePrice": "330€ for three nights",
+  "thirdVenuePrice": "190€ for three nights",
+  "secondVenuePrice": "200€ for three nights",
 
   "wifiAvailable": "Wi-Fi available",
   "bookARoom": "Book a Room",
