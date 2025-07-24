@@ -73,7 +73,7 @@ defineProps<{
     &-body {
         text-transform: uppercase;
         line-height: 2;
-        padding: 10px 0;
+        padding: 10px 15px;
 
         p {
             margin: initial;
