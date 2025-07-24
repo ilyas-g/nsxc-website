@@ -7,11 +7,11 @@
                     <h2 class="relative-content">{{ t("venueTitle") }}</h2>
 
                     <h3>KOPSTER Hotel Residence Paris Ouest Colombes</h3>
-                    <p>📌 65 Rue Germaine Tillion, 92700 Colombes, France</p>
+                    <p class="adress-event"><span class="icon-location-dot-solid"></span> 65 Rue Germaine Tillion, 92700 Colombes, France</p>
 
                     <div class="container transports">
                     <div class="transport">
-                        <h4>🚙 {{ t("car") }} 🚙</h4>
+                        <h4><span class="icon-automobile"></span> {{ t("car") }}</h4>
                         <ul>
                             <li>A86 direction Colombes</li>
                         </ul>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="transport">
 
-                        <h4>🚉 TRAIN 🚉</h4>
+                        <h4><span class="icon-train"></span> Train</h4>
                         <ul>
                             <li>From Paris St-Lazare</li>
                             <li>Line J Station "Le Stade"</li>
@@ -28,7 +28,7 @@
 
                     <div class="transport">
 
-                        <h4>🚍 BUS 🚍</h4>
+                        <h4><span class="icon-bus"></span> Bus</h4>
 
                         
                         <div class="flexBus">
@@ -72,19 +72,18 @@
         <div class="needsStafff">
 
             <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/colombes/"
-            description="KOPSTER Hotel Residence Paris Ouest Colombes" adress="65 Rue Germaine Tillion, 92700 Colombes" />
+            description="KOPSTER Hotel Residence Paris Ouest Colombes" adress="65 Rue Germaine Tillion, 92700 Colombes" :timeToVenue="firstVenueItinerary" />
             <HotelCard title="Hôtel Kyriad Colombes" :imgSrc="kyriad" link="https://paris-ouest-colombes.kyriad.com/fr-fr/?sr=SEO_GOOGLE#L'H%C3%B4tel"
-            description="Hôtel Kyriad Colombes" adress="ZAC, Av. Kléber, 92700 Colombes" />
+            description="Hôtel Kyriad Colombes" adress="ZAC, Av. Kléber, 92700 Colombes" :timeToVenue="secondVenueItinerary" />
             <HotelCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites" 
             description="All Suites Appart Hôtel Paris Ouest Colombes" link="https://www.allsuites.com/hotel/appart-hotel-paris-colombes"
-            adress="1 All. Louise Michel, 92700 Colombes" />
+            adress="1 All. Louise Michel, 92700 Colombes" :timeToVenue="thirdVenueItinerary" />
 
         </div>
     </div>
     </section>
 </template>
 <script setup lang="ts">
-// import { useI18n } from 'vue-i18n'
 import HotelCard from '~/components/mindset/hotelCard/HotelCard.vue'
 
 import kopster from '~/public/img/hotel-kopster.jpg'
@@ -93,6 +92,9 @@ import kyriad from '~/public/img/hotel-kyriad.jpg'
 
 const { t } = useI18n()
 
+const firstVenueItinerary = t("firstVenueItinerary")
+const secondVenueItinerary = t("secondVenueItinerary")
+const thirdVenueItinerary = t("thirdVenueItinerary")
 </script>
 <style lang="scss">
 @use "./style.scss";

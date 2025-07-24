@@ -26,6 +26,12 @@
   "parisLaDefense": "From Paris - La Défense:",
   "otherWayAroundTheVenue": "Other Way around the venue:",
   "accommodation": "Accommodation",
+
+  "firstVenueItinerary": "You're in the venue",
+  "secondVenueItinerary": "5 min to the venue",
+  "thirdVenueItinerary": "8 min to the venue",
+
+  "wifiAvailable": "Wi-Fi available",
   "bookARoom": "Book a Room",
   "followNSXC": "Follow NSXC",
   "websiteBy": "Website designed and created by",
