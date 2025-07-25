@@ -8,7 +8,7 @@ const props = defineProps({
   error: Object as () => NuxtError
 })
 
-const handleError = () => clearError({ redirect: '/' })
+const handleError = () => clearError({ redirect: '/mindset' })
 </script>
 
 <template>
@@ -17,7 +17,7 @@ const handleError = () => clearError({ redirect: '/' })
             <h2 class="error-message">OUPS! nothing here!</h2>
             <h2 class="error-message">Click below!</h2>
 
-            <NuxtLink to="/mindset"><img src="/img/mindset-logo-2.webp" alt="Logo Mindset" class="logo-mindset logo-main-page" /></NuxtLink>
+            <img src="/img/mindset-logo-2.webp" alt="Logo Mindset" class="logo-mindset logo-main-page error-img" @click="handleError" />
         </div>
     </main>
 </template>
@@ -37,5 +37,9 @@ const handleError = () => clearError({ redirect: '/' })
 .error-message {
     color: variables.$white;
     text-align: center;
+}
+
+.error-img {
+    cursor: pointer;
 }
 </style>
