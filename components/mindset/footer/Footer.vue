@@ -32,7 +32,6 @@
     </footer>
 </template>
 <script setup lang="ts">
-// // import { useI18n } from 'vue-i18n'
 
 import { useI18n, useLocalePath } from '#imports'
 const localePath = useLocalePath()
@@ -76,8 +75,6 @@ const currentDate: Date = new Date
     .footer-nav {
         font-size: 24px;
         text-transform: uppercase;
-
-
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

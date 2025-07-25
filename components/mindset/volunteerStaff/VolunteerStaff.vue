@@ -10,7 +10,6 @@
             
             <div class="desc">
                 <p class="text-center">{{ description }}</p>
-                <!-- <p class="text-center adress">{{ adress }}</p> -->
             </div>
             <div class="button">
                 <a :href="link" target="_blank" class="btn-ope video cardStaff-btn">{{ t("fillTheForm") }}</a>
@@ -18,8 +17,9 @@
         </div>
     </div>
 </template>
+
 <script setup lang="ts">
-import { useI18n, useLocalePath } from '#imports'
+import { useI18n } from '#imports'
 const { t } = useI18n()
 
 defineProps<{
@@ -32,7 +32,7 @@ defineProps<{
   textButton: string
 }>()
 </script>
+
 <style lang="scss">
 @use "./style.scss";
-
 </style>
