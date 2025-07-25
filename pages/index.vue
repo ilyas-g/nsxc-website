@@ -1,5 +1,7 @@
 <template>
     <NuxtLink to="/mindset"><img src="/img/mindset-logo-2.webp" alt="Logo Mindset" class="logo-mindset logo-main-page p-absolute-center" /></NuxtLink>
+<img src="~/public/img/seo-screen.webp" alt="Logo Mindset" class="logo-mindset logo-main-page p-absolute-center" />
+    
 </template>
 <style>
 @import url("~/assets/global/css/index.css");
