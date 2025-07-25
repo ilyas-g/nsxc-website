@@ -1,5 +1,5 @@
-export default defineNuxtRouteMiddleware((to) => {
-  if (to.params.id === '1') {
-    throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+export default defineNuxtRouteMiddleware((to, from) => {
+  if (to.path !== '/' && to.path !== '/mindset' && to.path !== '/mindset/rules') {
+    return navigateTo('/mindset')
   }
 })
