@@ -143,16 +143,14 @@
 import Portrait from '~/components/mindset/portrait/Portrait.vue'
 import videoLoop from '~/public/img/mindsetloop.mp4'
 
-import dase from '~/public/img/dase.jpg'
-import ydile from '~/public/img/idile.jpg'
-import whitemother from '~/public/img/whitemother.jpg'
-import ark from '~/public/img/ark.jpg'
-import ambiance from '~/public/img/ambiance.jpg'
-import aerisu from '~/public/img/aerisu.jpg'
+import dase from '~/public/img/dase.webp'
+import ydile from '~/public/img/idile.webp'
+import whitemother from '~/public/img/whitemother.webp'
+import ark from '~/public/img/ark.webp'
+import ambiance from '~/public/img/ambiance.webp'
+import aerisu from '~/public/img/aerisu.webp'
 import dad from '~/public/img/dad.webp'
-import pap from '~/public/img/pap.jpg'
 import tpk from '~/public/img/tpk.jfif'
-import smile from '~/public/img/smile.jpg'
 
 const { t } = useI18n()
 const width100 = "100%"
