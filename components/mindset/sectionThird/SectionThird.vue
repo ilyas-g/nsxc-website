@@ -72,8 +72,8 @@
 
             <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/colombes/"
             description="KOPSTER Hotel Residence Paris Ouest Colombes" :timeToVenue="firstVenueItinerary" :hotelPrice="firstVenuePrice" />
-            <HotelCard title="All Suites Appart Hôtel Paris Ouest Colombes" :imgSrc="allSuites"
-            description="All Suites Appart Hôtel Paris Ouest Colombes" link="https://www.allsuites.com/hotel/appart-hotel-paris-colombes"
+            <HotelCard title="All Suites Appart Hotel Paris Ouest Colombes" :imgSrc="allSuites"
+            description="All Suites Appart Hotel Paris Ouest Colombes" link="https://www.allsuites.com/hotel/appart-hotel-paris-colombes"
             :timeToVenue="thirdVenueItinerary" :hotelPrice="thirdVenuePrice" />
             <HotelCard title="B&B HOTEL Argenteuil" :imgSrc="bb" link="https://www.hotel-bb.com/fr/hotel/argenteuil"
             description="B&B HOTEL Argenteuil" :timeToVenue="secondVenueItinerary" :hotelPrice="secondVenuePrice" />
