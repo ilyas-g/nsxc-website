@@ -12,8 +12,6 @@ import SectionStaff from '~/components/mindset/sectionStaff/SectionStaff.vue'
 import SectionPartners from '~/components/mindset/sectionPartners/SectionPartners.vue'
 import Contact from '~/components/mindset/contactBlock/ContactBlock.vue'
 import Modal from '~/components/mindset/modal/Modal.vue'
-// import useDimension from './utils/useDimension.js'
-// import useDimension from '~/pages/mindset/utils/useDimension.js'
 
 import { ref } from 'vue'
 
@@ -38,27 +36,12 @@ watch(
   { immediate: true }
 )
 
-
-// const {width} = useDimension()
-
 const isContact = ref(false);
 const toggleContact = (toggleValue: boolean) => {
   isContact.value = toggleValue;
   console.log("vraiaiaiai");
   
 };
-// const isModal = ref(false)
-// const toggleModal = (toggleValue: boolean) => {
-//     isModal.value = toggleValue;
-
-//     if(isModal.value === true) {
-//       document.body.style.overflow = "hidden"
-//     } else {
-//       document.body.style.overflow = "auto"
-//     }
-// };
-
-// const {width} = useDimension()
 
 useSeoMeta({
   title: 'NSXC - MINDSET 25',
@@ -77,7 +60,7 @@ useSeoMeta({
   <VueLenis root :options="lenisOptions" />
   <Header @toggle-contact="toggleContact(true)" />
   <main id="smooth-content">
-    <SectionFirst @toggle-modal="toggleModal(true)"/>
+    <SectionFirst />
     <WhiteBar />
     <SectionSecond />
     <SectionThirdBis />
@@ -85,7 +68,7 @@ useSeoMeta({
     <SectionThird />
     <SectionPartners />
   </main>
-  <Footer @toggle-contact="toggleContact(true)" @toggle-classement="toggleClassement(true)" />
+  <Footer @toggle-contact="toggleContact(true)" />
   <div v-if="isContact === true">
     <Contact mail="nsxc.pro@gmail.com" @toggle-contact="toggleContact(false)" />
   </div>

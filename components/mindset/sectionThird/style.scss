@@ -3,17 +3,10 @@
 
 #schedule {
     color: #fff;
-    // background-image: url("~/public/img/mindset_bg_section_3.jpg");
-    // background-color: color.adjust(variables.$second-color, $lightness: -30%);
     background-color: black;
     padding: 30px 20px;
     min-height: 100vh;
     position: relative;
-    // display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    // position: relative;
 
     @media screen and (min-width: variables.$media-queries-desktop-xl) {
         padding: 30px 50px;
@@ -54,8 +47,6 @@
         }
     }
 
-
-
     .schedule-grid {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -71,8 +62,6 @@
             grid-area: 1 / 4 / 2 / 6;
         }
     }
-
-
 
     h3,
     h4 {
@@ -115,7 +104,6 @@
             display: flex;
             justify-content: space-between;
             flex-direction: row;
-            // align-items: center;
             flex-wrap: wrap;
         }
 
@@ -172,7 +160,6 @@
     }
 
     .btn-ope {
-        // max-width: 24vw;
         display: block;
         font-family: "Gotham Narrow Medium";
         text-shadow: 1px 1px 2px black;
@@ -181,15 +168,12 @@
             background: linear-gradient(90deg, rgba(205, 57, 66, 1) 0%, rgba(239, 212, 98, 1) 50%, rgba(205, 57, 66, 1) 100%);
             border: 3px solid #fff5e1;
             border-radius: 0%;
-            // padding: 0.6em 1.2em;
             text-shadow: 1px 1px 1px #322921;
 
             &:active,
             &:focus,
             &:hover {
                 cursor: pointer;
-                // max-width: 400px;
-                // padding: 19px;
                 color: #fff;
                 box-shadow: 0 0 60px rgb(242 150 39 / 60%);
             }
