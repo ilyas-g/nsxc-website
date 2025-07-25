@@ -8,7 +8,6 @@
     position: relative;
 
     @media screen and (min-width: calc(variables.$media-queries-desktop)) {
-        // @media screen and (min-width: 769px) {
         width: 33.33333%;
         height: 650px;
     }
@@ -47,7 +46,6 @@
     }
 
     &:first-child {
-        // margin-top: 0;
         border-color: variables.$main-color;
     }
 
@@ -58,8 +56,6 @@
     &-head {
         img {
             width: 100%;
-            // max-width: 354px;
-
         }
     }
 
@@ -71,22 +67,5 @@
 
     &-body {
         padding: 0 10px;
-        // display: grid;
-        // grid-template-columns: 1fr;
-        // grid-template-rows: repeat(3, 1fr);
-        // grid-column-gap: 0px;
-        // grid-row-gap: 0px;
-
-        // .title {
-        //     grid-area: 1 / 1 / 2 / 2;
-        // }
-
-        // .desc {
-        //     grid-area: 2 / 1 / 3 / 2;
-        // }
-
-        // .button {
-        //     grid-area: 3 / 1 / 4 / 2;
-        // }
     }
 }

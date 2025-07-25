@@ -14,9 +14,9 @@
 </template>
 <script setup lang="ts">
 import StaffCard from '~/components/mindset/volunteerStaff/VolunteerStaff.vue'
-import volunteers from '~/public/img/volunteers.jpeg'
-import media from '~/public/img/media.jpeg'
-import commentators from '~/public/img/commentators.jpeg'
+import volunteers from '~/public/img/volunteers.webp'
+import media from '~/public/img/media.webp'
+import commentators from '~/public/img/commentators.webp'
 
 const { t } = useI18n()
 

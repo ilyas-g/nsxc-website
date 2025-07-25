@@ -4,9 +4,6 @@
 #event-section {
     position: relative;
     color: #fff;
-    // padding: 100px 15px;
-    // padding: 70px 0 100px 30px;
-    // padding: 70px 0 0 30px;
     padding: 70px 0 0;
     background-color: variables.$dark-color;
 
@@ -32,16 +29,9 @@
         display: none;
     }
 
-    .mother {
-        // width: 100%;
-        // overflow: hidden;
-    }
-
     .pap {
-        // opacity: 0;
         width: 100%;
         object-position: 0 -150px;
-        // right: -1000px;
     }
 
     .ydile {
@@ -50,9 +40,7 @@
 
     .tpk {
         -ms-transform: scale(1.5);
-        /* IE 9 */
         -webkit-transform: scale(1.5);
-        /* Safari 3-8 */
         transform: scale(1.5);
     }
 
@@ -236,14 +224,6 @@
             grid-area: 5/1/5/9;
             margin-left: -30px;
             margin-top: -120px;
-            // overflow:hidden;
-
-            // img {
-            // height: 350px;
-            // // -o-object-position: -3.5vw;
-            // object-position: -7vw -11px;
-            // // transform: scale(1.5);
-            // }
 
             video {
                 width: 100%;
@@ -275,78 +255,6 @@
             }
         }
     }
-
-    //     .parent {
-    //         display: grid;
-    //         grid-template-columns: repeat(6, 1fr); 
-    //         grid-template-rows: repeat(3, 1fr);
-    //         grid-column-gap: 0px;
-    //         grid-row-gap: 0px;
-    //     }
-
-    //     .div1 { grid-area: 1 / 1 / 1 / 4; margin-top: 46px;
-
-    //         &.tpk {
-    //             -ms-transform: scale(1.5); /* IE 9 */
-    //             -webkit-transform: scale(1.5); /* Safari 3-8 */
-    //             transform: scale(1.5);
-    //         }
-    //     }
-    //     .div2 {
-    //         grid-area: 1 / 4 / 1 / 7;
-    //         position: relative;
-    //         overflow-x: hidden;
-    //     }
-
-    //     @media screen and (max-width: variables.$media-queries-tablet-small) {
-
-    //         .div1, .div2 {
-    //             width: 100%;
-    //             height: 525px;
-    //         }
-    //     }
-
-    //     .div3 {
-    //         grid-area: 2 / 1 / 2 / 7;
-
-    //         img {
-    //         height: 250px;
-    //         margin: -74px 0 15px 10px;
-
-    //         &.daseTest {
-    //             margin-top: -301px !important;
-    //         }
-    //         }
-    //     }
-    // .div4 { grid-column-start: 1; grid-column-end: 7; }
-    // .div5 { grid-area: 3 / 1 / 7 / 7; }
-    // // .div6 { grid-area: 5 / 1 / 8 / 3; }
-    // .div6 {
-    //     position: absolute;
-    //     bottom: 120px;
-    //     width: 50%;
-    //     right: 0;
-    // }
-
-    //     @media screen and (min-width: variables.$media-queries-tablet) {
-    //         .div1 {
-    //             grid-area: 1 / 4 / 2 / 5;
-    //         }
-    //         .div2, .pap { grid-area: 1 / 5 / 2 / 7; height: 285px;}
-    //         .div3 { grid-area: 1/ 1/ 2/ 3; margin-top: 55px; height: 150px; object-fit: cover; margin-left: 30px;}
-    //         .div4 {
-    //             grid-area: 2/4/2/7; 
-    //             margin-top: 30px;
-    //             margin-left: 20px;
-    //             padding-right: 10px;
-    //         }
-    //         .div5 {
-    //             grid-area: 2 / 3 / 2 / 4;
-    //             width: 250px;
-    //             margin-top: 50px;
-    //             margin-left: -15px;
-    //         }
-    //     }
 
     .keyword {
         font-family: "Gotham Ultra";

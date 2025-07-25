@@ -1,6 +1,5 @@
 <template lang="">
     <section id="schedule">
-        <!-- <div class="bg-layer"></div> -->
         <div class="flextest">
             <div class="container relative-content">
                 <div>
