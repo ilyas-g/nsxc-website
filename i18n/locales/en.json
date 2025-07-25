@@ -21,7 +21,7 @@
   "commentatorDesc": "Commentators have the power to accompany our memories and make us feel strong emotions. We need you to make us vibrate, shout and share these moments that will be historic!",
   "volunteersDesc": "We need your help to provide one of the best experience on fighting games event! You're looking to be a part of MINDSET team?",
   "mediaDesc": "To apply for media accreditation, please fill in this form. Accreditation are limited.",
-  "moreInformations": "More informations",
+  "moreInformations": "More details",
   "car": "Car",
   "parisLaDefense": "From Paris - La Défense:",
   "otherWayAroundTheVenue": "Other Way around the venue:",
@@ -30,9 +30,9 @@
   "firstVenueItinerary": "You're in the venue",
   "secondVenueItinerary": "24 min to the venue",
   "thirdVenueItinerary": "8 min to the venue",
-  "firstVenuePrice": "Around 100€ per night",
+  "firstVenuePrice": "Around 100 € per night",
   "thirdVenuePrice": "Around 70 € per night ",
-  "secondVenuePrice": "Around 85 per night",
+  "secondVenuePrice": "Around 85 € per night",
 
   "wifiAvailable": "Wi-Fi available",
   "bookARoom": "Book a Room",
@@ -57,7 +57,7 @@
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
   "T8Platform": "Platform: TBC",
-  "T8RuleSet": "We will apply the Tekken World Tour 2025 ruleset:",
+  "T8RuleSet": "We will apply the ruleset of the ",
   "T8Format": "Bracket: Double Elimination",
   "T8Rounds": "Rounds: First to 3",
   "T8Matches": "Matches: First to 2.",
@@ -67,7 +67,7 @@
   "T8Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
   "GGSTPlatform": "Platform: Playstation 4 Pro",
-  "GGSTRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
+  "GGSTRuleSet": "We will apply the ruleset of the ",
   "GGSTFormat": "Bracket: Double Elimination",
   "GGSTRounds": "Rounds: First to 2",
   "GGSTMatches": "Matches: First to 3",
@@ -78,7 +78,7 @@
   "GGSTCondition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
   "GBVSRPlatform": "Platform: TBC",
-  "GBVSRRuleSet": "We will apply the Arc World Tour 2025 ruleset:",
+  "GBVSRRuleSet": "We will apply the ruleset of the ",
   "GBVSRFormat": "Bracket: Double Elimination",
   "GBVSRRounds": "Rounds: First to 2",
   "GBVSRMatches": "Matches: First to 3",

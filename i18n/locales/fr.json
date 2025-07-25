@@ -21,7 +21,7 @@
     "commentatorDesc": "Les commentateurs ont le pouvoir d'accompagner nos souvenirs et de nous faire vivre des émotions fortes. Nous avons besoin de vous pour nous faire vibrer, crier et partager ces moments qui resteront historiques !",
     "volunteersDesc": "Nous avons besoin de votre aide pour vous offrir une expérience exceptionnelle lors d'un événement de jeux de combat ! Vous souhaitez rejoindre l'équipe MINDSET ?",
     "mediaDesc": "Pour demander une accréditation média, veuillez remplir ce formulaire. Les accréditations sont limitées.",
-    "moreInformations": "Plus d'informations",
+    "moreInformations": "Plus de détails",
     "car": "Voiture",
     "parisLaDefense": "De Paris - La Défense :",
     "otherWayAroundTheVenue": "Autre moyen d'accéder au lieu :",
@@ -30,9 +30,9 @@
     "firstVenueItinerary": "Vous êtes sur place",
     "secondVenueItinerary": "24 min du lieu",
     "thirdVenueItinerary": "8 min du lieu",
-    "firstVenuePrice": "Autour de 100€ par nuit",
-    "thirdVenuePrice": "Autour de 70€ par nuit",
-    "secondVenuePrice": "Autour de 85€ par nuit",
+    "firstVenuePrice": "Autour de 100v€ par nuit",
+    "thirdVenuePrice": "Autour de 70 € par nuit",
+    "secondVenuePrice": "Autour de 85 € par nuit",
 
     "wifiAvailable": "Wi-Fi disponible",
     "bookARoom": "Réserver une chambre",
@@ -58,7 +58,7 @@
   "SF6Stage": "Terrain : Aléatoire",
 
   "T8Platform": "Plateforme: TBC",
-  "T8RuleSet": "Nous appliquerons le règlement du Tekken World Tour 2025 :",
+  "T8RuleSet": "Nous appliquerons le règlement du ",
   "T8Format": "Type d'arbre : Double Élimination",
   "T8Rounds": "Rounds: Trois (3) rounds gagnants",
   "T8Matches": "Matchs: Deux (2) matchs gagnants.",
@@ -68,7 +68,7 @@
   "T8Condition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
   "GGSTPlatform": "Plateforme: Playstation 4 Pro",
-  "GGSTRuleSet": "Nous appliquerons le règlement de l'Arc World Tour 2025 :",
+  "GGSTRuleSet": "Nous appliquerons le règlement de l'",
   "GGSTFormat": "Type d'arbre : Double Élimination",
   "GGSTRounds": "Rounds: Deux (2) rounds gagnants",
   "GGSTMatches": "Matchs: Trois (3) matchs gagnants",
@@ -79,7 +79,7 @@
   "GGSTCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
   "GBVSRPlatform": "Plateforme: TBC",
-  "GBVSRRuleSet": "Nous appliquerons le règlement de l'Arc World Tour 2025 :",
+  "GBVSRRuleSet": "Nous appliquerons le règlement de l'",
   "GBVSRFormat": "Type d'arbre : Double Élimination",
   "GBVSRRounds": "Rounds: Deux (2) rounds gagnants",
   "GBVSRMatches": "Matchs: Trois (3) matchs gagnants",
