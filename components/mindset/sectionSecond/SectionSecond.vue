@@ -24,27 +24,7 @@
                                 opacity: 0,
                             }"/>
                         </div>
-                        <!-- <img :src="whitemother" alt="Dase" class="div2" />
-                        <div class="div2">
-                        <img 
-                        :src="dad" 
-                        alt="Pap" 
-                        class="pap" 
-                        v-gsap.to="{
-                            scrollTrigger: {
-                            trigger: '.event-description',
-                            start: '100vh 700px',
-                            end: '700vh 550px',
-                            scrub: true,
-                            markers: false,
-
-                            },
-                            opacity: 1,
-                            x: -1000
-                        }"/>
-                        </div> -->
                         <div class="div3">
-                            <!-- <p class="text-center text-uppercase keyword  mt-4">Focused</p> -->
 
                             <p>{{ t("whyMindsetDescFirst") }}<br />{{ t("whyMindsetDescSecond") }}</p>
                         </div>
@@ -94,8 +74,6 @@
 
                                 },
                             x: -1000,
-                                // opacity: 1,
-                                // width: 0
                             }"/>
 
                         </div>
@@ -103,7 +81,6 @@
                             <p>{{ t("whyMindsetDescThird") }}</p>
 
                             <p>{{ t("whyMindsetDescFourth") }}</p>
-                            <!-- <NuxtLink to="https://www.start.gg/tournament/mindset-2024/details" class="btn-ope btf-btn" target="_blank">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink> -->
                         </div>
 
                         <div class="div9">
@@ -120,19 +97,13 @@
                             markers: false,
 
                             },
-                            // opacity: 1,
-                            // x: -1000
                             width: width50
                         }"></div>
 
                         <div class="div11">
-                            <!-- <img :src="smile" alt="Smile" /> -->
                             <video :src="videoLoop" autoPlay loop muted />
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
@@ -140,19 +111,16 @@
     </section>
 </template>
 <script setup lang="ts">
-import Portrait from '~/components/mindset/portrait/Portrait.vue'
 import videoLoop from '~/public/img/mindsetloop.mp4'
 
-import dase from '~/public/img/dase.jpg'
-import ydile from '~/public/img/idile.jpg'
-import whitemother from '~/public/img/whitemother.jpg'
-import ark from '~/public/img/ark.jpg'
-import ambiance from '~/public/img/ambiance.jpg'
-import aerisu from '~/public/img/aerisu.jpg'
+import dase from '~/public/img/dase.webp'
+import ydile from '~/public/img/idile.webp'
+import whitemother from '~/public/img/whitemother.webp'
+import ark from '~/public/img/ark.webp'
+import ambiance from '~/public/img/ambiance.webp'
+import aerisu from '~/public/img/aerisu.webp'
 import dad from '~/public/img/dad.webp'
-import pap from '~/public/img/pap.jpg'
 import tpk from '~/public/img/tpk.jfif'
-import smile from '~/public/img/smile.jpg'
 
 const { t } = useI18n()
 const width100 = "100%"

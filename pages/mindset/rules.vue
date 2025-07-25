@@ -131,15 +131,15 @@ import Contact from '~/components/mindset/contactBlock/ContactBlock.vue'
 
 import ArcWorldTour from '~/public/img/arcworldtour2025-2026.webp'
 
-import sf6 from '~/public/img/games_logos/sf6.png'
-import xko from '~/public/img/games_logos/2xko.png'
+import sf6 from '~/public/img/games_logos/sf6.webp'
+import xko from '~/public/img/games_logos/2xko.webp'
 import xko_double from '~/public/img/games_logos/2xko-2v2.webp'
-import t8 from '~/public/img/games_logos/t8.png'
-import ggst from '~/public/img/games_logos/ggst.png'
-import gbvsr from '~/public/img/games_logos/gbvsr.png'
-import ffcotw from '~/public/img/games_logos/ffcotw.png'
+import t8 from '~/public/img/games_logos/t8.webp'
+import ggst from '~/public/img/games_logos/ggst.webp'
+import gbvsr from '~/public/img/games_logos/gbvsr.webp'
+import ffcotw from '~/public/img/games_logos/ffcotw.webp'
 import arcc from '~/public/img/arcworldtour2025-2026.webp'
-import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.png'
+import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'

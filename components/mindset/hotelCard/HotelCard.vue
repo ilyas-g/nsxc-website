@@ -9,14 +9,12 @@
             </div>
             
             <div class="desc">
-                <!-- <p class="text-center">{{ description }}</p> -->
 
                 <div class="desc-flex">
                     <p><span class="icon-directions_walk"></span> <small>{{ timeToVenue }}</small></p>
                     <p><span class="icon-coin-euro"></span> <small>{{ hotelPrice }}</small></p>
                 </div>
 
-                <!-- <p class="text-center adress">{{ adress }}</p> -->
             </div>
             <div class="button">
                 <a :href="link" target="_blank" class="btn-ope video cardHotel-btn">{{ t("bookARoom") }}</a>
@@ -25,7 +23,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { useI18n, useLocalePath } from '#imports'
+import { useI18n } from '#imports'
 const { t } = useI18n()
 
 defineProps<{
