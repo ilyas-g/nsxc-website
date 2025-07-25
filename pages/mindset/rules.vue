@@ -32,7 +32,7 @@
           <li>{{ t("T8Timer") }}</li>
           <li>{{ t("T8Stage") }}</li>
           <li>{{ t("T8Condition") }}</li>
-          <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">https://www.bandainamcoent.com/legal/community-events/official-rules-twt</NuxtLink></li>
+          <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">Tekken World Tour 2025</NuxtLink></li>
         </ul>
 
         <h3 id="ggstrules">Guilty Gear Strive</h3>
@@ -46,7 +46,7 @@
           <li>{{ t("GGSTCondition") }}</li>
           <li>{{ t("GGSTCharacters") }}</li>
           <li>{{ t("GGSTCharacetrsColor") }}</li>
-          <li>{{ t("GGSTRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
+          <li>{{ t("GGSTRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
         </ul>
 
         <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
@@ -60,7 +60,7 @@
           <li>{{ t("GBVSRStage") }}</li>
           <li>{{ t("GBVSRCondition") }}</li>
           <li>{{ t("GBVSRMusic") }}</li>
-          <li>{{ t("GBVSRRuleSet") }} <NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf</NuxtLink></li>
+          <li>{{ t("GBVSRRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
         </ul>
 
         <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
@@ -203,6 +203,11 @@ const toggleContact = (toggleValue: boolean) => {
 
     h1 {
         margin-top: 0.83em;
+        font-size: 2.6em;
+
+        @media screen and (min-width: variables.$media-queries-tablet-small) {
+          font-size: 3.2em
+        }
     }
 
     h2 {
@@ -300,8 +305,14 @@ const toggleContact = (toggleValue: boolean) => {
     }
 
     img {
-      width: 300px;
-      float: right;
+      width: 100%;
+      margin-bottom: 15px;
+
+      @media screen and (min-height: variables.$media-queries-tablet) {
+        width: 300px;
+        float: right;
+        margin-bottom: initial;
+      }
     }
 }
 </style>
