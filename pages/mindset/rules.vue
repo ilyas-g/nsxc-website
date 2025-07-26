@@ -89,7 +89,15 @@
 
         <img :src="hxh" alt="Hunter X Hunter NenXImpact Logo" />
         <h3 id="hxhrules">Hunter X Hunter NenXImpact (Solo)</h3>
-        <p>{{ t("2xkoComingSoon") }}</p>
+        <ul>
+          <li>{{ t("HxHPlatform") }}</li>
+          <li>{{ t("HxHFormat") }}</li>
+          <li>{{ t("HxHMatches") }} {{ t("GGXRDREV2Finals") }}</li>
+          <li>{{ t("HxHTimer") }}</li>
+          <li>{{ t("HxHStage") }}</li>
+          <li>{{ t("HxHCondition") }}</li>
+          <li>{{ t("HxHRulesChange") }}</li>
+        </ul>
 
         <img :src="xko" alt="2XKO Logo" />
         <h3 id="2xko1v1rules">2XKO (Solo & Duo)</h3>
