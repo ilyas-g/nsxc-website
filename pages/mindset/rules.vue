@@ -87,13 +87,14 @@
           <li>{{ t("GGXRDREV2Condition") }}</li>
         </ul>
 
+        <img :src="hxh" alt="Hunter X Hunter NenXImpact Logo" />
+        <h3 id="hxhrules">Hunter X Hunter NenXImpact (Solo)</h3>
+        <p>{{ t("2xkoComingSoon") }}</p>
+
         <img :src="xko" alt="2XKO Logo" />
-        <h3 id="2xko1v1rules">2XKO (Solo)</h3>
+        <h3 id="2xko1v1rules">2XKO (Solo & Duo)</h3>
         <p>{{ t("2xkoComingSoon") }}</p>
 
-
-        <h3 id="2xko2v2rules" >2XKO (Duo)</h3>
-        <p>{{ t("2xkoComingSoon") }}</p>
       </section>
 
       <aside class="sommaire">
@@ -109,6 +110,7 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#gbvsrrules')">Granblue Fantasy Versus: Rising</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ggxrdrev2rules')">Guilty Gear Xrd REV 2</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#hxhrules')">HunterXHunterXNenXImpact</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO (Solo)</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
                 </ul>
@@ -140,6 +142,7 @@ import gbvsr from '~/public/img/games_logos/gbvsr.webp'
 import ffcotw from '~/public/img/games_logos/ffcotw.webp'
 import arcc from '~/public/img/arcworldtour2025-2026.webp'
 import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
+import hxh from '~/public/img/games_logos/hxh.webp'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
@@ -312,6 +315,16 @@ const toggleContact = (toggleValue: boolean) => {
         width: 300px;
         float: right;
         margin-bottom: initial;
+      }
+    }
+
+    .gameRules {
+      display: flex;
+      margin: 30px 0;
+      justify-content: space-between;
+
+      img {
+        order: 2
       }
     }
 }
