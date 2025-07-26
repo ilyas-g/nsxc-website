@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       scrollTrigger: true
     }
   },
-  ssr: false,
+  ssr: true,
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
