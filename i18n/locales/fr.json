@@ -107,5 +107,14 @@
   "GGXRDREV2Stage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
   "GGXRDREV2Condition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
+  "HxHPlatform": "Plateforme: TBC",
+  "HxHFormat": "Type d'arbre : Double Élimination",
+  "HxHMatches": "Matchs: Deux (2) matchs gagnants",
+  "HxHFinals": "Trois (3) matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale",
+  "HxHTimer": "Durée : Par défaut (180 secondes)",
+  "HxHStage": "Terrain : Aléatoire",
+  "HxHCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
+  "HxHRulesChange": "Les règles sont susceptibles de changer à tout moment",
+
   "2xkoComingSoon": "À venir"
 }
