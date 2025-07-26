@@ -15,6 +15,7 @@
                             <Game  :imgSrc=ggst support="Playstation 4 Pro" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#ggstrules')"/>
                             <Game  :imgSrc=gbvsr support="TBC" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
                             <Game  :imgSrc=ggxrdrev2 support="TBC" format="Solo" description="Guilty Gear Xrd REV 2 logo" :linkBtn="localePath('/mindset/rules#ggxrdrev2rules')" />
+                            <Game  :imgSrc=hxh support="TBC" format="Solo" description="Hunter X Hunter NEN IMPACT logo" :linkBtn="localePath('/mindset/rules#hxhrules')" />
                             <Game  :imgSrc=xko support="PC" format="Solo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
                             <Game group=true :imgSrc=xko support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
                         </div>
@@ -34,6 +35,7 @@ import gbvsr from '~/public/img/games_logos/gbvsr.webp'
 import ffcotw from '~/public/img/games_logos/ffcotw.webp'
 import arcc from '~/public/img/arcworldtour2025-2026.webp'
 import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
+import hxh from '~/public/img/games_logos/hxh.webp'
 
 import Game from '~/components/mindset/game/Game.vue'
 
