@@ -168,16 +168,19 @@ watch(
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: 'NSXC - Rules of the MINDSET 25',
-  ogTitle: 'NSXC - Rules of the MINDSET 25',
+definePageMeta({
+  title: 'NSXC - MINDSET 25',
+  ogTitle: 'NSXC - MINDSET 25',
+  keywords: 'Mindset, NSXC, tournois, événement, jeux vidéo, motivation, détermination, soi, meilleur, mentalité, attitude, comportement, émotions, feeling, fihgitng games, jeux de combat, Street Fighter, Street Fighter 6, 2XKO, Riot, Tekken 8, Tekken, COTW',
   description: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.',
   ogDescription: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.',
-  ogImage: '~/public/img/seo-screen.webp',
+  ogImage: '/img/seo-screen.webp',
   twitterTitle: 'NSXC - MINDSET 25',
-  twitterImage: '~/public/img/seo-screen.webp',
   twitterCard: 'summary_large_image',
-  twitterImageAlt: 'NSXC - Rules of the MINDSET 25'
+  twitterImage: '/img/seo-screen.webp',
+  twitterSite: '@_NSxC',
+  twitterCreator: '@iamarktall',
+  twitterDescription: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.'
 })
 
 const isContact = ref(false);
