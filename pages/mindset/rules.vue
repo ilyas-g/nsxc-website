@@ -177,7 +177,7 @@ useSeoMeta({
   ogImage: '/img/seo-screen.webp',
   twitterTitle: 'NSXC - MINDSET 25',
   twitterCard: 'summary_large_image',
-  twitterImage: '/img/seo-screen.webp',
+  twitterImage: 'https://nsxc.gg/img/seo-screen.webp',
   twitterSite: '@_NSxC',
   twitterCreator: '@iamarktall',
   twitterDescription: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.'
