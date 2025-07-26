@@ -1,6 +1,4 @@
 <script setup lang="ts">
-// import TheWelcome from '~/components/mindset/TheWelcome.vue'
-
 import Header from '~/components/mindset/header/Header.vue'
 import Footer from '~/components/mindset/footer/Footer.vue'
 import SectionFirst from '~/components/mindset/sectionFirst/SectionFirst.vue'
