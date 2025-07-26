@@ -106,5 +106,14 @@
   "GGXRDREV2Stage": "Stage: Must be randomly selected for every game",
   "GGXRDREV2Condition": "Winner must keep the same character. Loser can switch their character",
 
+  "HxHPlatform": "Platform: TBC",
+  "HxHFormat": "Bracket: Double Elimination",
+  "HxHMatches": "Matches: First to 2.",
+  "HxHFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
+  "HxHTimer": "Timer: Default (180 seconds)",
+  "HxHStage": "Stage: Random",
+  "HxHCondition": "Winner must keep the same character. Loser can switch their character",
+  "HxHRulesChange": "The rules can change at anytime",
+
   "2xkoComingSoon": "Coming Soon"
 }
