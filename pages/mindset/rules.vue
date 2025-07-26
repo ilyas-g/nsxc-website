@@ -168,7 +168,7 @@ watch(
 
 const { t } = useI18n()
 
-definePageMeta({
+useSeoMeta({
   title: 'NSXC - MINDSET 25',
   ogTitle: 'NSXC - MINDSET 25',
   keywords: 'Mindset, NSXC, tournois, événement, jeux vidéo, motivation, détermination, soi, meilleur, mentalité, attitude, comportement, émotions, feeling, fihgitng games, jeux de combat, Street Fighter, Street Fighter 6, 2XKO, Riot, Tekken 8, Tekken, COTW',
