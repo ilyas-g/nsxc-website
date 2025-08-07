@@ -9,99 +9,150 @@
         <h2 class="anchor" id="tournamentRules">{{ t("rulesTournamentsTitle") }}</h2>
         <p>{{ t("ruleGlobal") }}</p>
 
+        <div class="gameSection">
+          <div>
+            <img :src="sf6" alt="Street Fighter 6 Logo" />
+          </div>
+          <div>
+            <h3 id="sf6rules">Street Fighter 6</h3>
+            <ul>
+              <li>{{ t("SF6Platform") }}</li>
+              <li>{{ t("SF6Format") }}</li>
+              <li>{{ t("SF6Rounds") }}</li>
+              <li>{{ t("SF6Matches") }}</li>
+              <li>{{ t("SF6Timer") }}</li>
+              <li>{{ t("SF6Stage") }}</li>
+              <li>{{ t("SF6Condition") }}</li>
+            </ul>
+          </div>
+        </div>
 
-        <h3 id="sf6rules">Street Fighter 6</h3>
-        <img :src="sf6" alt="Street Fighter 6 Logo" />
-        <ul>
-          <li>{{ t("SF6Platform") }}</li>
-          <li>{{ t("SF6Format") }}</li>
-          <li>{{ t("SF6Rounds") }}</li>
-          <li>{{ t("SF6Matches") }}</li>
-          <li>{{ t("SF6Timer") }}</li>
-          <li>{{ t("SF6Stage") }}</li>
-          <li>{{ t("SF6Condition") }}</li>
-        </ul>
+        <div class="gameSection">
+          <div>
+            <img :src="t8" alt="Tekken 8 Logo" />
+          </div>
+          <div>
+            <h3 id="t8rules">Tekken 8</h3>
+            <ul>
+              <li>{{ t("T8Platform") }}</li>
+              <li>{{ t("T8Format") }}</li>
+              <li>{{ t("T8Rounds") }}</li>
+              <li>{{ t("T8Matches") }} {{ t("T8Finals") }}</li>
+              <li>{{ t("T8Timer") }}</li>
+              <li>{{ t("T8Stage") }}</li>
+              <li>{{ t("T8Condition") }}</li>
+              <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">Tekken World Tour 2025</NuxtLink></li>
+            </ul>
+          </div>
+        </div>
 
-        <h3 id="t8rules">Tekken 8</h3>
-        <img :src="t8" alt="Tekken 8 Logo" />
-        <ul>
-          <li>{{ t("T8Platform") }}</li>
-          <li>{{ t("T8Format") }}</li>
-          <li>{{ t("T8Rounds") }}</li>
-          <li>{{ t("T8Matches") }} {{ t("T8Finals") }}</li>
-          <li>{{ t("T8Timer") }}</li>
-          <li>{{ t("T8Stage") }}</li>
-          <li>{{ t("T8Condition") }}</li>
-          <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">Tekken World Tour 2025</NuxtLink></li>
-        </ul>
+        <div class="gameSection">
+          <div>
+            <img :src="ggst" alt="Gulty Gear Strive Logo" />
+            <img :src="arcc" alt="Arc World Tour 2025-2026" />
+          </div>
+          <div>
+            <h3 id="ggstrules">Guilty Gear Strive</h3>
+            <ul>
+              <li>{{ t("GGSTPlatform") }}</li>
+              <li>{{ t("GGSTFormat") }}</li>
+              <li>{{ t("GGSTRounds") }}</li>
+              <li>{{ t("GGSTMatches") }}</li>
+              <li>{{ t("GGSTTimer") }}</li>
+              <li>{{ t("GGSTCondition") }}</li>
+              <li>{{ t("GGSTCharacters") }}</li>
+              <li>{{ t("GGSTCharacetrsColor") }}</li>
+              <li>{{ t("GGSTRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
+            </ul>
+          </div>
+        </div>
 
-        <h3 id="ggstrules">Guilty Gear Strive</h3>
-        <img :src="ggst" alt="Gulty Gear Strive Logo" />
-        <ul>
-          <li>{{ t("GGSTPlatform") }}</li>
-          <li>{{ t("GGSTFormat") }}</li>
-          <li>{{ t("GGSTRounds") }}</li>
-          <li>{{ t("GGSTMatches") }}</li>
-          <li>{{ t("GGSTTimer") }}</li>
-          <li>{{ t("GGSTCondition") }}</li>
-          <li>{{ t("GGSTCharacters") }}</li>
-          <li>{{ t("GGSTCharacetrsColor") }}</li>
-          <li>{{ t("GGSTRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
-        </ul>
 
-        <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
-        <img :src="gbvsr" alt="Granblue Fantasy Versus: Rising Logo" />
-        <ul>
-          <li>{{ t("GBVSRPlatform") }}</li>
-          <li>{{ t("GBVSRFormat") }}</li>
-          <li>{{ t("GBVSRRounds") }}</li>
-          <li>{{ t("GBVSRMatches") }}</li>
-          <li>{{ t("GBVSRTimer") }}</li>
-          <li>{{ t("GBVSRStage") }}</li>
-          <li>{{ t("GBVSRCondition") }}</li>
-          <li>{{ t("GBVSRMusic") }}</li>
-          <li>{{ t("GBVSRRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
-        </ul>
+        <div class="gameSection">
+          <div>
+            <img :src="gbvsr" alt="Granblue Fantasy Versus: Rising Logo" />
+            <img :src="arcc" alt="Arc World Tour 2025-2026" />
+          </div>
+          <div>
+            <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
+            <ul>
+              <li>{{ t("GBVSRPlatform") }}</li>
+              <li>{{ t("GBVSRFormat") }}</li>
+              <li>{{ t("GBVSRRounds") }}</li>
+              <li>{{ t("GBVSRMatches") }}</li>
+              <li>{{ t("GBVSRTimer") }}</li>
+              <li>{{ t("GBVSRStage") }}</li>
+              <li>{{ t("GBVSRCondition") }}</li>
+              <li>{{ t("GBVSRMusic") }}</li>
+              <li>{{ t("GBVSRRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
+            </ul>
+          </div>
+        </div>
 
-        <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
-        <img :src="ffcotw" alt="Fatal Fury: City Of The Wolves Logo" />
-        <ul>
-          <li>{{ t("FFCOTWPlatform") }}</li>
-          <li>{{ t("FFCOTWFormat") }}</li>
-          <li>{{ t("FFCOTWRounds") }}</li>
-          <li>{{ t("FFCOTWMatches") }} {{ t("FFCOTWFinals") }}</li>
-          <li>{{ t("FFCOTWTimer") }}</li>
-          <li>{{ t("FFCOTWStage") }}</li>
-          <li>{{ t("FFCOTWCondition") }}</li>
-        </ul>
+        <div class="gameSection">
+          <div>
+            <img :src="ffcotw" alt="Fatal Fury: City Of The Wolves Logo" />
+          </div>
+          <div>
+            <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
 
-        <h3 id="ggxrdrev2rules">Guilty Gear Xrd REV2</h3>
-        <img :src="ggxrdrev2" alt="Guilty Gear Xrd REV2 Logo" />
-        <ul>
-          <li>{{ t("GGXRDREV2Platform") }}</li>
-          <li>{{ t("GGXRDREV2Format") }}</li>
-          <li>{{ t("GGXRDREV2Rounds") }}</li>
-          <li>{{ t("GGXRDREV2Matches") }} {{ t("GGXRDREV2Finals") }}</li>
-          <li>{{ t("GGXRDREV2Timer") }}</li>
-          <li>{{ t("GGXRDREV2Stage") }}</li>
-          <li>{{ t("GGXRDREV2Condition") }}</li>
-        </ul>
+            <ul>
+              <li>{{ t("FFCOTWPlatform") }}</li>
+              <li>{{ t("FFCOTWFormat") }}</li>
+              <li>{{ t("FFCOTWRounds") }}</li>
+              <li>{{ t("FFCOTWMatches") }} {{ t("FFCOTWFinals") }}</li>
+              <li>{{ t("FFCOTWTimer") }}</li>
+              <li>{{ t("FFCOTWStage") }}</li>
+              <li>{{ t("FFCOTWCondition") }}</li>
+            </ul>
+          </div>
+        </div>
 
-        <img :src="hxh" alt="Hunter X Hunter NenXImpact Logo" />
-        <h3 id="hxhrules">Hunter X Hunter NenXImpact (Solo)</h3>
-        <ul>
-          <li>{{ t("HxHPlatform") }}</li>
-          <li>{{ t("HxHFormat") }}</li>
-          <li>{{ t("HxHMatches") }} {{ t("GGXRDREV2Finals") }}</li>
-          <li>{{ t("HxHTimer") }}</li>
-          <li>{{ t("HxHStage") }}</li>
-          <li>{{ t("HxHCondition") }}</li>
-          <li>{{ t("HxHRulesChange") }}</li>
-        </ul>
+        <div class="gameSection">
+          <div>
+            <img :src="ggxrdrev2" alt="Guilty Gear Xrd REV2 Logo" />
+          </div>
+          <div>
+            <h3 id="ggxrdrev2rules">Guilty Gear Xrd REV2</h3>
+            <ul>
+              <li>{{ t("GGXRDREV2Platform") }}</li>
+              <li>{{ t("GGXRDREV2Format") }}</li>
+              <li>{{ t("GGXRDREV2Rounds") }}</li>
+              <li>{{ t("GGXRDREV2Matches") }} {{ t("GGXRDREV2Finals") }}</li>
+              <li>{{ t("GGXRDREV2Timer") }}</li>
+              <li>{{ t("GGXRDREV2Stage") }}</li>
+              <li>{{ t("GGXRDREV2Condition") }}</li>
+            </ul>
+          </div>
+        </div>
 
-        <img :src="xko" alt="2XKO Logo" />
-        <h3 id="2xko1v1rules">2XKO (Solo & Duo)</h3>
-        <p>{{ t("2xkoComingSoon") }}</p>
+        <div class="gameSection">
+          <div>
+            <img :src="hxh" alt="Hunter X Hunter NenXImpact Logo" />
+          </div>
+          <div>
+            <h3 id="hxhrules">Hunter X Hunter NenXImpact (Solo)</h3>
+            <ul>
+              <li>{{ t("HxHPlatform") }}</li>
+              <li>{{ t("HxHFormat") }}</li>
+              <li>{{ t("HxHMatches") }} {{ t("GGXRDREV2Finals") }}</li>
+              <li>{{ t("HxHTimer") }}</li>
+              <li>{{ t("HxHStage") }}</li>
+              <li>{{ t("HxHCondition") }}</li>
+              <li>{{ t("HxHRulesChange") }}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="gameSection">
+          <div>
+            <img :src="xko" alt="2XKO Logo" />
+          </div>
+          <div>
+            <h3 id="2xko1v1rules">2XKO (Solo & Duo)</h3>
+            <p>{{ t("2xkoComingSoon") }}</p>
+          </div>
+        </div>
 
       </section>
 
@@ -209,6 +260,44 @@ const toggleContact = (toggleValue: boolean) => {
     background-color: variables.$dark-color;
     display: flex;
 
+    .gameSection {
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+
+      margin-bottom: 130px;
+
+      div:first-child {
+        // display: flex;
+
+        // img {
+        //   height: 150px;
+        // }
+      }
+
+        @media screen and (min-width: variables.$media-queries-desktop) {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          & div:first-child{
+            display: block;
+            order: 2;
+          }
+        }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 15px;
+
+      @media screen and (min-height: variables.$media-queries-tablet) {
+        width: 300px;
+        margin: auto;
+        display: block;
+      }
+    }
+
     section {
         padding: 50px 50px 0;
         order: 2;
@@ -227,6 +316,14 @@ const toggleContact = (toggleValue: boolean) => {
     h2 {
         margin-top: 0.83em;
         margin-bottom: 20px;
+
+        @media screen and (min-width: variables.$media-queries-mobile) {
+          font-size: 38px;
+        }
+
+        @media screen and (min-width: variables.$media-queries-tablet-small) {
+          font-size: 48px
+        }
     }
 
     h3 {
@@ -316,17 +413,6 @@ const toggleContact = (toggleValue: boolean) => {
         height: 75px;
         margin-top: -75px;
         visibility: hidden;
-    }
-
-    img {
-      width: 100%;
-      margin-bottom: 15px;
-
-      @media screen and (min-height: variables.$media-queries-tablet) {
-        width: 300px;
-        float: right;
-        margin-bottom: initial;
-      }
     }
 
     .gameRules {
