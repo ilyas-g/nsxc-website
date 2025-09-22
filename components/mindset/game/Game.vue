@@ -3,7 +3,7 @@
     <div class="cardGame">
         <div class="cardGame-head">
             <img :src="imgSrc" :alt="description" class="inline-photo show-on-scroll is-visible" />
-            <img v-if="protour!==undefined" :src="protour" alt="Pro Tour" class="worldtour"  tooltip="Slide to the left" flow="left"/>
+            <img v-if="protour!==undefined" :src="protour" alt="Pro Tour" class="worldtour" :class="classWT" tooltip="Slide to the left" flow="left"/>
         </div>
         <div class="cardGame-body">
             <p><span class="icon-gamepad"></span> {{ support }}</p>
@@ -25,6 +25,7 @@ defineProps<{
   support: string,
   format: string,
   imgSrc: string,
+  classWT?: string,
   description: string,
   protour?: string,
   linkBtn: string,
