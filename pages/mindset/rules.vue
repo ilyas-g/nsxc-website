@@ -147,6 +147,7 @@
         <div class="gameSection">
           <div>
             <img :src="xko" alt="2XKO Logo" />
+            <img :src="xko_firstImpact" alt="2XKO FirstImpact Logo" />
           </div>
           <div>
             <h3 id="2xko1v1rules">2XKO (Solo & Duo)</h3>
@@ -202,6 +203,7 @@ import ffcotw from '~/public/img/games_logos/ffcotw.webp'
 import arcc from '~/public/img/arcworldtour2025-2026.webp'
 import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
 import hxh from '~/public/img/games_logos/hxh.webp'
+import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
@@ -283,6 +285,10 @@ const toggleContact = (toggleValue: boolean) => {
           & div:first-child{
             display: block;
             order: 2;
+
+            img {
+              margin-bottom: 25px;
+            }
           }
         }
     }
