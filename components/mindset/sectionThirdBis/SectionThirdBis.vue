@@ -16,8 +16,8 @@
                             <Game  :imgSrc=gbvsr :protour=arcc support="TBC" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
                             <Game  :imgSrc=ggxrdrev2 support="TBC" format="Solo" description="Guilty Gear Xrd REV 2 logo" :linkBtn="localePath('/mindset/rules#ggxrdrev2rules')" />
                             <Game  :imgSrc=hxh support="TBC" format="Solo" description="Hunter X Hunter NEN IMPACT logo" :linkBtn="localePath('/mindset/rules#hxhrules')" />
-                            <Game  :imgSrc=xko :protour=xko_firstImpact classWT="firstImpact" support="PC" format="Solo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
-                            <Game group=true :imgSrc=xko :protour=xko_firstImpact classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
+                            <Game  :imgSrc=xko :protour=xko_firstImpact classWT="firstImpact" support="PC" :format=xkoMixte description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
+                            <Game group=true :imgSrc=xko classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
                         </div>
                     </div>
                 </div>
@@ -44,6 +44,7 @@ const localePath = useLocalePath()
 import { useI18n, useLocalePath } from '#imports'
 const { t } = useI18n()
 
+const xkoMixte = t("2xkoMixte")
 </script>
 <style lang="scss">
 @use "~/assets/mindset/css/variables";
