@@ -57,7 +57,7 @@
   "SF6Condition": "Le gagnant doit conserver le même personnage (possibilité de passer du mode Classique au mode Moderne). Le perdant peut changer de personnage",
   "SF6Stage": "Terrain : Aléatoire",
 
-  "T8Platform": "Plateforme: TBC",
+  "T8Platform": "Plateforme: Playstation 5",
   "T8RuleSet": "Nous appliquerons le règlement du ",
   "T8Format": "Type d'arbre : Double Élimination",
   "T8Rounds": "Rounds: Trois (3) rounds gagnants",
@@ -78,7 +78,7 @@
   "GGSTCharacetrsColor": "Couleur des personnages: Aucune restriction",
   "GGSTCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
-  "GBVSRPlatform": "Plateforme: TBC",
+  "GBVSRPlatform": "Plateforme: Playstation 4 Pro",
   "GBVSRRuleSet": "Nous appliquerons le règlement de l'",
   "GBVSRFormat": "Type d'arbre : Double Élimination",
   "GBVSRRounds": "Rounds: Deux (2) rounds gagnants",
@@ -89,7 +89,7 @@
   "GBVSRCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
   "GBVSRCharacetrsColor": "Lunalu's colors 17 et 18 and weapons skins EX are banned",
 
-  "FFCOTWPlatform": "Plateforme: TBC",
+  "FFCOTWPlatform": "Plateforme: Playstation 5",
   "FFCOTWFormat": "Type d'arbre : Double Élimination",
   "FFCOTWRounds": "Rounds: Deux (2) rounds gagnants",
   "FFCOTWMatches": "Matchs: Deux (2) matchs gagnants.",
@@ -98,7 +98,7 @@
   "FFCOTWStage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
   "FFCOTWCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
-  "GGXRDREV2Platform": "Plateforme: TBC",
+  "GGXRDREV2Platform": "Plateforme: Playstation 4",
   "GGXRDREV2Format": "Type d'arbre : Double Élimination",
   "GGXRDREV2Rounds": "Rounds: Deux (2) rounds gagnants",
   "GGXRDREV2Matches": "Matchs: Deux (2) matchs gagnants",
@@ -107,7 +107,7 @@
   "GGXRDREV2Stage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
   "GGXRDREV2Condition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
-  "HxHPlatform": "Plateforme: TBC",
+  "HxHPlatform": "Plateforme: Playstation 5",
   "HxHFormat": "Type d'arbre : Double Élimination",
   "HxHMatches": "Matchs: Deux (2) matchs gagnants",
   "HxHFinals": "Trois (3) matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale",

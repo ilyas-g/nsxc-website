@@ -56,7 +56,7 @@
   "SF6Stage": "Stage: Random",
   "SF6Condition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
-  "T8Platform": "Platform: TBC",
+  "T8Platform": "Platform: Playstation 5",
   "T8RuleSet": "We will apply the ruleset of the ",
   "T8Format": "Bracket: Double Elimination",
   "T8Rounds": "Rounds: First to 3",
@@ -77,7 +77,7 @@
   "GGSTCharacetrsColor": "Character Colors: No restrictions",
   "GGSTCondition": "Winner must keep the same character (can switch from Classic or Modern). Loser can switch their character",
 
-  "GBVSRPlatform": "Platform: TBC",
+  "GBVSRPlatform": "Platform: Playstation 4 Pro",
   "GBVSRRuleSet": "We will apply the ruleset of the ",
   "GBVSRFormat": "Bracket: Double Elimination",
   "GBVSRRounds": "Rounds: First to 2",
@@ -88,7 +88,7 @@
   "GBVSRCondition": "Winner must keep the same character. Loser can switch their character",
   "GBVSRCharacetrsColor": "Lunalu's colors 17 et 18 and weapons skins EX are banned",
 
-  "FFCOTWPlatform": "Platform: TBC",
+  "FFCOTWPlatform": "Platform: Playstation 5",
   "FFCOTWFormat": "Bracket: Double Elimination",
   "FFCOTWRounds": "Rounds: First to 2",
   "FFCOTWMatches": "Matches: First to 2.",
@@ -97,7 +97,7 @@
   "FFCOTWStage": "Stage: Must be randomly selected for every game",
   "FFCOTWCondition": "Winner must keep the same character. Loser can switch their character",
 
-  "GGXRDREV2Platform": "Platform: TBC",
+  "GGXRDREV2Platform": "Platform: Playstation 4",
   "GGXRDREV2Format": "Bracket: Double Elimination",
   "GGXRDREV2Rounds": "Rounds: First to 2",
   "GGXRDREV2Matches": "Matches: First to 2.",
@@ -106,7 +106,7 @@
   "GGXRDREV2Stage": "Stage: Must be randomly selected for every game",
   "GGXRDREV2Condition": "Winner must keep the same character. Loser can switch their character",
 
-  "HxHPlatform": "Platform: TBC",
+  "HxHPlatform": "Platform: Playstation 5",
   "HxHFormat": "Bracket: Double Elimination",
   "HxHMatches": "Matches: First to 2.",
   "HxHFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
