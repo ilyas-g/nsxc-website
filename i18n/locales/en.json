@@ -30,9 +30,11 @@
   "firstVenueItinerary": "You're in the venue",
   "secondVenueItinerary": "24 min to the venue",
   "thirdVenueItinerary": "8 min to the venue",
+  "fourthVenueItinerary": "6 min to the venue",
   "firstVenuePrice": "Around 100 € per night",
   "thirdVenuePrice": "Around 70 € per night ",
   "secondVenuePrice": "Around 85 € per night",
+  "fourthVenuePrice": "Around 95 € per night",
 
   "wifiAvailable": "Wi-Fi available",
   "bookARoom": "Book a Room",

@@ -151,7 +151,7 @@ const { t } = useI18n()
 
     @media only screen and (min-width: variables.$media-queries-desktop) {
         max-width: 300px;
-        width: 100%;
+        // width: 100%;
     }
 
     &:active,
