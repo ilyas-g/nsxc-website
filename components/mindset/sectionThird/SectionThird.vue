@@ -72,12 +72,13 @@
 
             <HotelCard title="KOPSTER Hotel Residence Paris Ouest Colombes" :imgSrc="kopster" link="https://www.kopsterhotels.com/colombes/"
             description="KOPSTER Hotel Residence Paris Ouest Colombes" :timeToVenue="firstVenueItinerary" :hotelPrice="firstVenuePrice" />
+            <HotelCard title="ibis Styles Colombes Paris Ouest" :imgSrc="ibis" link="https://all.accor.com/hotel/C3U4/index.fr.shtml"
+            description="ibis Styles Colombes Paris Ouest" :timeToVenue="fourthVenueItinerary" :hotelPrice="fourthVenuePrice" />
             <HotelCard title="All Suites Appart Hotel Paris Ouest Colombes" :imgSrc="allSuites"
             description="All Suites Appart Hotel Paris Ouest Colombes" link="https://www.allsuites.com/hotel/appart-hotel-paris-colombes"
             :timeToVenue="thirdVenueItinerary" :hotelPrice="thirdVenuePrice" />
             <HotelCard title="B&B HOTEL Argenteuil" :imgSrc="bb" link="https://www.hotel-bb.com/fr/hotel/argenteuil"
             description="B&B HOTEL Argenteuil" :timeToVenue="secondVenueItinerary" :hotelPrice="secondVenuePrice" />
-
         </div>
     </div>
     </section>
@@ -89,16 +90,19 @@ import kopster from '~/public/img/hotel-kopster.jpg'
 import allSuites from '~/public/img/hotel-all-suites.jpg'
 import kyriad from '~/public/img/hotel-kyriad.jpg'
 import bb from '~/public/img/hotel-b&b-argenteuil.webp'
+import ibis from '~/public/img/hotel-ibis.webp'
 
 const { t } = useI18n()
 
 const firstVenueItinerary = t("firstVenueItinerary")
 const secondVenueItinerary = t("secondVenueItinerary")
 const thirdVenueItinerary = t("thirdVenueItinerary")
+const fourthVenueItinerary = t("fourthVenueItinerary")
 
 const firstVenuePrice = t("firstVenuePrice")
 const secondVenuePrice = t("secondVenuePrice")
 const thirdVenuePrice = t("thirdVenuePrice")
+const fourthVenuePrice = t("fourthVenuePrice")
 
 </script>
 <style lang="scss">
