@@ -150,8 +150,18 @@
             <img :src="xko_firstImpact" alt="2XKO FirstImpact Logo" />
           </div>
           <div>
-            <h3 id="2xko1v1rules">2XKO (Solo & Duo)</h3>
-            <p>{{ t("2xkoComingSoon") }}</p>
+            <h3 id="2xko1v1rules">2XKO ({{ t("2xkoMixte") }} & Duo)</h3>
+            <p>{{ t("2xkoFirstImpact") }}</p>
+            <ul>
+              <li>{{ t("2xkoPlatform") }}</li>
+              <li>{{ t("2xkoFormat") }}</li>
+              <li>{{ t("2xkoMatches") }} {{ t("2xkoFinals") }}</li>
+              <li>{{ t("2xkoTimer") }}</li>
+              <li>{{ t("2xkoStage") }}</li>
+              <li>{{ t("2xkoCondition") }}</li>
+              <li>{{ t("2xkoCondition2") }}</li>
+              <li>{{ t("2xkoRulesChange") }}</li>
+            </ul>
           </div>
         </div>
 
@@ -171,7 +181,7 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ggxrdrev2rules')">Guilty Gear Xrd REV 2</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#hxhrules')">HunterXHunterXNenXImpact</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO (Solo)</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO ({{ t("2xkoMixte") }})</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
                 </ul>
               </li>
