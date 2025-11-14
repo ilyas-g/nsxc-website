@@ -119,5 +119,15 @@
   "HxHRulesChange": "Les règles sont susceptibles de changer à tout moment",
 
   "2xkoComingSoon": "À venir",
-  "2xkoMixte": "Mixte"
+  "2xkoMixte": "Mixte",
+  "2xkoFirstImpact": "Rattaché au programme de parrainage First Impact. 2500€ de prix bonus si un duo gagne le tournoi",
+  "2xkoPlatform:": "PC",
+  "2xkoFormat": "Type d'arbre : Double Élimination",
+  "2xkoMatches": "Matchs: Deux (2) matchs gagnants",
+  "2xkoFinals": "Trois (3) matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale",
+  "2xkoTimer": "Durée : Par défaut (120 secondes)",
+  "2xkoStage": "Terrain : Aléatoire",
+  "2xkoCondition": "L'équipe gagnante doit garder les mêmes personnages. L'équipe perdante peut changer de personnage",
+  "2xkoCondition2": "Si une équipe ne se présente pas dans les 10 minutes après avoir été appelée, elle risque d'être disqualifiée de leur match",
+  "2xkoRulesChange": "Les règles sont susceptibles de changer à tout moment"
 }

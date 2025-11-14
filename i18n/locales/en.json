@@ -118,5 +118,17 @@
   "HxHRulesChange": "The rules can change at anytime",
 
   "2xkoComingSoon": "Coming Soon",
-  "2xkoMixte": "Mixed"
+  "2xkoMixte": "Mixed",
+  "2xkoFirstImpact": "Part of the First Impact sponsorship. 2500€ bonus prize if a duo wins the tournament",
+  "2xkoPlatform:": "PC",
+  "2xkoFormat": "Double Elimination",
+  "2xkoMatches": "Matches: First to 2.",
+  "2xkoFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
+  "2xkoTimer": "Timer: Default (120 seconds)",
+  "2xkoStage": "Stage: Random",
+  "2xkoCondition": "Winner must keep the same characters. Loser can switch their characters",
+  "2xkoCondition2": "If a team fails to show up when called in the next 10 minutes, they're facing disqualification for their match",
+  "2xkoRulesChange": "The rules can change at anytime",
+
+
 }
