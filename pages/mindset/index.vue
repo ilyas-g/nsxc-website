@@ -67,7 +67,7 @@ useSeoMeta({
     <SectionThirdBis />
     <SectionStaff />
     <SectionThird />
-    <SectionPartners />
+    <!-- <SectionPartners /> -->
   </main>
   <Footer @toggle-contact="toggleContact(true)" />
   <div v-if="isContact === true">

@@ -22,7 +22,7 @@
 </template>
 <script setup lang="ts">
 import mindsetLogo from '~/public/img/mindset-logo.webp'
-import videoBg from '~/public/img/mindsetvideov3.mp4'
+import videoBg from '~/public/img/mindsetvideov4.mp4'
 
 const { t } = useI18n()
 </script>
