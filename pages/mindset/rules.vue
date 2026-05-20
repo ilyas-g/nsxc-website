@@ -8,6 +8,7 @@
 
         <h2 class="anchor" id="tournamentRules">{{ t("rulesTournamentsTitle") }}</h2>
         <p>{{ t("ruleGlobal") }}</p>
+        <p>{{ t("2xkoRulesChange") }}</p>
 
         <div class="gameSection">
           <div>
@@ -49,7 +50,7 @@
         <div class="gameSection">
           <div>
             <img :src="ggst" alt="Gulty Gear Strive Logo" />
-            <img :src="arcc" alt="Arc World Tour 2025-2026" />
+            <img :src="arcc" alt="Arc World Tour 2026-2027" />
           </div>
           <div>
             <h3 id="ggstrules">Guilty Gear Strive</h3>
@@ -62,7 +63,7 @@
               <li>{{ t("GGSTCondition") }}</li>
               <li>{{ t("GGSTCharacters") }}</li>
               <li>{{ t("GGSTCharacetrsColor") }}</li>
-              <li>{{ t("GGSTRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
+              <li>{{ t("GGSTRuleSet") }}<NuxtLink to="https://www.arcsystemworks.jp/awt2026/assets/pdf/AWT26_27OfficialRules_EN.pdf" target="_blank">Arc World Tour 2026-2027</NuxtLink></li>
             </ul>
           </div>
         </div>
@@ -71,7 +72,7 @@
         <div class="gameSection">
           <div>
             <img :src="gbvsr" alt="Granblue Fantasy Versus: Rising Logo" />
-            <img :src="arcc" alt="Arc World Tour 2025-2026" />
+            <!-- <img :src="arcc" alt="Arc World Tour 2026-2027" /> -->
           </div>
           <div>
             <h3 id="gbvsrrules">Granblue Fantasy Versus: Rising</h3>
@@ -84,62 +85,19 @@
               <li>{{ t("GBVSRStage") }}</li>
               <li>{{ t("GBVSRCondition") }}</li>
               <li>{{ t("GBVSRMusic") }}</li>
-              <li>{{ t("GBVSRRuleSet") }}<NuxtLink to="https://www.arcsystemworks.asia/awt2025/pdf/AWT25_26rules_ENG_FIX.pdf" target="_blank">Arc World Tour 2025</NuxtLink></li>
             </ul>
           </div>
         </div>
 
-        <div class="gameSection">
-          <div>
-            <img :src="ffcotw" alt="Fatal Fury: City Of The Wolves Logo" />
-          </div>
-          <div>
-            <h3 id="ffcotwrules">Fatal Fury: City of the Wolves</h3>
-
-            <ul>
-              <li>{{ t("FFCOTWPlatform") }}</li>
-              <li>{{ t("FFCOTWFormat") }}</li>
-              <li>{{ t("FFCOTWRounds") }}</li>
-              <li>{{ t("FFCOTWMatches") }} {{ t("FFCOTWFinals") }}</li>
-              <li>{{ t("FFCOTWTimer") }}</li>
-              <li>{{ t("FFCOTWStage") }}</li>
-              <li>{{ t("FFCOTWCondition") }}</li>
-            </ul>
-          </div>
-        </div>
 
         <div class="gameSection">
           <div>
-            <img :src="ggxrdrev2" alt="Guilty Gear Xrd REV2 Logo" />
+            <img :src="marveltokon" alt="Hunter X Hunter NenXImpact Logo" />
           </div>
           <div>
-            <h3 id="ggxrdrev2rules">Guilty Gear Xrd REV2</h3>
+            <h3 id="tokonrules">MARVEL Tōkon: Fighting Souls</h3>
             <ul>
-              <li>{{ t("GGXRDREV2Platform") }}</li>
-              <li>{{ t("GGXRDREV2Format") }}</li>
-              <li>{{ t("GGXRDREV2Rounds") }}</li>
-              <li>{{ t("GGXRDREV2Matches") }} {{ t("GGXRDREV2Finals") }}</li>
-              <li>{{ t("GGXRDREV2Timer") }}</li>
-              <li>{{ t("GGXRDREV2Stage") }}</li>
-              <li>{{ t("GGXRDREV2Condition") }}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="gameSection">
-          <div>
-            <img :src="hxh" alt="Hunter X Hunter NenXImpact Logo" />
-          </div>
-          <div>
-            <h3 id="hxhrules">Hunter X Hunter NenXImpact (Solo)</h3>
-            <ul>
-              <li>{{ t("HxHPlatform") }}</li>
-              <li>{{ t("HxHFormat") }}</li>
-              <li>{{ t("HxHMatches") }} {{ t("GGXRDREV2Finals") }}</li>
-              <li>{{ t("HxHTimer") }}</li>
-              <li>{{ t("HxHStage") }}</li>
-              <li>{{ t("HxHCondition") }}</li>
-              <li>{{ t("HxHRulesChange") }}</li>
+              <li>Rules incoming soon...</li>
             </ul>
           </div>
         </div>
@@ -147,20 +105,18 @@
         <div class="gameSection">
           <div>
             <img :src="xko" alt="2XKO Logo" />
-            <img :src="xko_firstImpact" alt="2XKO FirstImpact Logo" />
           </div>
           <div>
-            <h3 id="2xko1v1rules">2XKO ({{ t("2xkoMixte") }} & Duo)</h3>
-            <p>{{ t("2xkoFirstImpact") }}</p>
+            <h3 id="2xko1v1rules">2XKO ({{ t("2xkoMixte") }})</h3>
             <ul>
-              <li>{{ t("2xkoPlatform") }}</li>
+              <!-- <li>{{ t("2xkoPlatform") }}</li> -->
               <li>{{ t("2xkoFormat") }}</li>
               <li>{{ t("2xkoMatches") }} {{ t("2xkoFinals") }}</li>
               <li>{{ t("2xkoTimer") }}</li>
               <li>{{ t("2xkoStage") }}</li>
               <li>{{ t("2xkoCondition") }}</li>
               <li>{{ t("2xkoCondition2") }}</li>
-              <li>{{ t("2xkoRulesChange") }}</li>
+              <li>{{ t("2xkoSOCD") }}</li>
             </ul>
           </div>
         </div>
@@ -178,11 +134,9 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#t8rules')">Tekken 8</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ggstrules')">Guilty Gear Strive</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#gbvsrrules')">Granblue Fantasy Versus: Rising</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#ggxrdrev2rules')">Guilty Gear Xrd REV 2</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#hxhrules')">HunterXHunterXNenXImpact</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#tokonrules')">MARVEL Tōkon: Fighting Souls</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO ({{ t("2xkoMixte") }})</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
+                  <!-- <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li> -->
                 </ul>
               </li>
             </ul>
@@ -209,11 +163,9 @@ import xko_double from '~/public/img/games_logos/2xko-2v2.webp'
 import t8 from '~/public/img/games_logos/t8.webp'
 import ggst from '~/public/img/games_logos/ggst.webp'
 import gbvsr from '~/public/img/games_logos/gbvsr.webp'
-import ffcotw from '~/public/img/games_logos/ffcotw.webp'
-import arcc from '~/public/img/arcworldtour2025-2026.webp'
-import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
-import hxh from '~/public/img/games_logos/hxh.webp'
+import arcc from '~/public/img/arcworldtour2026-2027.webp'
 import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
+import marveltokon from '~/public/img/games_logos/marveltokon.webp'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
