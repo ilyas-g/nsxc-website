@@ -42,13 +42,13 @@ const toggleContact = (toggleValue: boolean) => {
 };
 
 useSeoMeta({
-  title: 'NSXC - MINDSET 25',
-  ogTitle: 'NSXC - MINDSET 25',
+  title: 'NSXC - MINDSET 26',
+  ogTitle: 'NSXC - MINDSET 26',
   keywords: 'Mindset, NSXC, tournois, événement, jeux vidéo, motivation, détermination, soi, meilleur, mentalité, attitude, comportement, émotions, feeling, fihgitng games, jeux de combat, Street Fighter, Street Fighter 6, 2XKO, Riot, Tekken 8, Tekken, COTW',
   description: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.',
   ogDescription: 'Mindset was born in 2024 with the desire to make its contribution in an ecosystem where esport is taking more and more place; bring a vision that invites introspection and consider its place within this community.',
   ogImage: '/img/seo-screen.webp',
-  twitterTitle: 'NSXC - MINDSET 25',
+  twitterTitle: 'NSXC - MINDSET 26',
   twitterCard: 'summary_large_image',
   twitterImage: 'https://nsxc.gg/img/seo-screen.webp',
   twitterSite: '@_NSxC',
