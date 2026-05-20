@@ -1,5 +1,5 @@
 {
-    "datesEvent": "29 & 30 Novembre 2025",
+    "datesEvent": "27 au 29 Novembre 2026",
     "inscription": "Inscription",
     "joinDiscord": "Discord",
     "watchTrailer": "Voir le trailer",
@@ -129,5 +129,6 @@
   "2xkoStage": "Terrain : Aléatoire",
   "2xkoCondition": "L'équipe gagnante doit garder les mêmes personnages. L'équipe perdante peut changer de personnage",
   "2xkoCondition2": "Si une équipe ne se présente pas dans les 10 minutes après avoir été appelée, elle risque d'être disqualifiée de leur match",
-  "2xkoRulesChange": "Les règles sont susceptibles de changer à tout moment"
+  "2xkoRulesChange": "Les règles sont susceptibles de changer à tout moment",
+    "2xkoSOCD": "Le SOCD est interdit"
 }
