@@ -5,7 +5,7 @@
 
                 <ul class="footer-nav mb-4">
                     <li><NuxtLink to="https://discord.gg/d2jgxxyZg3" target="_blank" aria-label="Discord Mindset">{{ t("joinDiscord") }} <span class="icon-discord-1"></span></NuxtLink></li>
-                    <li><NuxtLink to="https://www.start.gg/tournament/mindset-2025/details" target="_blank">{{ t("inscription") }}</NuxtLink></li>
+                    <li><NuxtLink to="https://www.start.gg/tournament/mindset-2026/details" target="_blank">{{ t("inscription") }}</NuxtLink></li>
                     <li @click="$emit('toggleContact')">Contact</li>
                 </ul>
 

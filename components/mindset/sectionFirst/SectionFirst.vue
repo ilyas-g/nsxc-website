@@ -13,7 +13,7 @@
                         {{ t("datesEvent") }}
                     </div>
                     <div class="home-event-buttons">
-                        <NuxtLink to="https://www.start.gg/tournament/mindset-2025/details" class="btn-ope video btf-btn" target="_blank">{{ t("inscription") }}</NuxtLink>
+                        <NuxtLink to="https://www.start.gg/tournament/mindset-2026/details" class="btn-ope video btf-btn" target="_blank">{{ t("inscription") }}</NuxtLink>
                     </div>
                 </div>
             </div>
