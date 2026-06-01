@@ -96,7 +96,7 @@
             <img :src="xko_challenger" alt="2XKO Challenger Logo" />
           </div>
           <div>
-            <h3 id="2xko1v1rules">2XKO ({{ t("2xkoMixte") }})</h3>
+            <h3 id="2xko1v1rules">2XKO ({{ t("2xkoMixte") }} & Duo)</h3>
             <ul>
               <!-- <li>{{ t("2xkoPlatform") }}</li> -->
               <li>{{ t("2xkoFormat") }}</li>

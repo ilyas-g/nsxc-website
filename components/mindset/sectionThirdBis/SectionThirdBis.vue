@@ -14,7 +14,7 @@
                             <Game  :imgSrc=ggst :protour="arcc" support="Playstation 4 Pro" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#ggstrules')"/>
                             <Game  :imgSrc=gbvsr support="Playstation 4 Pro" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
                             <Game  :imgSrc=xko :protour="xko_challenger" classWT="firstImpact" support="PC" :format=xkoMixte description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
-                            <Game group=true :imgSrc=xko classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
+                            <Game group=true :imgSrc=xko classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
                             <Game  :imgSrc=marveltokon support="TBA" format="Solo" description="Marvel Tokon logo" :linkBtn="localePath('/mindset/rules#marveltokon')"/>
                         </div>
                     </div>
