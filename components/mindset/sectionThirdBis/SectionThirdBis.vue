@@ -13,7 +13,8 @@
                             <Game  :imgSrc=t8 support="Playstation 5" format="Solo" description="Tekken 8 logo" :linkBtn="localePath('/mindset/rules#t8rules')" />
                             <Game  :imgSrc=ggst :protour="arcc" support="Playstation 4 Pro" format="Solo" description="Guilty Gear Strive logo" :linkBtn="localePath('/mindset/rules#ggstrules')"/>
                             <Game  :imgSrc=gbvsr support="Playstation 4 Pro" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
-                            <Game  :imgSrc=xko classWT="firstImpact" support="PC" :format=xkoMixte description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
+                            <Game  :imgSrc=xko :protour="xko_challenger" classWT="firstImpact" support="PC" :format=xkoMixte description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
+                            <Game group=true :imgSrc=xko classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko2v2rules')" />
                             <Game  :imgSrc=marveltokon support="TBA" format="Solo" description="Marvel Tokon logo" :linkBtn="localePath('/mindset/rules#marveltokon')"/>
                         </div>
                     </div>
@@ -34,6 +35,7 @@ import arcc from '~/public/img/arcworldtour2026-2027.webp'
 import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
 import hxh from '~/public/img/games_logos/hxh.webp'
+import xko_challenger from '~/public/img/2XKO_CHALLENGER_LOGO_DARKBACKGROUND.png'
 
 import Game from '~/components/mindset/game/Game.vue'
 

@@ -92,19 +92,8 @@
 
         <div class="gameSection">
           <div>
-            <img :src="marveltokon" alt="Hunter X Hunter NenXImpact Logo" />
-          </div>
-          <div>
-            <h3 id="tokonrules">MARVEL Tōkon: Fighting Souls</h3>
-            <ul>
-              <li>Rules incoming soon...</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="gameSection">
-          <div>
             <img :src="xko" alt="2XKO Logo" />
+            <img :src="xko_challenger" alt="2XKO Challenger Logo" />
           </div>
           <div>
             <h3 id="2xko1v1rules">2XKO ({{ t("2xkoMixte") }})</h3>
@@ -117,6 +106,18 @@
               <li>{{ t("2xkoCondition") }}</li>
               <li>{{ t("2xkoCondition2") }}</li>
               <li>{{ t("2xkoSOCD") }}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="gameSection">
+          <div>
+            <img :src="marveltokon" alt="Marvel Tokon Logo" />
+          </div>
+          <div>
+            <h3 id="tokonrules">MARVEL Tōkon: Fighting Souls</h3>
+            <ul>
+              <li>{{ t("2xkoComingSoon") }}</li>
             </ul>
           </div>
         </div>
@@ -134,9 +135,9 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#t8rules')">Tekken 8</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ggstrules')">Guilty Gear Strive</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#gbvsrrules')">Granblue Fantasy Versus: Rising</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#tokonrules')">MARVEL Tōkon: Fighting Souls</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO ({{ t("2xkoMixte") }})</NuxtLink></li>
-                  <!-- <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li> -->
+                  <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#tokonrules')">MARVEL Tōkon: Fighting Souls</NuxtLink></li>
                 </ul>
               </li>
             </ul>
@@ -166,6 +167,7 @@ import gbvsr from '~/public/img/games_logos/gbvsr.webp'
 import arcc from '~/public/img/arcworldtour2026-2027.webp'
 import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 import marveltokon from '~/public/img/games_logos/marveltokon.webp'
+import xko_challenger from '~/public/img/2XKO_CHALLENGER_LOGO_DARKBACKGROUND.png'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
