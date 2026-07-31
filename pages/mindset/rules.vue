@@ -122,6 +122,18 @@
           </div>
         </div>
 
+        <div class="gameSection">
+          <div>
+            <img :src="avatar" alt="Avatar Logo" />
+          </div>
+          <div>
+            <h3 id="avatarrules">Avatar Legends The Fighting Game</h3>
+            <ul>
+              <li>{{ t("2xkoComingSoon") }}</li>
+            </ul>
+          </div>
+        </div>
+
       </section>
 
       <aside class="sommaire">
@@ -138,6 +150,7 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko1v1rules')">2XKO ({{ t("2xkoMixte") }})</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#tokonrules')">MARVEL Tōkon: Fighting Souls</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#avatarrules')">Avatar Legends The Fighting Game</NuxtLink></li>
                 </ul>
               </li>
             </ul>
@@ -164,6 +177,7 @@ import xko_double from '~/public/img/games_logos/2xko-2v2.webp'
 import t8 from '~/public/img/games_logos/t8.webp'
 import ggst from '~/public/img/games_logos/ggst.webp'
 import gbvsr from '~/public/img/games_logos/gbvsr.webp'
+import avatar from '~/public/img/games_logos/avatar.webp'
 import arcc from '~/public/img/arcworldtour2026-2027.webp'
 import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 import marveltokon from '~/public/img/games_logos/marveltokon.webp'
