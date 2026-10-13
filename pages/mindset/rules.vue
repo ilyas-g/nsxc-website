@@ -134,6 +134,56 @@
           </div>
         </div>
 
+        <div class="gameSection">
+          <div>
+            <img :src="ffcotw" alt="Fatal Fury: City of The Wolves Logo" />
+          </div>
+          <div>
+            <h3 id="ffcotwrules">Fatal Fury: City of The Wolves</h3>
+            <ul>
+              <li>{{ t("2xkoComingSoon") }}</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="gameSection">
+          <div>
+            <img :src="invs" alt="Invincible VS Logo" />
+          </div>
+          <div>
+            <h3 id="invsrules">Invincible VS</h3>
+            <ul>
+              <li>{{ t("2xkoComingSoon") }}</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="gameSection">
+          <div>
+            <img :src="bbcf" alt="Blazblue Central Fiction Logo" />
+          </div>
+          <div>
+            <h3 id="bbcfrules">Blazblue Central Fiction</h3>
+            <ul>
+              <li>{{ t("2xkoComingSoon") }}</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="gameSection">
+          <div>
+            <img :src="mkxl" alt="Mortal Kombat XL Logo" />
+          </div>
+          <div>
+            <h3 id="mkxlrules">Mortal Kombat XL</h3>
+            <ul>
+              <li>{{ t("2xkoComingSoon") }}</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <aside class="sommaire">
@@ -151,6 +201,10 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#2xko2v2rules')">2XKO (Duo)</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#tokonrules')">MARVEL Tōkon: Fighting Souls</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#avatarrules')">Avatar Legends The Fighting Game</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#invsrules')">Invincible VS</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#bbcfrules')">Blazblue Central Fiction</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/mindset/rules#mkxlrules')">Mortal Kombat XL</NuxtLink></li>
                 </ul>
               </li>
             </ul>
@@ -182,6 +236,10 @@ import arcc from '~/public/img/arcworldtour2026-2027.webp'
 import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 import marveltokon from '~/public/img/games_logos/marveltokon.webp'
 import xko_challenger from '~/public/img/2XKO_CHALLENGER_LOGO_DARKBACKGROUND.png'
+import ffcotw from '~/public/img/games_logos/ffcotw.webp'
+import invs from '~/public/img/games_logos/invs.webp'
+import bbcf from '~/public/img/games_logos/bbcf.webp'
+import mkxl from '~/public/img/games_logos/mkxl.webp'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'
