@@ -17,6 +17,10 @@
                             <Game group=true :imgSrc=xko classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
                             <Game  :imgSrc=marveltokon support="TBA" format="Solo" description="Marvel Tokon logo" :linkBtn="localePath('/mindset/rules#marveltokon')"/>
                             <Game  :imgSrc=avatar support="TBA" format="Solo" description="Avatar logo" :linkBtn="localePath('/mindset/rules#avatar')"/>
+                            <Game  :imgSrc=ffcotw support="TBA" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#ffcotwrules')"/>
+                            <Game  :imgSrc=invs support="TBA" format="Solo" description="Invincible VS logo" :linkBtn="localePath('/mindset/rules#invsrules')"/>
+                            <Game  :imgSrc=bbcf support="TBA" format="Solo" description="Blazblue Central Fiction logo" :linkBtn="localePath('/mindset/rules#bbcfrules')"/>
+                            <Game  :imgSrc=mkxl support="TBA" format="Solo" description="Mortal Kombat XL logo" :linkBtn="localePath('/mindset/rules#mkxlrules')"/>
                         </div>
                     </div>
                 </div>
@@ -36,7 +40,10 @@ import avatar from '~/public/img/games_logos/avatar.webp'
 import arcc from '~/public/img/arcworldtour2026-2027.webp'
 import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 import ggxrdrev2 from '~/public/img/games_logos/GGXRD-R2.webp'
-import hxh from '~/public/img/games_logos/hxh.webp'
+import ffcotw from '~/public/img/games_logos/ffcotw.webp'
+import invs from '~/public/img/games_logos/invs.webp'
+import bbcf from '~/public/img/games_logos/bbcf.webp'
+import mkxl from '~/public/img/games_logos/mkxl.webp'
 import xko_challenger from '~/public/img/2XKO_CHALLENGER_LOGO_DARKBACKGROUND.png'
 
 import Game from '~/components/mindset/game/Game.vue'
