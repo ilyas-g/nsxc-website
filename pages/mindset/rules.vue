@@ -185,7 +185,7 @@
           </div>
         </div>
 
-        <div class="gameSection">
+        <!-- <div class="gameSection">
           <div>
             <img :src="mariosmashfootball" alt="Mario Smash Football Logo" />
           </div>
@@ -195,7 +195,7 @@
               <li>{{ t("2xkoComingSoon") }}</li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </section>
 
       <aside class="sommaire">
@@ -217,7 +217,7 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#invsrules')">Invincible VS</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#bbcfrules')">Blazblue Central Fiction</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#mkxlrules')">Mortal Kombat XL</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#mariosmashfootballrules')">Mario Smash Football</NuxtLink></li>
+                  <!-- <li><NuxtLink :to="localePath('/mindset/rules#mariosmashfootballrules')">Mario Smash Football</NuxtLink></li> -->
                 </ul>
               </li>
             </ul>
@@ -253,7 +253,7 @@ import ffcotw from '~/public/img/games_logos/ffcotw.webp'
 import invs from '~/public/img/games_logos/invs.webp'
 import bbcf from '~/public/img/games_logos/bbcf.webp'
 import mkxl from '~/public/img/games_logos/mkxl.webp'
-import mariosmashfootball from '~/public/img/games_logos/mario-smash-football-1.webp'
+// import mariosmashfootball from '~/public/img/games_logos/mario-smash-football-1.webp'
 
 import { VueLenis, useLenis } from 'lenis/vue' // Also available as global imports, no need to import them manually
 import { watch } from 'vue'

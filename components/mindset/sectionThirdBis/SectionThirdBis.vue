@@ -21,7 +21,7 @@
                             <Game  :imgSrc=invs support="TBA" format="Solo" description="Invincible VS logo" :linkBtn="localePath('/mindset/rules#invsrules')"/>
                             <Game  :imgSrc=bbcf support="TBA" format="Solo" description="Blazblue Central Fiction logo" :linkBtn="localePath('/mindset/rules#bbcfrules')"/>
                             <Game  :imgSrc=mkxl support="TBA" format="Solo" description="Mortal Kombat XL logo" :linkBtn="localePath('/mindset/rules#mkxlrules')"/>
-                            <Game  :imgSrc=mariosmashfootball support="TBA" format="Solo" description="Mario Smash Football logo" :linkBtn="localePath('/mindset/rules#mariosmashfootballrules')"/>
+                            <!-- <Game  :imgSrc=mariosmashfootball support="TBA" format="Solo" description="Mario Smash Football logo" :linkBtn="localePath('/mindset/rules#mariosmashfootballrules')"/> -->
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ import ffcotw from '~/public/img/games_logos/ffcotw.webp'
 import invs from '~/public/img/games_logos/invs.webp'
 import bbcf from '~/public/img/games_logos/bbcf.webp'
 import mkxl from '~/public/img/games_logos/mkxl.webp'
-import mariosmashfootball from '~/public/img/games_logos/mario-smash-football-1.webp'
+// import mariosmashfootball from '~/public/img/games_logos/mario-smash-football-1.webp'
 import xko_challenger from '~/public/img/2XKO_CHALLENGER_LOGO_DARKBACKGROUND.png'
 
 import Game from '~/components/mindset/game/Game.vue'
