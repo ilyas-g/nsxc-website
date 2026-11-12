@@ -15,13 +15,13 @@
                             <Game  :imgSrc=gbvsr support="Playstation 4 Pro" format="Solo" description="Granblue Fantasy Versus: Rising logo" :linkBtn="localePath('/mindset/rules#gbvsrrules')" />
                             <Game  :imgSrc=xko :protour="xko_challenger" classWT="firstImpact" support="PC" :format=xkoMixte description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
                             <Game group=true :imgSrc=xko classWT="firstImpact" support="PC" format="Duo" description="2XKO logo" :linkBtn="localePath('/mindset/rules#2xko1v1rules')" />
-                            <Game  :imgSrc=marveltokon support="TBA" format="Solo" description="Marvel Tokon logo" :linkBtn="localePath('/mindset/rules#marveltokon')"/>
-                            <Game  :imgSrc=avatar support="TBA" format="Solo" description="Avatar logo" :linkBtn="localePath('/mindset/rules#avatar')"/>
-                            <Game  :imgSrc=ffcotw support="TBA" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#ffcotwrules')"/>
+                            <Game  :imgSrc=marveltokon support="Playstation 5" format="Solo" description="Marvel Tokon logo" :linkBtn="localePath('/mindset/rules#marveltokon')"/>
+                            <Game  :imgSrc=avatar support="Playstation 5" format="Solo" description="Avatar logo" :linkBtn="localePath('/mindset/rules#avatar')"/>
+                            <Game  :imgSrc=ffcotw support="Playstation 5" format="Solo" description="Fatal Fury: City of The Wolves logo" :linkBtn="localePath('/mindset/rules#ffcotwrules')"/>
                             <Game  :imgSrc=invs support="TBA" format="Solo" description="Invincible VS logo" :linkBtn="localePath('/mindset/rules#invsrules')"/>
-                            <Game  :imgSrc=bbcf support="TBA" format="Solo" description="Blazblue Central Fiction logo" :linkBtn="localePath('/mindset/rules#bbcfrules')"/>
-                            <Game  :imgSrc=mkxl support="TBA" format="Solo" description="Mortal Kombat XL logo" :linkBtn="localePath('/mindset/rules#mkxlrules')"/>
-                            <Game  :imgSrc=mariosmashfootball support="TBA" format="Solo" description="Mario Smash Football logo" :linkBtn="localePath('/mindset/rules#mariosmashfootballrules')"/>
+                            <Game  :imgSrc=bbcf support="Playstation 4" format="Solo" description="Blazblue Central Fiction logo" :linkBtn="localePath('/mindset/rules#bbcfrules')"/>
+                            <Game  :imgSrc=mkxl support="Playstation 4 Pro" format="Solo" description="Mortal Kombat XL logo" :linkBtn="localePath('/mindset/rules#mkxlrules')"/>
+                            <Game  :imgSrc=mariosmashfootball support="PC" format="Solo" description="Mario Smash Football logo" :linkBtn="localePath('/mindset/rules#mariosmashfootballrules')"/>
                         </div>
                     </div>
                 </div>
