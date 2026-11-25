@@ -158,7 +158,7 @@
   "FFCOTWMatches": "Matchs: Deux (2) matchs gagnants.",
   "FFCOTWFinals": "Trois (3) matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale",
   "FFCOTWTimer": "Durée : Par défaut (60 secondes)",
-  "FFCOTWStage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
+  "FFCOTWStage": "Terrain : Les stages Freight Express, Dream Amusement Park et Ganacci's Skyvenue sont interdits, même si les deux joueurs sont d'accord. Si un stage interdit est sélectionné, il faut relancer la sélection aléatoire",
   "FFCOTWCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
 
   "GGXRDREV2Platform": "Plateforme: Playstation 4",
@@ -195,6 +195,7 @@
   "avatarStage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
   "avatarCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
   "avatarDoubleKO": "En cas d'égalité déclarée par un 'Double K.O.' à l'écran, la partie n'est pas comptabilisée et les deux joueurs la rejouent avec les mêmes personnages et le même stage",
+  "avatarColor:": "La couleur 10 (tenue dorée) est interdite pour Avatar Aang, Aang, Sokka, Toph, Katara, Korra, Nightmare Korra et Zuko",
 
   "TokonPlatform": "Plateforme: Playstation 5",
   "TokonFormat": "Type d'arbre : Double Élimination",
