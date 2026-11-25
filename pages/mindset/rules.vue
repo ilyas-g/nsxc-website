@@ -5,11 +5,112 @@
     <main class='rulesPage'>
       <section class="mb-5">
         <h1 class='text-center'>{{ t("rulesTitle") }}</h1>
+        
+        <h2 class="anchor" id="codeOfConduct">{{ t("rulesCodeOfConduct") }}</h2>
+        <p>{{ t("rulesPreambule") }}</p>
+
+        <div>
+          <h3 id="rulesValues">{{ t("rulesValues") }}</h3>
+          <ul>
+            <li>{{ t("valueCommunity") }}</li>
+            <li>{{ t("ValueRespect") }}</li>
+            <li>{{ t("ValueIntegrity") }}</li>
+            <li>{{ t("ValueGlobal") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesProhibitions">{{ t("rulesProhibitions") }}</h3>
+          <ul>
+            <li>{{ t("Prohibition1") }}</li>
+            <li>{{ t("Prohibition2") }}</li>
+            <li>{{ t("Prohibition3") }}</li>
+            <li>{{ t("Prohibition4") }}</li>
+            <li>{{ t("Prohibition5") }}</li>
+            <li>{{ t("Prohibition6") }}</li>
+            <li>{{ t("Prohibition7") }}</li>
+            <li>{{ t("Prohibition8") }}</li>
+            <li>{{ t("Prohibition9") }}</li>
+            <li>{{ t("Prohibition10") }}</li>
+            <li>{{ t("Prohibition11") }}</li>
+            <li>{{ t("Prohibition12") }}</li>
+            <li>{{ t("Prohibition13") }}</li>
+            <li>{{ t("Prohibition14") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesSocials">{{ t("rulesSocials") }}</h3>
+          <ul>
+            <li>{{ t("rulesSocials1") }}</li>
+            <li>{{ t("rulesSocials2") }}</li>
+            <li>{{ t("rulesSocials3") }}</li>
+            <li>{{ t("rulesSocials4") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesConsequences">{{ t("rulesConsequences") }}</h3>
+          <ul>
+            <li>{{ t("rulesConsequences1") }}</li>
+            <li>{{ t("rulesConsequences2") }}</li>
+            <li>{{ t("rulesConsequences3") }}</li>
+            <li>{{ t("rulesConsequences4") }}</li>
+          </ul>
+          <p>{{ t("rulesConsequences5") }}</p>
+        </div>
 
         <h2 class="anchor" id="tournamentRules">{{ t("rulesTournamentsTitle") }}</h2>
         <p>{{ t("ruleGlobal") }}</p>
         <p>{{ t("2xkoRulesChange") }}</p>
 
+        <div>
+          <h3 id="rulesTournamentsPlayers">{{ t("rulesTournamentsPlayersTitle") }}</h3>
+          <ul>
+          <li>{{ t("rulesTournamentsPlayers1") }}</li>
+          <li>{{ t("rulesTournamentsPlayers2") }}</li>
+          <li>{{ t("rulesTournamentsPlayers3") }}</li>
+          <li>{{ t("rulesTournamentsPlayers4") }}</li>
+          <li>{{ t("rulesTournamentsPlayers5") }}</li>
+          <li>{{ t("rulesTournamentsPlayers6") }}</li>
+          <li>{{ t("rulesTournamentsPlayers7") }}</li>
+          <li>{{ t("rulesTournamentsPlayers8") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesTournamentsCoaching">{{ t("rulesTournamentsCoachingTitle") }}</h3>
+          <ul>
+            <li>{{ t("rulesTournamentsCoaching1") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesTournamentsControllers">{{ t("rulesTournamentsControllersTitle") }}</h3>
+          <ul>
+            <li>{{ t("rulesTournamentsControllers1") }}</li>
+            <li>{{ t("rulesTournamentsControllers2") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesTournamentsControllers">{{ t("rulesTournamentsControllersTitle") }}</h3>
+          <ul>
+            <li>{{ t("rulesTournamentsControllers1") }}</li>
+            <li>{{ t("rulesTournamentsControllers2") }}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 id="rulesTournamentsBrackets">{{ t("rulesTournamentsBracketsTitle") }}</h3>
+          <ul>
+            <li>{{ t("rulesTournamentsBrackets1") }}</li>
+            <li>{{ t("rulesTournamentsBrackets2") }}</li>
+            <li>{{ t("rulesTournamentsBrackets3") }}</li>
+          </ul>
+        </div>
+
+        <h2 class="anchor" id="rulesGamesTitle">{{ t("rulesGamesTitle") }}</h2>
         <div class="gameSection">
           <div>
             <img :src="sf6" alt="Street Fighter 6 Logo" />
@@ -42,7 +143,7 @@
               <li>{{ t("T8Timer") }}</li>
               <li>{{ t("T8Stage") }}</li>
               <li>{{ t("T8Condition") }}</li>
-              <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">Tekken World Tour 2025</NuxtLink></li>
+              <li>{{ t("T8RuleSet") }} <NuxtLink to="https://www.bandainamcoent.com/legal/community-events/official-rules-twt" target="_blank">Tekken World Tour 2026</NuxtLink></li>
             </ul>
           </div>
         </div>
@@ -117,7 +218,14 @@
           <div>
             <h3 id="tokonrules">MARVEL Tōkon: Fighting Souls</h3>
             <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
+              <li>{{ t("TokonPlatform") }}</li>
+              <li>{{ t("TokonFormat") }}</li>
+              <li>{{ t("TokonRounds") }}</li>
+              <li>{{ t("TokonMatches") }}</li>
+              <li>{{ t("TokonFinals") }}</li>
+              <li>{{ t("TokonTimer") }}</li>
+              <li>{{ t("TokonStage") }}</li>
+              <li>{{ t("TokonCondition") }}</li>
             </ul>
           </div>
         </div>
@@ -129,7 +237,14 @@
           <div>
             <h3 id="avatarrules">Avatar Legends The Fighting Game</h3>
             <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
+              <li>{{ t("avatarPlatform") }}</li>
+              <li>{{ t("avatarFormat") }}</li>
+              <li>{{ t("avatarRounds") }}</li>
+              <li>{{ t("avatarMatches") }}</li>
+              <li>{{ t("avatarFinals") }}</li>
+              <li>{{ t("avatarTimer") }}</li>
+              <li>{{ t("avatarStage") }}</li>
+              <li>{{ t("avatarCondition") }}</li>
             </ul>
           </div>
         </div>
@@ -141,20 +256,14 @@
           <div>
             <h3 id="ffcotwrules">Fatal Fury: City of The Wolves</h3>
             <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
-            </ul>
-          </div>
-        </div>
-
-
-        <div class="gameSection">
-          <div>
-            <img :src="invs" alt="Invincible VS Logo" />
-          </div>
-          <div>
-            <h3 id="invsrules">Invincible VS</h3>
-            <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
+              <li>{{ t("FFCOTWPlatform") }}</li>
+              <li>{{ t("FFCOTWFormat") }}</li>
+              <li>{{ t("FFCOTWRounds") }}</li>
+              <li>{{ t("FFCOTWMatches") }}</li>
+              <li>{{ t("FFCOTWFinals") }}</li>
+              <li>{{ t("FFCOTWTimer") }}</li>
+              <li>{{ t("FFCOTWStage") }}</li>
+              <li>{{ t("FFCOTWCondition") }}</li>
             </ul>
           </div>
         </div>
@@ -203,7 +312,23 @@
           <div>
             <p class='text-center text-uppercase title'>Sommaire</p>
             <ul>
+              <li><a href="#codeOfConduct">{{ t("rulesCodeOfConduct") }}</a>
+                <ul>
+                  <li><a href="#rulesValues">{{ t("rulesValues") }}</a></li>
+                  <li><a href="#rulesProhibitions">{{ t("rulesProhibitions") }}</a></li>
+                  <li><a href="#rulesSocials">{{ t("rulesSocials") }}</a></li>
+                  <li><a href="#rulesConsequences">{{ t("rulesConsequences") }}</a></li>
+                </ul>
+              </li>
               <li><a href="#tournamentRules">{{ t("rulesTournamentsTitle") }}</a>
+                <ul>
+                  <li><a href="#rulesTournamentsPlayers">{{ t("rulesTournamentsPlayersTitle") }}</a></li>
+                  <li><a href="#rulesTournamentsCoaching">{{ t("rulesTournamentsCoachingTitle") }}</a></li>
+                  <li><a href="#rulesTournamentsControllers">{{ t("rulesTournamentsControllersTitle") }}</a></li>
+                  <li><a href="#rulesTournamentsBrackets">{{ t("rulesTournamentsBracketsTitle") }}</a></li>
+                </ul>
+              </li>
+              <li><a href="#rulesGamesTitle">{{ t("rulesGamesTitle") }}</a>
                 <ul>
                   <li><NuxtLink :to="localePath('/mindset/rules#sf6rules')">Street Fighter 6</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#t8rules')">Tekken 8</NuxtLink></li>
@@ -214,7 +339,6 @@
                   <li><NuxtLink :to="localePath('/mindset/rules#tokonrules')">MARVEL Tōkon: Fighting Souls</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#avatarrules')">Avatar Legends The Fighting Game</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#ffcotwrules')">Fatal Fury: City of The Wolves</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/mindset/rules#invsrules')">Invincible VS</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#bbcfrules')">Blazblue Central Fiction</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#mkxlrules')">Mortal Kombat XL</NuxtLink></li>
                   <li><NuxtLink :to="localePath('/mindset/rules#mariosmashfootballrules')">Mario Smash Football</NuxtLink></li>
@@ -250,7 +374,6 @@ import xko_firstImpact from '~/public/img/2XKO_FirstImpactLogo_DarkBG.png'
 import marveltokon from '~/public/img/games_logos/marveltokon.webp'
 import xko_challenger from '~/public/img/2XKO_CHALLENGER_LOGO_DARKBACKGROUND.png'
 import ffcotw from '~/public/img/games_logos/ffcotw.webp'
-import invs from '~/public/img/games_logos/invs.webp'
 import bbcf from '~/public/img/games_logos/bbcf.webp'
 import mkxl from '~/public/img/games_logos/mkxl.webp'
 import mariosmashfootball from '~/public/img/games_logos/mario-smash-football-1.webp'
