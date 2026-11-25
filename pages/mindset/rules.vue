@@ -157,7 +157,6 @@
               <li>{{ t("GGSTCondition") }}</li>
               <li>{{ t("GGSTCharacters") }}</li>
               <li>{{ t("GGSTCharacetrsColor") }}</li>
-              <li>{{ t("GGSTRuleSet") }}<NuxtLink to="https://www.arcsystemworks.jp/awt2026/assets/pdf/AWT26_27OfficialRules_EN.pdf" target="_blank">Arc World Tour 2026-2027</NuxtLink></li>
             </ul>
           </div>
         </div>

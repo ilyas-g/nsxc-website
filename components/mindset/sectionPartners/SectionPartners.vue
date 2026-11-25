@@ -4,12 +4,14 @@
         <div class="partners">
             <img :src="turtleBeach" alt="Turtle Beach" />
             <img :src="victrix" alt="Victrix By PDP" />
+            <img :src="iiyama" alt="IIyama" />
         </div>
     </section>
 </template>
 <script setup lang="ts">
 import turtleBeach from "~/public/img/partners/turtle-beach-logo.webp"
 import victrix from "~/public/img/partners/victrix-logo.webp"
+import iiyama from "~/public/img/partners/iiyama-logo.webp"
 const { t } = useI18n()
 </script>
 <style lang="scss">
