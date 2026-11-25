@@ -94,14 +94,6 @@
         </div>
 
         <div>
-          <h3 id="rulesTournamentsControllers">{{ t("rulesTournamentsControllersTitle") }}</h3>
-          <ul>
-            <li>{{ t("rulesTournamentsControllers1") }}</li>
-            <li>{{ t("rulesTournamentsControllers2") }}</li>
-          </ul>
-        </div>
-
-        <div>
           <h3 id="rulesTournamentsBrackets">{{ t("rulesTournamentsBracketsTitle") }}</h3>
           <ul>
             <li>{{ t("rulesTournamentsBrackets1") }}</li>
@@ -111,6 +103,7 @@
         </div>
 
         <h2 class="anchor" id="rulesGamesTitle">{{ t("rulesGamesTitle") }}</h2>
+        <p>{{ t("GamesWarning") }}</p>
         <div class="gameSection">
           <div>
             <img :src="sf6" alt="Street Fighter 6 Logo" />
@@ -205,6 +198,7 @@
               <li>{{ t("2xkoTimer") }}</li>
               <li>{{ t("2xkoStage") }}</li>
               <li>{{ t("2xkoCondition") }}</li>
+              <li>{{ t("2xkoCondition3") }}</li>
               <li>{{ t("2xkoCondition2") }}</li>
               <li>{{ t("2xkoSOCD") }}</li>
             </ul>
@@ -276,7 +270,15 @@
           <div>
             <h3 id="bbcfrules">Blazblue Central Fiction</h3>
             <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
+              <li>{{ t("BlazbluePlatform") }}</li>
+              <li>{{ t("BlazblueFormat") }}</li>
+              <li>{{ t("BlazblueRounds") }}</li>
+              <li>{{ t("BlazblueMatches") }}</li>
+              <li>{{ t("BlazblueFinals") }}</li>
+              <li>{{ t("BlazblueTimer") }}</li>
+              <li>{{ t("BlazblueStage") }}</li>
+              <li>{{ t("BlazblueCondition") }}</li>
+              <li>{{ t("BlazblueSettings") }}</li>
             </ul>
           </div>
         </div>
@@ -289,7 +291,14 @@
           <div>
             <h3 id="mkxlrules">Mortal Kombat XL</h3>
             <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
+              <li>{{ t("MKXLPlatform") }}</li>
+              <li>{{ t("MKXLFormat") }}</li>
+              <li>{{ t("MKXLRounds") }}</li>
+              <li>{{ t("MKXLMatches") }}</li>
+              <li>{{ t("MKXLFinals") }}</li>
+              <li>{{ t("MKXLTimer") }}</li>
+              <li>{{ t("MKXLStage") }}</li>
+              <li>{{ t("MKXLCondition") }}</li>
             </ul>
           </div>
         </div>

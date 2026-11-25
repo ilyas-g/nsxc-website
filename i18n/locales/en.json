@@ -111,7 +111,7 @@
   "rulesTournamentsBrackets3": "Players must report for their match within ten 10 minutes of being called. If a player does not report within this timeframe, they may be disqualified from their match.",
 
   "rulesGamesTitle": "GAME RULES",
-
+  "GamesWarning": "If a player fails to show up when called in the next 10 minutes, they're facing disqualification for their match.",
   "SF6Platform": "Platform: PC",
   "SF6Format": "Bracket: Double Elimination",
   "SF6Rounds": "Rounds: First to 2",
@@ -181,9 +181,21 @@
   "2xkoStage": "Stage: Random",
   "2xkoCondition": "Winner must keep the same characters. Loser can switch their characters",
   "2xkoCondition2": "If a team fails to show up when called in the next 10 minutes, they're facing disqualification for their match",
+  "2xkoCondition3": "Changing partners or switching between solo and duo after the tournament has started is strictly forbidden.",
   "2xkoRulesChange": "The rules can change at anytime",
   "2xkoSOCD": "SOCD is forbidden",
 
+  "avatarPlatform": "Plateform: Playstation 5",
+  "avatarFormat": "Type d'arbre : Double Élimination",
+  "avatarRounds": "Rounds: Deux (2) rounds gagnants",
+  "avatarMatches": "Matchs: Deux (2) matchs gagnants",
+  "avatarFinals": "Trois (3) matchs gagnants pour les phases Winner Finale, Loser Finale et Grande Finale",
+  "avatarTimer": "Durée : Par défaut (99 secondes)",
+  "avatarTournamentMode": "Paramètres par défaut du Tournament Mode",
+  "avatarStage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
+  "avatarCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
+  "avatarDoubleKO": "En cas d'égalité déclarée par un 'Double K.O.' à l'écran, la partie n'est pas comptabilisée et les deux joueurs la rejouent avec les mêmes personnages et le même stage",
+  
   "TokonPlatform": "Platform: Playstation 5",
   "TokonFormat": "Bracket: Double Elimination",
   "TokonRounds": "Rounds: First to 2",
@@ -191,5 +203,24 @@
   "TokonFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
   "TokonTimer": "Timer: Default (99 seconds)",
   "TokonStage": "Stage: Must be randomly selected for every game",
-  "TokonCondition": "Winner must keep the same character. Loser can switch their character"
+  "TokonCondition": "Winner must keep the same character. Loser can switch their character",
+
+  "MKXLPlatform": "Platform: Playstation 4",
+  "MKXLFormat": "Bracket: Double Elimination",
+  "MKXLRounds": "Rounds: First to 2",
+  "MKXLMatches": "Matches: First to 2.",
+  "MKXLFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
+  "MKXLTimer": "Timer: Default (99 seconds)",
+  "MKXLStage": "Stage: Must be randomly selected for every game",
+  "MKXLCondition": "Winner must keep the same character and variation. Loser can switch their character and/or variation",
+
+  "BlazBluePlatform": "Platform: Playstation 4",
+  "BlazBlueFormat": "Bracket: Double Elimination",
+  "BlazBlueRounds": "Rounds: First to 2",
+  "BlazBlueMatches": "Matches: First to 2.",
+  "BlazBlueFinals": "First to 3 for Winners Final, Losers Final and Grand Final",
+  "BlazBlueTimer": "Timer: Default (99 seconds)",
+  "BlazBlueSettings": "Default settings",
+  "BlazBlueStage": "Stage: Must be randomly selected for every game",
+  "BlazBlueCondition": "Winner must keep the same character. Loser can switch their character"
 }
