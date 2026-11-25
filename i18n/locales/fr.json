@@ -222,5 +222,14 @@
   "BlazblueTimer": "Durée : Par défaut (99 secondes)",
   "BlazblueSettings": "Paramètres par défaut",
   "BlazblueStage": "Terrain : Le stage doit être choisi aléatoirement pour tous les matchs",
-  "BlazblueCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage"
+  "BlazblueCondition": "Le gagnant doit conserver le même personnage. Le perdant peut changer de personnage",
+
+  "MarioStrikerPlatform": "Plateforme: PC (avec la version émulée du jeu sur Gamecube)",
+  "MarioStrikerFormat": "Type d'arbre : Simple Élimination",
+  "MarioStrikerOpenTo Spectate": "Tournoi ouvert à ceux ayant le pass spectateur",
+  "MarioStrikerRegistration": "L'inscription se fera sur place au moment du ckeckin selon les places restantes",
+  "MarioStrikerStartTime": "Heure de début de l'animation : 18h00 CET",
+  "MarioStrikerTournamentTime": "Heure de début du tournoi : 18h45 CET",
+  "MarioStrikerController": "Chaque joueur devra se munir d'une manette et d'un câble adapté, aucun prêt ne sera proposé par l'équipe d'organisation.",
+  "MarioStrikerLots": "Des lots sont prévus pour le TOP 3 du tournoi"
 }

@@ -222,5 +222,14 @@
   "BlazBlueTimer": "Timer: Default (99 seconds)",
   "BlazBlueSettings": "Default settings",
   "BlazBlueStage": "Stage: Must be randomly selected for every game",
-  "BlazBlueCondition": "Winner must keep the same character. Loser can switch their character"
+  "BlazBlueCondition": "Winner must keep the same character. Loser can switch their character",
+
+  "MarioStrikerPlatform": "Platform: PC (with the emulated version of the game on Gamecube)",
+  "MarioStrikerFormat": "Bracket: Single Elimination",
+  "MarioStrikerOpenTo Spectate": "Tournament open to those with the spectator pass",
+  "MarioStrikerRegistration": "Registration will be done on site at the time of check-in according to the remaining places",
+  "MarioStrikerStartTime": "Animation start time: 6:00 PM CET",
+  "MarioStrikerTournamentTime": "Tournament start time: 6:45 PM CET",
+  "MarioStrikerController": "Each player must bring their own controller and appropriate cable, no lending will be offered by the organizing team.",
+  "MarioStrikerLots": "Prizes are planned for the TOP 3 of the tournament"
 }

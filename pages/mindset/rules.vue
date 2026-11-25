@@ -310,7 +310,13 @@
           <div>
             <h3 id="mariosmashfootballrules">Mario Smash Football</h3>
             <ul>
-              <li>{{ t("2xkoComingSoon") }}</li>
+              <li>{{ t("MarioStrikerPlatform") }}</li>
+              <li>{{ t("MarioStrikerFormat") }}</li>
+              <li>{{ t("MarioStrikerRegistration") }}</li>
+              <li>{{ t("MarioStrikerStartTime") }}</li>
+              <li>{{ t("MarioStrikerTournamentTime") }}</li>
+              <li>{{ t("MarioStrikerController") }}</li>
+              <li>{{ t("MarioStrikerLots") }}</li>
             </ul>
           </div>
         </div>
